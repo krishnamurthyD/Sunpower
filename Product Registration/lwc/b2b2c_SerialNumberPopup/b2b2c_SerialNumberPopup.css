@@ -1,0 +1,42 @@
+body{
+    font-family: "SF UI Text", Arial, sans-serif !important;
+    font-size: 1.125rem;
+    background-color:#FFFFFF;
+    color: #333333 !important;
+}
+a{
+    color: #0070D2;
+}
+.container{
+    background-color: #00000070;
+    max-width: 1440px;
+    margin: auto;
+}
+/* .modal-container{
+    margin: 0 auto;
+    width: 50%;
+    max-width: 40rem;
+    min-width: 20rem;
+} */
+.close-icon{
+    top: 61px;
+    position: absolute;
+    z-index: 999;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.header-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 0px 50px;
+}
+.modal-body{
+    padding:50px;
+}

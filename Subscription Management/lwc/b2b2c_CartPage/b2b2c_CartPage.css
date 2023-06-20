@@ -1,0 +1,136 @@
+body{
+    font-family: "SF UI Text", Arial, sans-serif !important;
+    font-size: 1.125rem;
+    background-color:#FFFFFF;
+    color: #333333 !important;
+}
+a{
+    color: #0070D2;
+}
+.container{
+    background-color: #FFFFFF;
+    max-width: 1440px;
+    margin: auto;
+}
+.subscriptions-title{
+    font-size: 20px;
+    color:#333333;
+}
+
+.cart-section{
+    border-bottom: 1px solid #BBBBBB;
+}
+.cart-img{
+    width: 100px;
+    height: 100px;
+    background: #ECECEC;
+}
+.cart-title{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+    padding-bottom: 12px;
+}
+.cart-sku{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    align-items: center;
+    color: #999999;
+    padding-top: 8px;
+}
+.cart-text{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    align-items: center;
+    color: #333333;
+}
+.c-renew{
+    color:#089156;
+    padding-top: 12px;
+}
+.cart-settings-button{
+    width: 150px;
+    height: var(--lwc-spacingXLarge, 2.1rem);
+    background: #333333;
+    border-radius: 104px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border:none;
+}
+.quantity-list-action{
+    display: flex;
+    border: 1px solid #C1C1C1;
+    border-radius: 60px;
+    width: 158px;
+    height: var(--lwc-spacingXLarge, 2.5rem);
+    padding: 0px 10px;
+    color: #000000;
+}
+.decrement-btn{
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #000000;
+}
+.increment-btn{
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #000000;
+}
+.selector-input{
+    background: none;
+    border:none;
+    outline: none;
+    color: #000000;
+    width: 100%;
+    font-size: 14px;
+}
+.selector-input:hover{
+    border: none;
+}
+.remove{
+    color: #181818;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.link{
+    color: inherit !important;
+}
+
+@media (min-width:280px) and (max-width:720px){
+     .m-padding_zero{
+         padding: 0px !important;
+     }
+     .cart-img{
+        width: 100%;
+        height: 100%;
+        background: #FFFFFF;
+        text-align: center;
+     }
+     .m-text-align_center{
+         text-align: center;
+     }
+     .cart-title{
+         display: grid;
+         text-align: center;
+     }
+     .cart-text{
+         text-align: center;
+     }
+     .c-renew{
+         text-align: center;
+     }
+     .m-remove{
+        text-align: center;
+        padding: 20px 0px;
+     }
+ }

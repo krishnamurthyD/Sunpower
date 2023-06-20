@@ -1,0 +1,81 @@
+<!--
+  @description       : 
+  @author            : Hari
+  @group             : 
+  @last modified on  : 12-21-2022
+  @last modified by  : Hari
+-->
+<template>
+    <div class="container">
+        <div class="slds-grid slds-wrap fixed-cmp-header">
+            <div class="slds-col slds-large-size_5-of-12 slds-medium-size_4-of-12 slds-size_12-of-12">
+                <template if:true={showTotalProductCount}> <span class="my-product-title">{totalProductCount} Products</span> </template>
+                <a class="new-product" href={registerNewProductPageLink}>+Register New Product</a>
+            </div>
+            <div class="slds-col slds-large-size_4-of-12 slds-medium-size_4-of-12 slds-size_12-of-12">
+                <div class="slds-form-element">
+                    <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon_left-right">
+                        <svg class="slds-icon slds-input__icon slds-input__icon_left slds-icon-text-default" aria-hidden="true">
+                            <use xlink:href={searchIconUrl}></use>
+                        </svg>
+                        <input type="text" id="searchInput" placeholder="Search this list" class="slds-input search-input" onkeyup={filterResult}/>
+                    </div>
+                </div>
+            </div>
+            <div class="slds-col slds-large-size_3-of-12 slds-medium-size_4-of-12 slds-size_12-of-12">
+                <div class="slds-form-element">
+                    <div class="slds-form-element__control">
+                        <div class="slds-select_container">
+                        <select class="slds-select select-input" id="select-01" onchange={sortResult}>
+                            <template for:each={options} for:item="option">
+                                <option key={option.value} value={option.value}><span style="font-weight: 600;">{option.label}</span></option>
+                            </template>
+                        </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slds-p-vertical_x-large">
+            <template if:true={registeredProducts}>
+                <template for:each={registeredProducts} for:item="prodInfo">
+                    <div key={prodInfo.productId} class="my-produt-section slds-p-vertical_small">
+                        <div class="slds-grid slds-wrap">
+                            <div class="slds-col slds-large-size_3-of-12 slds-medium-size_3-of-12 slds-size_12-of-12">
+                                <div class="product-img-div">
+                                    <a href={prodInfo.productURL}>
+                                        <img class="product-img" src={prodInfo.productImageURL} alt={prodInfo.productName} />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="slds-col slds-large-size_6-of-12 slds-medium-size_6-of-12 slds-size_12-of-12 m-text-align_center">
+                            <div class="product-title">
+                                <a href={prodInfo.productURL}>{prodInfo.productName}</a>
+                            </div>
+                            <div class="product-sku">SKU# {prodInfo.productSKU}</div>
+                            <template if:true={prodInfo.productSerialNumber}>
+                                <div class="product-text"><b>Serial Number:</b> {prodInfo.productSerialNumber}</div>
+                            </template>
+                            <template if:true={prodInfo.showInvoiceNumberField}>
+                                <div class="product-text"><b>Invoice Number:</b> {prodInfo.invoiceNumber}</div>
+                            </template>
+                            <div class="product-text"><b>{prodInfo.warrantyLabel}:</b> {prodInfo.warrantyEndDate} <template if:true={prodInfo.isWarrantyExpired}><span>•</span><span style="color: red;"> expired</span></template> </div>
+                                <div>
+                                    <template if:true={prodInfo.isEligibleForWarranty}>
+                                        <button value={prodInfo.warrantyProductId} class="purchase-warranty-button slds-m-vertical_small" onclick={purchaseWarranty}>{prodInfo.warrantyButtonLabel}</button>
+                                    </template>
+                                    <template if:true={prodInfo.showPartsAndAccessoriesButton}>
+                                        <button value={prodInfo.productSKU} class="parts-button slds-m-vertical_small" onclick={searchSKU}>Parts and Accessories</button>
+                                    </template>
+                                </div>
+                            </div>
+                            <div class="slds-col slds-large-size_3-of-12 slds-medium-size_3-of-12 slds-size_12-of-12 slds-text-align_right m-text-align_center">
+                                <span class="product-text">Purchase Date: {prodInfo.purchaseDate}</span>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+            </template>
+        </div>
+    </div>
+</template>

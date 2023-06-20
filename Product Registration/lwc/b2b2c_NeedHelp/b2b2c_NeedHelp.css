@@ -1,0 +1,48 @@
+body{
+    font-family: "SF UI Text", Arial, sans-serif !important;
+    font-size: 1.125rem;
+    background-color:#FFFFFF;
+    color: #333333 !important;
+}
+a{
+    color: #0070D2;
+}
+.container{
+    background-color: #FFFFFF;
+    max-width: 1440px;
+    margin: auto;
+}
+.need-help_section{
+      color: #333333 !important;
+}
+.pr-title{
+    font-size: 40px;
+    color: #666666;
+}
+.gotosupport-button{
+    background: #FFFFFF;
+    color: #666666;
+    border-radius: 64px;
+    text-align: center;
+    font-size: 24px;
+    border: 1px solid #333333;
+    padding: 10px 50px;
+    font-weight: 600;
+}
+.gotosupport-button:hover{
+    box-shadow: none;
+    color: #333333;
+}
+@media (min-width:280px) and (max-width:720px){
+    .m-padding_zero{
+         padding: 0px !important;
+     }
+    
+ }
+
+ @media (min-width:768px) and (max-width:1024px){
+    .m-padding_zero{
+         padding: 0px !important;
+     }
+    
+ }

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Product_Registration_Heading</fullName>
+        <categories>Product Registration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product Registration Heading</shortDescription>
+        <value>Product Registration</value>
+    </labels>
+    <labels>
+        <fullName>ProdReg_Serial_Number</fullName>
+        <categories>Product Registration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product Registration Serial Number</shortDescription>
+        <value>Serial Number</value>
+    </labels>
+    <labels>
+        <fullName>ProdReg_Product_Code</fullName>
+        <categories>Product Registration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product Registration Product Code</shortDescription>
+        <value>Product Code</value>
+    </labels>
+    <labels>
+        <fullName>ProdReg_Purchase_Date</fullName>
+        <categories>Product Registration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product Registration Purchase Date</shortDescription>
+        <value>Purchase Date</value>
+    </labels>
+    <labels>
+        <fullName>ProdReg_Price_Paid</fullName>
+        <categories>Product Registration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product Registration Price Paid</shortDescription>
+        <value>Price Paid (optional)</value>
+    </labels>
+    <labels>
+        <fullName>ProdReg_Find_My_Serial_Number</fullName>
+        <categories>Product Registration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product Registration Find My Serial Number</shortDescription>
+        <value>Find my serial number</value>
+    </labels>
+    <labels>
+        <fullName>ProdReg_Btn_Continue</fullName>
+        <categories>Product Registration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product Registration Continue Button</shortDescription>
+        <value>Continue</value>
+    </labels>
+    <labels>
+        <fullName>ProdReg_ErrMsg_Serial_Number</fullName>
+        <categories>Product Registration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product Registration Serial Number Error Message</shortDescription>
+        <value>Invalid Serial Number</value>
+    </labels>
+    <labels>
+        <fullName>ProdReg_ErrMsg_Product_Code</fullName>
+        <categories>Product Registration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product Registration Product Code Error Message</shortDescription>
+        <value>Invalid Product Code</value>
+    </labels>
+    <labels>
+        <fullName>ProdReg_ErrMsg_Purchase_Date</fullName>
+        <categories>Product Registration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product Registration Purchase Date Error Message</shortDescription>
+        <value>Invalid Purchase Date</value>
+    </labels>
+    <labels>
+        <fullName>Replace_Cart_Item</fullName>
+        <categories>order</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Replace Cart Item</shortDescription>
+        <value>You already have Items in the cart. Do you want them to replace?</value>
+    </labels>
+</CustomLabels>

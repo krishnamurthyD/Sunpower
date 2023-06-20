@@ -1,0 +1,91 @@
+body{
+    font-family: "SF UI Text", Arial, sans-serif !important;
+    font-size: 1.125rem;
+    background-color:#FFFFFF;
+    color: #333333 !important;
+}
+a{
+    color: #0070D2;
+}
+.container{
+    background-color: #FFFFFF;
+    max-width: 1440px;
+    margin: auto;
+    padding: 0px 48px 48px 48px;
+}
+
+.product-registration_section{
+   color: #333333 !important;
+   padding: 0px 48px;
+}
+.pr-title{
+    font-size: 40px;
+    color: #666666;
+}
+.find-sn{
+    font-size: 11px;
+    float: right;
+    padding-top: 5px;
+    text-align: right;
+    position: relative;
+    z-index: 999;
+    text-decoration: none;
+}
+.continue-button{
+    background: #333333;
+    color: #FFFFFF;
+    width: 239px;
+    height: var(--lwc-spacingXLarge, 3rem);
+    border-radius: 62px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    border: none;
+}
+.textboxerror{
+    border: 1px solid red;
+}
+
+.invalid-sn-msg {
+    font-size: 11px;
+    color: red;
+}
+
+.invalid-sn-msg.-hide {
+    display: none;
+}
+
+.purchaseDate>lightning-datepicker>div>div>lightning-button-icon{
+    margin-top: -12px;
+}
+
+.close-icon{
+    top: 61px;
+    position: absolute;
+    z-index: 999;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.header-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 0px 50px;
+}
+.modal-body{
+    padding:50px;
+}
+
+@media (min-width:280px) and (max-width:720px){
+   .container{
+       padding: 0px;
+   }
+    .m-padding_zero{
+        padding: 0px !important;
+    }
+}

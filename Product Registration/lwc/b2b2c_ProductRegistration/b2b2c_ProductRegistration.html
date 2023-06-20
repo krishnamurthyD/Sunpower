@@ -1,0 +1,79 @@
+<!--
+  @description       : 
+  @author            : Hari
+  @group             : 
+  @last modified on  : 12-16-2022
+  @last modified by  : Hari
+-->
+<template>
+    <div class="container">
+        <div class="product-registration_section m-padding_zero">
+            <div class="slds-p-vertical_small slds-text-align_center ">
+                <div class="pr-title">{label.Product_Registration_Heading}</div>
+            </div>  
+            <div class="slds-grid slds-wrap slds-gutters slds-p-vertical_small">
+                <div class="slds-col slds-large-size_6-of-12 slds-medium-size_6-of-12 slds-size_12-of-12">
+                   
+                    <div class="slds-p-around_small lgc-bg">
+                        <a class="find-sn" onclick={showModalPopup}>{label.Find_my_serial_num}</a>
+                        <lightning-input type="text" data-id="txtSerialNumber" label={label.Serial_Number} placeholder="EMI-000-000-000" onblur={verifySerialNumber} onchange={resetErrorMessage}></lightning-input>
+                    </div>
+                </div>
+                <div class="slds-col slds-large-size_6-of-12 slds-medium-size_6-of-12 slds-size_12-of-12">
+                    <div class="slds-p-around_small lgc-bg">
+                        <lightning-input type="text" data-id="txtProductCode" label={label.Product_Code} placeholder="0019273" onblur={verifyProductCode} onchange={resetErrorMessage}></lightning-input>
+                    </div>
+                </div>
+                <div class="slds-col slds-large-size_6-of-12 slds-medium-size_6-of-12 slds-size_12-of-12">
+                    <div class="slds-p-around_small lgc-bg">
+                        <lightning-input class="purchaseDate" type="date" data-id="txtPurchaseDate" label={label.Purchase_Date} placeholder="" max={currentDate} onblur={verifyPurchaseDate} onchange={resetErrorMessage}></lightning-input>
+                    </div>
+                </div>
+                <div class="slds-col slds-large-size_6-of-12 slds-medium-size_6-of-12 slds-size_12-of-12">
+                    <div class="slds-p-around_small lgc-bg">
+                        <lightning-input type="number" id="txtPricePaid" label={label.Price_Paid} data-id="txtPricePaid" placeholder="$00.00" formatter="currency" step="0.01" field-level-help="This field is optional" title="" onpointerenter={makeTitleBlank}>
+                        </lightning-input>
+                    </div>
+                </div>
+            </div> 
+            <div class="slds-p-vertical_small slds-text-align_center ">
+                <button class="continue-button" onclick={continueButtonClick}>{label.Btn_Continue}</button>
+            </div>  
+        </div>    
+        <template if:true={isShowModal}>
+            <!-- Modal Start -->
+            <section role="dialog" tabindex="-1" aria-modal="true" aria-label="Meaningful description of the modal content" class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container">            
+                    <lightning-icon class="close-icon slds-text-align_right" size="small" icon-name="utility:close" alternative-text="Colose" title="Colose" onclick={closeModalPopup}>
+                    </lightning-icon>            
+                    <div class="slds-modal__content slds-p-around_xx-large" id="modal-content-id-1">
+                        <div class="header-title">  
+                            {find_my_serial_num_header}
+                        </div>
+                        <div class="modal-body">
+                            <div style="font-size: 12px;">
+                                <lightning-combobox
+                                    name="Category"
+                                    value={value}
+                                    placeholder="Select Category" >
+                                </lightning-combobox>
+                            </div>
+                            <div style="margin-top: -20px; font-size: 12px;">
+                                <lightning-combobox
+                                    name="progress"
+                                    value={value}
+                                    placeholder="Select Products" >
+                                </lightning-combobox>
+                            </div>
+                            <div class="slds-m-top_large">
+                                <img class="slds-text-align_center" src={locateSerialNumber}/>
+                            </div>
+                        </div>
+                    </div>        
+                </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open" role="presentation"></div>
+         <!-- Modal End -->
+        </template>
+    </div>
+</template>

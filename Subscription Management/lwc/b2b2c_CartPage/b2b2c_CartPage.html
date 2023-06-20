@@ -1,0 +1,192 @@
+<!--
+  @description       : 
+  @author            : Hari
+  @group             : 
+  @last modified on  : 1-20-2023
+  @last modified by  : Hari
+-->
+<template>
+    <c-b2b2c_-toast></c-b2b2c_-toast>
+    
+    <div class="container slds-p-around_xx-large m-padding_zero" style="position: relative;">
+        <lightning-spinner size="medium" if:false={isLoaded}></lightning-spinner>
+        <div class="slds-grid slds-wrap" if:true={cartDetail}>
+            <div class="slds-col">
+                <div class="slds-grid slds-wrap slds-p-vertical_medium slds-border_bottom">
+                    <div class="slds-col slds-large-size_9-of-12 slds-medium-size_9-of-12 slds-size_12-of-12">
+                        <span class="cart-title">Cart ({cartDetail.cartSummary.totalProductCount} items) </span>
+                    </div>
+                    <div class="slds-col slds-large-size_3-of-12 slds-medium-size_3-of-12 slds-size_12-of-12 slds-text-align_right">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="slds-p-vertical_medium">               
+                    <!-- row start -->
+                    <template for:each={cartDetail.cartItems} for:item="cartItem" for:index="index">
+                        <div if:true={cartItem.isSimpleProduct} class="slds-grid slds-wrap slds-p-vertical_medium slds-border_bottom" key={cartItem.cartItemId}>
+                            <div class="slds-col slds-large-size_2-of-12 slds-medium-size_2-of-12 slds-size_12-of-12">
+                                <div class="cart-img"> <img src={cartItem.productDetails.thumbnailImage.url} alt=""></img></div>
+                            </div>
+                            <div class="slds-col slds-large-size_6-of-12 slds-medium-size_6-of-12 slds-size_12-of-12">
+                                <div class="cart-title"><b><a class="link" href={cartItem.productUrl}>{cartItem.productDetails.name}</a></b></div>
+                                <div class="cart-text">
+                                    <template if:true={cartItem.feature}>{cartItem.feature}  |  </template>
+                                    SKU #{cartItem.productDetails.sku}
+                                </div>
+                                <div class="slds-grid slds-wrap slds-grid_vertical-align-center">
+                                    <div class="slds-col slds-large-size_6-of-12 slds-medium-size_6-of-12 slds-size_12-of-12">
+                                        <c-b2b2c_-input-number data-index={index} max="10000000" value={cartItem.quantity} onblur={handleQuantityChange}></c-b2b2c_-input-number>
+                                    </div>
+                                    <div class="slds-col slds-large-size_6-of-12 slds-medium-size_6-of-12 slds-size_12-of-12 slds-p-vertical_x-large m-remove">
+                                    <span><a class="remove" data-index={index} onclick={handleRemove}>Remove</a></span>
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="slds-col slds-large-size_2-of-12 slds-medium-size_2-of-12 slds-size_12-of-12 slds-text-align_right">
+                                <p class="cart-text">
+                                    <lightning-formatted-number
+                                        format-style="currency"
+                                        value={cartItem.unitAdjustedPrice}
+                                    ></lightning-formatted-number> each
+                                </p>
+                                <p class="cart-text" if:true={cartItem.isListPriceDiff}>
+                                    <del>
+                                        <lightning-formatted-number
+                                            format-style="currency"
+                                            value={cartItem.listPrice}
+                                        ></lightning-formatted-number>
+                                    </del>
+                                </p>
+                            </div>
+                            <div class="slds-col slds-large-size_2-of-12 slds-medium-size_2-of-12 slds-size_12-of-12 slds-text-align_right m-text-align_center">
+                                <span class="cart-text">
+                                    <b>
+                                        <lightning-formatted-number
+                                            format-style="currency"
+                                            value={cartItem.totalPrice}
+                                        ></lightning-formatted-number>
+                                    </b>
+                                </span>
+                            </div>
+                        </div> 
+
+                        <div if:true={cartItem.isSubscriptionProduct} class="slds-grid slds-wrap slds-p-vertical_medium slds-border_bottom" key={cartItem.cartItemId}>
+                            <div class="slds-col slds-large-size_2-of-12 slds-medium-size_2-of-12 slds-size_12-of-12">
+                                <div class="cart-img"><img src={cartItem.productDetails.thumbnailImage.url} alt=""></div>
+                            </div>
+                            <div class="slds-col slds-grid slds-wrap slds-large-size_10-of-12 slds-medium-size_10-of-12 slds-size_12-of-12">
+                                <div class="slds-col slds-large-size_8-of-12 slds-medium-size_6-of-12 slds-size_12-of-12">
+                                    <div class="cart-title"><b><a class="link" href={cartItem.productUrl}>{cartItem.productDetails.name}</a></b></div>
+                                    <div class="cart-text">
+                                        <template if:true={cartItem.feature}>{cartItem.feature}  |  </template>
+                                        SKU #{cartItem.productDetails.sku}
+                                    </div>
+                                    <div class="c-renew">Subscription</div>
+                                </div>
+                                <div class="slds-col slds-large-size_2-of-12 slds-medium-size_2-of-12 slds-size_12-of-12 slds-text-align_right">
+                                    <p class="cart-text">
+                                        <lightning-formatted-number
+                                            format-style="currency"
+                                            value={cartItem.unitAdjustedPrice}
+                                        ></lightning-formatted-number> each
+                                    </p>
+                                    <p class="cart-text" if:true={cartItem.isListPriceDiff}>
+                                        <del>
+                                            <lightning-formatted-number
+                                                format-style="currency"
+                                                value={cartItem.listPrice}
+                                            ></lightning-formatted-number>
+                                        </del>
+                                    </p>
+                                </div>
+                                <div class="slds-col slds-large-size_2-of-12 slds-medium-size_2-of-12 slds-size_12-of-12 slds-text-align_right m-text-align_center">
+                                    <span class="cart-text">
+                                        <b>
+                                            <lightning-formatted-number
+                                                format-style="currency"
+                                                value={cartItem.totalPrice}
+                                            ></lightning-formatted-number>
+                                        </b>
+                                    </span>
+                                </div>
+                                <div class="slds-col slds-grid slds-wrap slds-grid_vertical-align-center">
+                                    <div class="slds-col slds-grid slds-grid_vertical-align-center slds-grow-none">
+                                        <div class="slds-text-title_bold slds-col slds-grow-none slds-m-right_small"> Deliver {cartItem.quantity} unit every : </div>
+                                        <!--lightning-combobox
+                                            class="slds-col slds-m-right_large slds-m-bottom_none"
+                                            name="subscription-option"
+                                            value={cartItem.selectedOption.id}
+                                            options={cartItem.subscriptionOptionCombobox}
+                                            onchange={handleSubscriptionOptionChange} 
+                                            variant="label-hidden"
+                                            data-index={index}
+                                            ></lightning-combobox-->
+                                        <c-b2b2c_-combobox
+                                            class="slds-col slds-m-right_large slds-m-bottom_none"
+                                            value={cartItem.selectedOption.id}
+                                            options={cartItem.subscriptionOptionCombobox}
+                                            onchange={handleSubscriptionOptionChange}
+                                            data-index={index}
+                                            ></c-b2b2c_-combobox>
+                                    </div>
+                                    <div if:true={enableNoOfDeliveries} class="slds-col slds-grid slds-grid_vertical-align-center slds-grow-none">
+                                        <div class="slds-text-title_bold slds-col slds-grow-none slds-m-right_small">No of Deliveries: </div>
+                                        <c-b2b2c_-input-number class="slds-col slds-m-right_large" data-index={index} max="10000000" value={cartItem.numberOfDeliveries} onblur={handleNoOfDeliveries}></c-b2b2c_-input-number>
+                                    </div>
+                                    <div class="slds-col slds-p-vertical_x-large m-remove">
+                                        <span><a class="remove" data-index={index} onclick={handleRemove}>Remove</a></span>
+                                    </div>
+                                </div> 
+                            </div>
+                            
+                        </div> 
+
+                        <div if:true={cartItem.isRelatedProduct} class="slds-grid slds-wrap slds-p-vertical_medium slds-border_bottom" key={cartItem.cartItemId}>
+                            <div class="slds-col slds-large-size_2-of-12 slds-medium-size_2-of-12 slds-size_12-of-12">
+                                <div class="cart-img"><img src={cartItem.productDetails.thumbnailImage.url} alt=""></div>
+                            </div>
+                            <div class="slds-col slds-large-size_6-of-12 slds-medium-size_6-of-12 slds-size_12-of-12">
+                                <div class="cart-title"><b><a class="link" href={cartItem.productUrl}>{cartItem.productDetails.name}</a></b></div>
+                                <div class="cart-text" if:true={cartItem.shortDescription}>{cartItem.shortDescription}</div>
+                                <div class="cart-text">Quantity : {cartItem.quantity}</div>
+                                <div class="slds-p-top_small"><a class="remove" data-index={index} onclick={handleRemove}>Remove</a></div>  
+                            </div>
+                            <div class="slds-col slds-large-size_2-of-12 slds-medium-size_2-of-12 slds-size_12-of-12 slds-text-align_right">
+                                <p class="cart-text">
+                                    <lightning-formatted-number
+                                        format-style="currency"
+                                        value={cartItem.unitAdjustedPrice}
+                                    ></lightning-formatted-number> each
+                                </p>
+                                <p class="cart-text" if:true={cartItem.isListPriceDiff}>
+                                    <del>
+                                        <lightning-formatted-number
+                                            format-style="currency"
+                                            value={cartItem.listPrice}
+                                        ></lightning-formatted-number>
+                                    </del>
+                                </p>
+                            </div>
+                            <div class="slds-col slds-large-size_2-of-12 slds-medium-size_2-of-12 slds-size_12-of-12 slds-text-align_right m-text-align_center">
+                                <span class="cart-text">
+                                    <b>
+                                        <lightning-formatted-number
+                                            format-style="currency"
+                                            value={cartItem.totalPrice}
+                                        ></lightning-formatted-number>
+                                    </b>
+                                </span>
+                            </div>
+                        </div> 
+                    </template>                      
+                                             
+                    <!-- row end -->  
+                          
+                    <!-- row start -->                          
+                                             
+                <!-- row end -->
+                </div>
+            </div>
+        </div>   
+    </div>
+</template>

@@ -1,0 +1,8 @@
+<template>
+    <select class="slds-select select-input" onchange={handleChange} value={value}>
+        <option if:false={value} value=""><span style="font-weight: 600;">Select an Option…</span></option>
+        <template for:each={options} for:item="option">
+            <option key={option.value} value={option.value} selected={option.checked}><span style="font-weight: 600;">{option.label}</span></option>
+        </template>
+    </select>
+</template>

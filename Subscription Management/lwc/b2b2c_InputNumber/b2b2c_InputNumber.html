@@ -1,0 +1,15 @@
+<template>
+    <div  class="quantity-list-action">
+        <button class="decrement-btn slds-p-bottom_xx-small" onclick={onDecrement} disabled={disableDecrement} aria-label="Decrease number of items">
+            <lightning-icon icon-name="utility:dash" alternative-text="Connected" variant="base" size="x-small"
+            title="decrement"></lightning-icon>
+        </button>
+        
+        <input class="selector-input slds-text-align_center" name={name} type="number" onblur={handleBlur} onchange={handleChange} min="1" max={max} required={required} disabled={disabled} value={value}>
+        
+        <button class="increment-btn slds-p-bottom_xx-small" onclick={onIncrement} disabled={disableIncrement} aria-label="Increase number of items">
+            <lightning-icon icon-name="utility:add" alternative-text="Connected" variant="base" size="x-small"
+            title="increment"></lightning-icon>
+        </button>
+    </div>
+</template>
