@@ -1,0 +1,66 @@
+<template>
+    <lightning-card>
+        <lightning-progress-indicator current-step={currentStep} type="base" variant="base" class="progress-indicator">
+            <template for:each={totalSteps} for:item="step" >
+                <lightning-progress-step key={step.value} label={step.label} value={step.value}  ></lightning-progress-step>
+            </template>
+        </lightning-progress-indicator>
+
+        <template if:true={firstStep}>
+            <div class="slds-col slds-size_12-of-12 slds-p-top_large m-padding-header">
+                <p class="step-header">{categoriesObj.header}</p>
+                <p class="step-ins">(Please select one)</p>
+            </div>
+            <div class="slds-grid slds-wrap slds-gutters slds-grid_align-center slds-p-around_x-large m-padding_zero">                
+                <template for:each={categoriesObj.options} for:item="cat">
+                    <div class="slds-col slds-large-size_4-of-12 slds-medium-size_12-of-12 slds-size_12-of-12" key={cat} >
+                        <div class="wrapper cat-quiz">
+                            <img src={cat.url} alt="Alpine"
+                            data-category={cat.label} onclick={getCategoryValue}/>
+                        </div>
+                        <div class="headphone-text">{cat.label}</div>
+                    </div>
+                </template>
+            </div>
+        </template>
+
+        <template if:true={secondStep}>
+            <div class="slds-col slds-size_1-of-1 slds-p-vertical_large">
+                <p class="step-header">What are you looking for?</p>
+                <p class="headphone-text">(Select all that apply)</p>
+            </div>
+            <div class="slds-grid slds-wrap slds-grid_align-center slds-p-around_xx-large bage_container">
+                
+                <template for:each={step2QuizOpts} for:item="opt2">
+                    <div class="slds-col lds-col slds-large-size_4-of-12 slds-medium-size_4-of-12 slds-size_12-of-12 tile-div" key={opt2.label}>
+                        <span data-attribute={opt2.iconAttr} class="display">
+                            <lightning-icon icon-name="utility:check" size="x-small" variant="base" alternative-text="check" title="check"></lightning-icon>
+                        </span>
+                        <lightning-badge data-attribute={opt2.label} label={opt2.label} class="slds-badge_inverse attr-tag" onclick={getAttributeValue}></lightning-badge>
+                    </div>
+                </template>
+            </div>
+        </template>
+
+        <template if:true={thirdStep}>
+            <div class="slds-col slds-size_1-of-1 slds-p-vertical_large">
+                <p class="step-header">What's your top skin concern?</p>
+                <p class="headphone-text">(Select all that apply)</p>
+            </div>
+            <div class="slds-grid slds-wrap slds-grid_align-center slds-p-around_xx-large bage_container">
+                <template for:each={step3QuizOpts} for:item="opt3">
+                    <div class="slds-col slds-large-size_4-of-12 slds-medium-size_4-of-12 slds-size_12-of-12 tile-div" key={opt3.label}>
+                        <span data-attribute={opt3.iconAttr} class="display">
+                            <lightning-icon icon-name="utility:check" size="x-small" variant="base" alternative-text="check" title="check"></lightning-icon>
+                        </span>
+                        <lightning-badge data-attribute={opt3.label} label={opt3.label} class="slds-badge_inverse attr-tag" onclick={getAttributeValue}></lightning-badge>
+                    </div>
+                </template>
+            </div>
+        </template>
+
+        <div class="slds-p-vertical_small slds-text-align_center">
+            <button class="continue-button" onclick={goToNextStep} disabled={isCountinue}>Continue</button>
+        </div>
+    </lightning-card>
+</template>

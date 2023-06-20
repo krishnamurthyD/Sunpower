@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+        <target>lightning__AppPage</target>
+    </targets>
+    <targetConfigs>
+
+        <targetConfig targets="lightningCommunity__Default">
+            <property
+                name="noOfSteps"
+                type="Integer"
+                label="Total Steps"
+                description="Number of Steps?Wizards in Guided Selling"
+                default="4"
+            />
+
+            <property
+                name="quizConfig"
+                type="String"
+                label="Guided Selling step one configs"
+                description="Configure your Guided Selling wizard here"
+                default="{'header':'How do you want to shop?','options':[{'label':'Shop by skin concern','url':'https://sa1s3optim.patientpop.com/assets/images/provider/photos/2214461.jpg',
+                'nextoptions':'Acnes, Pores, Dark Spots, Dullness, Dark Circles, Sign of Aging,Redness'},{'label':'Shop by type of product','url':'https://media.allure.com/photos/624216e621ec9ca38ac6a112/0325-dermskin.png','nextoptions':'Sun Care,Eye Care,Lip Care,Masks,Cleansers,Moisturizers'},{'label':'Shop clean product','url':'https://images.everydayhealth.com/images/what-are-natural-skin-care-products-alt-1440x810.jpg','nextoptions':'Sun Care,Eye Care,Lip Care,Masks,Cleansers,Moisturizers'}]}"
+            />
+
+            <property
+                name="quizConfigStep2"
+                type="String"
+                label="Guided Selling step two configs"
+                description="Configure your Guided Selling wizard two here"
+                default="{'header':'What are you looking for?','options':[{'label':'Acnes','nextoptions':'Masks,Cleansers,Moisturizers'}, {'label':'Pores','nextoptions':'Masks,Cleansers,Moisturizers'},
+                {'label':'Dark Spots','nextoptions':'Masks,Cleansers,Moisturizers'},{'label':'Dark Circles','nextoptions':'Masks, Eye Care'},{'label':'Sun Care','nextoptions':'NA'},{'label':'Eye Care','nextoptions':'Dark Circles, Signs of Aging'},
+                {'label':'Masks','nextoptions':'Acnes, Redness, Dullness, Dark Spots'},{'label':'Moisturizers','nextoptions':'Cream, Gel, Oil'}]}"
+            />
+
+            <property
+                name="quizConfigStep3"
+                type="String"
+                label="Guided Selling step three configs"
+                description="Configure your Guided Selling wizard two here"
+                default="{'header':'What is your top skin concern?','options':[]}"
+            />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

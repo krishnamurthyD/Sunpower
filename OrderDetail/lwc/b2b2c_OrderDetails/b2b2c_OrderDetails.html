@@ -1,0 +1,176 @@
+<template>
+    <div class="container slds-p-around_xx-large m-padding_zero">
+      <template if:true={showOrderDetail}>
+        <div class="slds-grid slds-wrap">
+            <div class="slds-col slds-large-size_3-of-12 slds-medium-size_4-of-12 slds-size_12-of-12">
+                <div class="slds-p-vertical_large">
+                  <a href={orderHistory}><lightning-icon icon-name="utility:chevronleft" alternative-text="chevronleft" variant="base" size="xx-small" title="chevronleft">
+                </lightning-icon> back to Order History</a>
+                </div>
+                <div class="details">
+                  <h1>Details</h1>
+                  <p>Order Date: {orderData.createdDate}</p>
+                  <p>Order Total : ${orderData.grandTotal}</p>
+                  <p>Item number : {totalOrderItem}</p>
+                </div>
+                <div class="details">
+                  <h1>Totals</h1>
+                    <div class="slds-grid slds-wrap">
+                      <div class="slds-col slds-large-size_6-of-12 slds-medium-size_6-of-12 slds-size_6-of-12">
+                        <span>Subtotal</span>
+                      </div>
+                      <div class="slds-col slds-large-size_6-of-12 slds-medium-size_6-of-12 slds-size_6-of-12 slds-text-align_right">
+                        <span>${orderData.orderTotal}</span>
+                      </div>
+                    </div>
+                    <div class="slds-grid slds-wrap">
+                      <div class="slds-col slds-large-size_6-of-12 slds-medium-size_6-of-12 slds-size_6-of-12">
+                        <span>Shipping</span>
+                      </div>
+                      <div class="slds-col slds-large-size_6-of-12 slds-medium-size_6-of-12 slds-size_6-of-12 slds-text-align_right">
+                        <span>${orderData.totalDeliveryAmount}</span>
+                      </div>
+                    </div>
+                    <div class="slds-grid slds-wrap">
+                      <div class="slds-col slds-large-size_6-of-12 slds-medium-size_6-of-12 slds-size_6-of-12">
+                        <span>Tax</span>
+                      </div>
+                      <div class="slds-col slds-large-size_6-of-12 slds-medium-size_6-of-12 slds-size_6-of-12 slds-text-align_right">
+                        <span>${orderData.totalTaxAmount}</span>
+                      </div>
+                    </div>
+                    <div class="slds-grid slds-wrap">
+                      <div class="slds-col slds-large-size_6-of-12 slds-medium-size_6-of-12 slds-size_6-of-12">
+                        <h1>Total</h1>
+                      </div>
+                      <div class="slds-col slds-large-size_6-of-12 slds-medium-size_6-of-12 slds-size_6-of-12 slds-text-align_right">
+                        <h1>${orderData.grandTotal}</h1>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="details">
+                  <h1>Promotions</h1>
+                    <div class="slds-grid slds-wrap">
+                      <div class="slds-col slds-large-size_6-of-12 slds-medium-size_6-of-12 slds-size_6-of-12">
+                        <span>10% off coffee</span>
+                      </div>
+                      <div class="slds-col slds-large-size_6-of-12 slds-medium-size_6-of-12 slds-size_6-of-12 slds-text-align_right">
+                        <span>-$213.60</span>
+                      </div>
+                    </div>
+                    <div class="slds-grid slds-wrap">
+                      <div class="slds-col slds-large-size_6-of-12 slds-medium-size_6-of-12 slds-size_6-of-12">
+                        <span>5% off sliders</span>
+                      </div>
+                      <div class="slds-col slds-large-size_6-of-12 slds-medium-size_6-of-12 slds-size_6-of-12 slds-text-align_right">
+                        <span>-$13.50</span>
+                      </div>
+                    </div>
+                    <div class="slds-grid slds-wrap">
+                      <div class="slds-col slds-large-size_6-of-12 slds-medium-size_6-of-12 slds-size_6-of-12">
+                        <span>5% off filters</span>
+                      </div>
+                      <div class="slds-col slds-large-size_6-of-12 slds-medium-size_6-of-12 slds-size_6-of-12 slds-text-align_right">
+                        <span>-$31.00</span>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+        <div class="slds-col slds-large-size_9-of-12 slds-medium-size_8-of-12 slds-size_12-of-12">
+            <div class="slds-grid slds-wrap slds-p-vertical_medium slds-border_bottom">
+                <div class="slds-col slds-large-size_9-of-12 slds-medium-size_8-of-12 slds-size_12-of-12">
+                    <span class="order-dtails-title">My Order {orderData.orderNumber}</span>
+                </div>
+                
+            <div class="slds-col slds-large-size_3-of-12 slds-medium-size_4-of-12 slds-size_12-of-12 slds-text-align_right m-text-align_center">
+                <button class="re-order-button" data-summaryid={orderData.orderSummaryId} onclick={reOrder}>Reorder</button>
+            </div>
+            </div>
+            <div class="slds-p-vertical_medium">
+              <lightning-accordion allow-multiple-sections-open
+                         onsectiontoggle={handleSectionToggle}
+                         active-section-name={activeSections}>
+                    <lightning-accordion-section name="shipingaddress" label={shippingAddress}>
+                      <div class="slds-grid slds-wrap slds-border_bottom slds-p-vertical_medium">
+                      <div class="slds-col slds-large-size_6-of-12 slds-medium-size_6-of-12 slds-size_12-of-12">
+                        <span>Shipping Method: {orderData.deliveryMethod}</span>
+                      </div>
+                      <div class="slds-col slds-large-size_6-of-12 slds-medium-size_6-of-12 slds-size_12-of-12">
+                        <template if:true={showDeliveryStatus}>
+                          <span>Status : {orderData.deliveryStatus}</span>
+                        </template>
+                      </div>
+                    </div>   
+                    <template for:each={orderData.orderItemList} for:item="orderItem">              
+                      <!-- row start -->       
+                                           
+                            <div key={orderItem.orderItemId} class="slds-grid slds-wrap slds-p-vertical_medium slds-border_bottom">
+                                  <div class="slds-col slds-large-size_3-of-12 slds-medium-size_4-of-12 slds-size_12-of-12">
+                                    <div class="order-dtails-img">
+                                      <a href={orderItem.productURL}>
+                                        <img class="product-img order-dtails-img" src={orderItem.productImageURL} alt={orderItem.productName} />
+                                      </a>
+                                    </div>
+                                  </div>
+                                  <div class="slds-col slds-large-size_6-of-12 slds-medium-size_5-of-12 slds-size_12-of-12 m-text-align_center">
+                                      <div class="order-dtails-title">{orderItem.productName} </div>
+                                      <div class="order-dtails-text">SKU # {orderItem.productSKU}</div>
+                                    <!-- <div class="order-dtails-text">Line Adjustments: -$20.00 <a href="#"><lightning-icon icon-name="utility:info" alternative-text="info" title="info" size="x-small">
+                                    </lightning-icon></a></div> -->
+                                      <div class="order-dtails-text">Qty: {orderItem.quantity}</div>
+                                      
+                                  </div>
+                                  <div class="slds-col slds-large-size_3-of-12 slds-medium-size_3-of-12 slds-size_12-of-12 slds-text-align_right m-text-align_center">
+                                    <span class="order-dtails-text">$ {orderItem.totalPrice}</span>
+                                    <template if:true={orderItem.hasRelatedProducts}>
+                                    <div class="search-accessories">
+                                      <button value={orderItem.productSKU} class="search-for-parts-button slds-m-vertical_small" onclick={searchSKU}>Search for Parts and Accessories</button>
+                                    </div>
+                                  </template>
+                                  </div>
+
+                            </div>                          
+                      <!-- row end --> 
+                    </template>               
+                      
+                    </lightning-accordion-section>
+                  </lightning-accordion>
+              
+            </div>
+            
+        </div>
+        </div>   
+         <!-- modal start -->      
+          <template if:true={isShowModal}>
+
+            <section role="dialog" tabindex="-1" aria-labelledby="cartAlreadyExist" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+              <div class="slds-modal__container">
+              <!-- modal header start -->
+                <header class="slds-modal__header">
+                  <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close" onclick={hideModalBox}>
+                      <lightning-icon class="inverse-icon" icon-name="utility:close" alternative-text="close" variant="inverse" size="small" ></lightning-icon>
+                      <span class="slds-assistive-text">Close</span>
+                  </button>
+                </header>
+
+                <!-- modal body start -->
+                <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                      <p>{labels.replaceCartItems}</p>
+                </div>
+
+                <!-- modal footer start-->
+                <footer class="slds-modal__footer">
+                  <lightning-button class="slds-button" variant="neutral"  label="No" onclick={hideModalBox}  ></lightning-button>
+                  <lightning-button class="slds-button slds-m-left_x-small" data-summaryid={orderData.orderSummaryId} variant="brand" onclick={startReOrder} label="Yes"></lightning-button>
+                </footer>
+
+              </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+          </template>
+          <!-- modal end -->
+      </template>
+    </div>
+</template>

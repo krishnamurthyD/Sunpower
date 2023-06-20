@@ -1,0 +1,107 @@
+<template>
+  <div class="container">
+    <div class="slds-grid slds-wrap slds-border_bottom fixed-cmp-header">
+      <div class="slds-col slds-large-size_6-of-12 slds-medium-size_4-of-12 slds-size_12-of-12">
+          <span class="MyOrderHistory-title">{totalOrderCount} Orders</span>
+      </div>
+      <div class="slds-col slds-large-size_3-of-12 slds-medium-size_3-of-12 slds-size_12-of-12">
+          <div class="slds-form-element"><div class="slds-form-element__control slds-input-has-icon slds-input-has-icon_left-right">
+            <svg class="slds-icon slds-input__icon slds-input__icon_left slds-icon-text-default" aria-hidden="true">
+              <use xlink:href={searchIconUrl}></use>
+            </svg>
+              <input type="text" id="" placeholder="Search this list" class="slds-input search-input" onkeyup={filterResult}/>
+          </div>
+          </div>
+      </div>
+  <div class="slds-col slds-large-size_3-of-12 slds-medium-size_4-of-12 slds-size_12-of-12">
+      <div class="slds-form-element">
+          <div class="slds-form-element__control">
+              <div class="slds-select_container">
+              <select class="slds-select select-input" id="select-01" onchange={handleChange}>
+                <template for:each={options} for:item="op">
+                  <option key={op.value} value={op.value}>{op.label}</option>
+                </template>
+              </select>
+              </div>
+          </div>
+      </div>
+  </div>
+  </div>
+      <div class="slds-grid slds-wrap">
+      <div class="slds-col slds-large-size_12-of-12 slds-medium-size_12-of-12 slds-size_12-of-12 ">          
+          <div class="slds-p-vertical_x-large m-padding_zero">
+          <!-- My Order History row start -->
+          <template if:true={orderList}>
+            <template for:each={orderList} for:item="order">
+              <div key={order.orderId} class="MyOrderHistory-section slds-p-vertical_small slds-m-top_large m-margin_zero m-text-align_center">
+                <div class="slds-grid slds-wrap">
+                  <div class="slds-col slds-large-size_3-of-12 slds-medium-size_2-of-12 slds-size_12-of-12">
+                    <span class="order-number">Order Number: </span>
+                    <span class="order-number-orange"><a class="order-number-orange" href={order.orderDetailsUrl}>{order.orderNumber}</a></span>
+                  </div>
+                  <div class="slds-col slds-large-size_3-of-12 slds-medium-size_3-of-12 slds-size_12-of-12">
+                    <span class="MyOrderHistory-text">Ordered Date: <br>
+                      {order.createdDate}</span>
+                  </div>
+                  <div class="slds-col slds-large-size_2-of-12 slds-medium-size_2-of-12 slds-size_12-of-12">
+                    <span class="MyOrderHistory-text">Status: {order.status}</span>
+                  </div>
+                  <div class="slds-col slds-large-size_2-of-12 slds-medium-size_2-of-12 slds-size_12-of-12">
+                    <span class="MyOrderHistory-text">Total: {order.orderTotal}</span>
+                  </div>
+                  <div class="slds-col slds-large-size_2-of-12 slds-medium-size_3-of-12 slds-size_12-of-12 slds-text-align_right m-text-align_center">
+                    <button class="start-reorder-button" data-summaryid={order.orderSummaryId} onclick={startOrder}>Start Reorder</button>
+                    <div class="slds-text-align_center slds-p-top_medium"><a class="order-number-orange nn" href={order.orderDetailsUrl}>View Details</a></div>
+                  </div>
+                </div>
+                <div class="slds-grid slds-wrap slds-p-top_small">
+                <template for:each={order.orderItemList} for:item="orderItem">
+                  <div key={orderItem.orderItemId} class="slds-grid slds-wrap slds-p-top_small">
+                    <div class="slds-col slds-large-size_2-of-12 slds-medium-size_2-of-12 slds-size_12-of-12">
+                      <div class="MyOrderHistory-img Test">
+                        <a href={orderItem.productURL}>
+                            <img class="product-img MyOrderHistory-img" src={orderItem.productImageURL} alt={orderItem.productName} />
+                        </a>
+                    </div>
+                    </div>
+                  </div>
+                </template>
+                </div>
+              </div>
+            </template>
+            </template>
+          <!-- My Order History row end -->
+          </div>
+      </div>
+      </div>   
+      <!-- modal start -->      
+      <template if:true={isShowModal}>
+
+        <section role="dialog" tabindex="-1" aria-labelledby="cartAlreadyExist" aria-modal="true" aria-describedby="ReplaceCartItems" class="slds-modal slds-fade-in-open">
+          <div class="slds-modal__container">
+          <!-- modal header start -->
+            <header class="slds-modal__header">
+              <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close" onclick={hideModalBox}>
+                  <lightning-icon class="inverse-icon" icon-name="utility:close" alternative-text="close" variant="inverse" size="small" ></lightning-icon>
+                  <span class="slds-assistive-text">Close</span>
+              </button>
+            </header>
+
+            <!-- modal body start -->
+            <div class="slds-modal__content slds-p-around_medium" id="ReplaceCartItems">
+                  <p>{labels.replaceCartItems}</p>
+            </div>
+
+            <!-- modal footer start-->
+            <footer class="slds-modal__footer">
+              <lightning-button class="slds-button" variant="neutral"  label="No" onclick={hideModalBox}  ></lightning-button>
+              <lightning-button class="slds-button slds-m-left_x-small" data-summaryid={orderSummId} variant="brand" onclick={startReOrder} label="Yes"></lightning-button>
+            </footer>
+
+          </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open"></div>
+      </template>
+      <!-- modal end -->
+  </div>
+</template>
