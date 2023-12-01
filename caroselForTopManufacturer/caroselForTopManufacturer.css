@@ -1,0 +1,52 @@
+
+.slider{
+    position: relative;
+}
+.slide > img {
+    max-width: 100%;
+}
+
+
+.slick-prev{
+    top: 50%;
+    color: white;
+    width: 55px;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    z-index: 10;
+}
+
+.slick-next{
+    top: 50%;
+    color: white;
+    width: 55px;
+    height: 60px;
+    position: absolute;
+    right: 16px;
+    z-index: 10;
+}
+
+.slick-next, .slick-prev::before {
+    font-size: 46px;
+}
+
+.prev-btn {
+    top: 50%;
+    color: white;
+    width: 55px;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    }
+    
+.next-btn {
+    top: 50%;
+    color: white;
+    width: 55px;
+    height: 60px;
+    position: absolute;
+    right: 16px;
+    z-index: 10;
+}

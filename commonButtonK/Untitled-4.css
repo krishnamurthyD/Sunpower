@@ -1,0 +1,25 @@
+
+
+[data-component-id="searchSortMenu-8ffd"] button {
+    border:1px solid black !important ;
+}
+[data-component-id="searchSortMenu-8ffd"] .slds-listbox{
+    color: black !important;
+    background-color: white !important;
+}
+[data-component-id="searchSortMenu-8ffd"] h3 {
+    margin:0px !important;
+}
+[data-component-id="searchSortMenu-8ffd"] [role="listbox"]>*[aria-checked="true"]{
+    background-color:#595959 !important;
+}
+[data-component-id="searchSortMenu-8ffd"] [role="listbox"]>*:not(span):hover{
+    background-color:var(--snp-clr-geygreen)!important;
+    
+}
+[data-component-id="searchSortMenu-8ffd"] [role="listbox"]>*[aria-checked="true"]>span:first-child {
+    visibility:hidden;
+}
+[data-component-id="searchSortMenu-8ffd"] [role="listbox"]>*{
+    text-align:left !important;
+}

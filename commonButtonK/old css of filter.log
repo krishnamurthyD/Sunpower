@@ -1,0 +1,100 @@
+[data-component-id="searchFilters-dea4"] .filters-title {
+	    color: transparent !important;
+	}
+    [data-component-id="snp_filter_toggle-2c0b"] .filters-header {
+        display:none !important;
+    }
+    [data-component-id="searchFilters-0e57"] .filters-title {
+        display:none !important;
+    }
+    [data-component-id="searchFilters-0e57"] .filters-header {
+    	justify-content: flex-end !important;
+    }
+     [data-component-id="searchFilters-0e57"] .clear-all {
+        display:none !important;
+		color: black !important;
+    	font-weight: 600 !important;
+    	word-spacing: 0.1rem !important;
+    	padding: 10px !important;
+    }
+    [data-component-id="searchFilters-0e57"] lightning-primitive-icon {
+        display:none !important;
+    }
+    [data-component-id="searchFilters-dea4"] .expand-button {
+        display:none !important;
+    }
+    [data-component-id="searchFilters-0e57"] .slds-checkbox_faux {
+        border:1px solid black !important;
+    }
+    [data-component-id="textBlock-00c7"] .dxp_base-textBlock_textBlock{
+        margin:0 ;
+    }
+    
+    [data-component-id="searchResults-0ffe"] .slds-button_brand {
+         background-color: #eaece7 !important;
+    }
+    
+    [data-component-id="breadcrumbs-b5dd"] .commerce-breadcrumbs_breadcrumbs:hover{
+        color: #fdc300 !important;
+    }
+    [data-component-id="searchFilters-0e57"] h2 {
+     	padding: 0 33px !important;
+    	font-size: 20px !important;
+    }
+    [data-component-id="searchFilters-0e57"] .slds-form-element__label {
+	    margin: 0;
+    padding: 2px;
+    }
+    [data-component-id="searchFilters-0e57"] .commerce_search-inputFacet_inputFacet {
+        padding: 0 36px;
+    }
+    [data-component-id="searchFilters-0e57"] .slds-checkbox_faux {
+            border-radius: 0px !important;
+    }
+    [data-component-id="snp_filter_toggle-e9c2"] .slds-button_stretch {
+        color:black !important;
+    }
+   
+	[data-component-id="searchFilters-0e57"] span [part="indicator"]::after {
+    border-color:black !important;
+    }
+   	[data-component-id="searchFilters-0e57"] span [part="indicator"]:hover {
+    border-color: #fdc300 !important;
+    }
+    [data-component-id="searchResults-ebec"] button {
+    color:black;
+    }
+    [data-component-id="searchResults-0ffe"] button {
+    color:black;
+    }
+    [data-component-id="searchResults-0ffe"] img {
+     height:275px !important;   
+    }
+    [data-component-id="searchResults-0ffe"] img:hover {
+     border:2px solid #fdc300 !important;   
+    }
+    [data-component-id="searchResults-ebec"] .slds-button_brand {
+         background-color: #eaece7 !important;
+    }
+    [data-component-id="searchResults-ebec"] img:hover {
+     border:2px solid #fdc300 !important;   
+    }
+    [data-component-id="searchResults-ebec"] img {
+     height:275px !important; 
+    }
+    [data-component-id="searchResults-0ffe"].pageControlPart button:hover {
+    background-color:white !important;
+    border:1px solid #fdc300 !important;
+    }
+    [data-component-id="searchResults-ebec"].pageControlPart button:hover {
+    background-color:white !important;
+    border:1px solid #fdc300 !important;
+    }
+    [data-component-id="searchResults-0ffe"] .slds-button:hover {
+        color:black !important;
+        background-color: #fdc300 !important;
+    }
+    [data-component-id="searchResults-ebec"] .slds-button:hover {
+        color:black !important;
+        background-color: #fdc300 !important;
+    }
