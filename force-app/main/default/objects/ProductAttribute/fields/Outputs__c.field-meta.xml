@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outputs__c</fullName>
+    <externalId>false</externalId>
+    <label>Outputs</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1 Channel</fullName>
+                <default>false</default>
+                <label>1 Channel</label>
+            </value>
+            <value>
+                <fullName>2 Channel</fullName>
+                <default>false</default>
+                <label>2 Channel</label>
+            </value>
+            <value>
+                <fullName>4 Channel</fullName>
+                <default>false</default>
+                <label>4 Channel</label>
+            </value>
+            <value>
+                <fullName>5 Channels</fullName>
+                <default>false</default>
+                <label>5 Channels</label>
+            </value>
+            <value>
+                <fullName>6 Channels</fullName>
+                <default>false</default>
+                <label>6 Channels</label>
+            </value>
+            <value>
+                <fullName>ATX</fullName>
+                <default>false</default>
+                <label>ATX</label>
+            </value>
+            <value>
+                <fullName>Dual</fullName>
+                <default>false</default>
+                <label>Dual</label>
+            </value>
+            <value>
+                <fullName>Quad</fullName>
+                <default>false</default>
+                <label>Quad</label>
+            </value>
+            <value>
+                <fullName>Quintuple</fullName>
+                <default>false</default>
+                <label>Quintuple</label>
+            </value>
+            <value>
+                <fullName>Single</fullName>
+                <default>false</default>
+                <label>Single</label>
+            </value>
+            <value>
+                <fullName>Six</fullName>
+                <default>false</default>
+                <label>Six</label>
+            </value>
+            <value>
+                <fullName>Triple</fullName>
+                <default>false</default>
+                <label>Triple</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

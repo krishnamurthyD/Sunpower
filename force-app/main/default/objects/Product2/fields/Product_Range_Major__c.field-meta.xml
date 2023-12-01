@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Range_Major__c</fullName>
+    <description>LUCKINS DATA</description>
+    <externalId>false</externalId>
+    <label>Product Range Major</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Controllers &amp; Repeaters</fullName>
+                <default>false</default>
+                <label>Controllers &amp; Repeaters</label>
+            </value>
+            <value>
+                <fullName>DIN Rail Power Supplies</fullName>
+                <default>false</default>
+                <label>DIN Rail Power Supplies</label>
+            </value>
+            <value>
+                <fullName>LED Batten Lights</fullName>
+                <default>false</default>
+                <label>LED Batten Lights</label>
+            </value>
+            <value>
+                <fullName>LED Downlights</fullName>
+                <default>false</default>
+                <label>LED Downlights</label>
+            </value>
+            <value>
+                <fullName>LED Drivers</fullName>
+                <default>false</default>
+                <label>LED Drivers</label>
+            </value>
+            <value>
+                <fullName>LED Flexible Strips</fullName>
+                <default>false</default>
+                <label>LED Flexible Strips</label>
+            </value>
+            <value>
+                <fullName>LED Floodlights</fullName>
+                <default>false</default>
+                <label>LED Floodlights</label>
+            </value>
+            <value>
+                <fullName>LED High Bay Lights</fullName>
+                <default>false</default>
+                <label>LED High Bay Lights</label>
+            </value>
+            <value>
+                <fullName>LED Light Bars</fullName>
+                <default>false</default>
+                <label>LED Light Bars</label>
+            </value>
+            <value>
+                <fullName>LED Lighting Accessories</fullName>
+                <default>false</default>
+                <label>LED Lighting Accessories</label>
+            </value>
+            <value>
+                <fullName>LED Lighting Kits</fullName>
+                <default>false</default>
+                <label>LED Lighting Kits</label>
+            </value>
+            <value>
+                <fullName>LED Lighting Products</fullName>
+                <default>false</default>
+                <label>LED Lighting Products</label>
+            </value>
+            <value>
+                <fullName>LED Low Bay Lights</fullName>
+                <default>false</default>
+                <label>LED Low Bay Lights</label>
+            </value>
+            <value>
+                <fullName>LED Wall Packs</fullName>
+                <default>false</default>
+                <label>LED Wall Packs</label>
+            </value>
+            <value>
+                <fullName>Power Supplies</fullName>
+                <default>false</default>
+                <label>Power Supplies</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

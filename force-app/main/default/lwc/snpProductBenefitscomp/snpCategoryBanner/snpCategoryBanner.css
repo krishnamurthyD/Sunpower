@@ -1,0 +1,17 @@
+.text-container {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    color: white;
+    font-family: '';
+}
+
+
+.image-container {
+    position: relative;
+}
+
+.image-dimensions {
+    max-height: 300px;
+    width: 100%;
+}

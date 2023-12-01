@@ -1,0 +1,16 @@
+.ColorChange {
+    /* background: rgb(37, 116, 169) !important; */
+    color: white;
+    padding: 4px;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+.Button-initial {
+    background-color: black;
+    color: white !important;
+}
+.Button-After {
+    background-color: white !important;
+    border: 1px solid !important;
+    color: black !important;
+}

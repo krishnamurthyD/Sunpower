@@ -1,0 +1,127 @@
+.slider {
+    height: 490px;
+    overflow: hidden;
+    display: inline-block;
+    width: 100px;
+    position: relative;
+    left: 12px;
+}
+.slick-list{
+    padding: 0 !important;
+}
+.image-wrapper {
+    max-width:100%;
+    opacity: 0.5;
+}
+.image-wrapper:hover{
+    cursor: pointer;
+    opacity: 1;
+}    
+.carousel-img{
+    width:100%;
+}
+.container {
+    width: 150px;
+}
+.slick-arrow {
+    color: red;
+    font-size: 13px;
+}
+.down-arrow-image{
+    max-width: 150px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 100px;
+}
+.up-arrow-image{
+    max-width: 150px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    top: 0px;
+    z-index: 1;
+    width: 100px;
+    transform: rotate(180deg);
+}
+.arrow-img{
+    width: 23%;
+    margin: 0 auto;
+}
+.hero-image-wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 25px 17px;
+}
+.hero-img {
+    width: 100%;
+    margin: 0 auto;
+}
+.slick-arrow {
+    display: none;
+}
+.slick-current {
+    border: 2px solid black;
+    opacity: 1;
+}
+.left-arrow-image{
+    height: 36px;
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    left: 8px;
+    transform: rotate(90deg);
+}
+.right-arrow-image{
+    position: absolute;
+    top: 50%;
+    right: 83px;
+    transform: rotate(-90deg);
+    height: 36px;
+    width: 40px;
+}
+.arrow-buttons:hover{
+    cursor: pointer;
+}
+.focus-show {
+    opacity: 1;
+}
+.focus-hide {
+    opacity: 0.5;
+}
+.hero-image-inner-wrapper{
+    width: 490px;
+}
+.disable-button{
+    opacity: 0.5;
+}
+.disable-button:hover{
+    cursor: auto;
+}
+.button-visiblity{
+    visibility: hidden;
+}
+@media only screen and (max-width: 768px) {
+    .firstLayout{
+        display: none;
+    }
+    .hero-image-inner-wrapper{
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .right-arrow-image{
+        right: 15px;
+    }
+    .left-arrow-image{
+        left: 15px;
+    }
+    .hero-image-wrapper{
+        margin: 10px 0;
+    }
+}

@@ -1,0 +1,39 @@
+<template>
+    <!-- {recordId}, {communityId} -->
+    <lightning-layout multiple-rows>
+        <lightning-layout-item size="12" small-device-size="12" medium-device-size="6" large-device-size="2" padding="horizontal-small" class="firstLayout">
+            <div class="inner-wrapper">
+                <div class="up-arrow-image arrow-buttons" onclick={handleUp}>
+                    <img class="arrow-img" src={downArrow} alt="upArrow" />
+                </div>
+                <div class="row slider">
+
+                    <template for:each={imgList} for:item="product" for:index="index">
+                            <div class="image-wrapper" key={product} data-id={index} onclick={handleThumbnailClicked}>
+                                <img class="carousel-img" src={product.url} alt="prodImg" />
+                            </div>
+                    </template>  
+      
+                </div> 
+                <div class="down-arrow-image arrow-buttons" onclick={handleDown}>
+                    <img class="arrow-img" src={downArrow} alt="downArrow" />
+                </div>    
+            </div>
+        </lightning-layout-item>
+        <lightning-layout-item size="12" small-device-size="12" medium-device-size="6" large-device-size="10" padding="horizontal-small">
+            
+            <div class="hero-image-wrapper">
+                <div class="left-arrow-image arrow-buttons" onclick={handleUp}>
+                        <img class="hero-arrow-img" src={downArrow} alt="upArrow" />
+                </div>
+                <div class="hero-image-inner-wrapper">
+                    <img class="hero-img" src={initialImageUrl} alt="heroImage">
+                </div>
+                <div class="right-arrow-image arrow-buttons" onclick={handleDown}>
+                    <img class="hero-arrow-img" src={downArrow} alt="downArrow" />
+                </div>  
+            </div>
+        </lightning-layout-item>
+    </lightning-layout>
+
+</template>

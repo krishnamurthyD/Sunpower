@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Output_Voltage__c</fullName>
+    <externalId>false</externalId>
+    <label>Output Voltage</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>±12VDC</fullName>
+                <default>false</default>
+                <label>±12VDC</label>
+            </value>
+            <value>
+                <fullName>±15VDC</fullName>
+                <default>false</default>
+                <label>±15VDC</label>
+            </value>
+            <value>
+                <fullName>±24VDC</fullName>
+                <default>false</default>
+                <label>±24VDC</label>
+            </value>
+            <value>
+                <fullName>±5VDC</fullName>
+                <default>false</default>
+                <label>±5VDC</label>
+            </value>
+            <value>
+                <fullName>±5VDC,12VDC</fullName>
+                <default>false</default>
+                <label>±5VDC,12VDC</label>
+            </value>
+            <value>
+                <fullName>0 ~ 240VAC</fullName>
+                <default>false</default>
+                <label>0 ~ 240VAC</label>
+            </value>
+            <value>
+                <fullName>10 ~ 54VDC</fullName>
+                <default>false</default>
+                <label>10 ~ 54VDC</label>
+            </value>
+            <value>
+                <fullName>100 ~ 200VDC</fullName>
+                <default>false</default>
+                <label>100 ~ 200VDC</label>
+            </value>
+            <value>
+                <fullName>100VDC</fullName>
+                <default>false</default>
+                <label>100VDC</label>
+            </value>
+            <value>
+                <fullName>105VDC</fullName>
+                <default>false</default>
+                <label>105VDC</label>
+            </value>
+            <value>
+                <fullName>108VDC</fullName>
+                <default>false</default>
+                <label>108VDC</label>
+            </value>
+            <value>
+                <fullName>10VDC</fullName>
+                <default>false</default>
+                <label>10VDC</label>
+            </value>
+            <value>
+                <fullName>11 ~ 33VDC</fullName>
+                <default>false</default>
+                <label>11 ~ 33VDC</label>
+            </value>
+            <value>
+                <fullName>11 ~ 36VDC</fullName>
+                <default>false</default>
+                <label>11 ~ 36VDC</label>
+            </value>
+            <value>
+                <fullName>11.5VAC</fullName>
+                <default>false</default>
+                <label>11.5VAC</label>
+            </value>
+            <value>
+                <fullName>11.5VDC</fullName>
+                <default>false</default>
+                <label>11.5VDC</label>
+            </value>
+            <value>
+                <fullName>110VAC</fullName>
+                <default>false</default>
+                <label>110VAC</label>
+            </value>
+            <value>
+                <fullName>114.3 ~ 228.6VDC</fullName>
+                <default>false</default>
+                <label>114.3 ~ 228.6VDC</label>
+            </value>
+            <value>
+                <fullName>115VDC</fullName>
+                <default>false</default>
+                <label>115VDC</label>
+            </value>
+            <value>
+                <fullName>119VDC</fullName>
+                <default>false</default>
+                <label>119VDC</label>
+            </value>
+            <value>
+                <fullName>12 ~ 24VDC</fullName>
+                <default>false</default>
+                <label>12 ~ 24VDC</label>
+            </value>
+            <value>
+                <fullName>12 ~ 36VDC</fullName>
+                <default>false</default>
+                <label>12 ~ 36VDC</label>
+            </value>
+            <value>
+                <fullName>12.5 ~ 36VDC</fullName>
+                <default>false</default>
+                <label>12.5 ~ 36VDC</label>
+            </value>
+            <value>
+                <fullName>12.5 ~ 50VDC</fullName>
+                <default>false</default>
+                <label>12.5 ~ 50VDC</label>
+            </value>
+            <value>
+                <fullName>12.5 ~ 72VDC</fullName>
+                <default>false</default>
+                <label>12.5 ~ 72VDC</label>
+            </value>
+            <value>
+                <fullName>12.5 ~ 84VDC</fullName>
+                <default>false</default>
+                <label>12.5 ~ 84VDC</label>
+            </value>
+            <value>
+                <fullName>120VDC</fullName>
+                <default>false</default>
+                <label>120VDC</label>
+            </value>
+            <value>
+                <fullName>12CVDC</fullName>
+                <default>false</default>
+                <label>12CVDC</label>
+            </value>
+            <value>
+                <fullName>12VDC</fullName>
+                <default>false</default>
+                <label>12VDC</label>
+            </value>
+            <value>
+                <fullName>12VDC,24VDC,5VDC</fullName>
+                <default>false</default>
+                <label>12VDC,24VDC,5VDC</label>
+            </value>
+            <value>
+                <fullName>12VDC,3VDC,5VDC</fullName>
+                <default>false</default>
+                <label>12VDC,3VDC,5VDC</label>
+            </value>
+            <value>
+                <fullName>12VDC,5VDC</fullName>
+                <default>false</default>
+                <label>12VDC,5VDC</label>
+            </value>
+            <value>
+                <fullName>12VDC,5VDC,24VDC</fullName>
+                <default>false</default>
+                <label>12VDC,5VDC,24VDC</label>
+            </value>
+            <value>
+                <fullName>12VDC,5VDC,3VDC</fullName>
+                <default>false</default>
+                <label>12VDC,5VDC,3VDC</label>
+            </value>
+            <value>
+                <fullName>12VDC,5VDC,3VDC,24VDC</fullName>
+                <default>false</default>
+                <label>12VDC,5VDC,3VDC,24VDC</label>
+            </value>
+            <value>
+                <fullName>12V-18VDC</fullName>
+                <default>false</default>
+                <label>12V-18VDC</label>
+            </value>
+            <value>
+                <fullName>12VDC,15VDC,5VDC</fullName>
+                <default>false</default>
+                <label>12VDC,15VDC,5VDC</label>
+            </value>
+            <value>
+                <fullName>12VDC,24VDC</fullName>
+                <default>false</default>
+                <label>12VDC,24VDC</label>
+            </value>
+            <value>
+                <fullName>12VDC,24VDC,3VDC,5VDC</fullName>
+                <default>false</default>
+                <label>12VDC,24VDC,3VDC,5VDC</label>
+            </value>
+            <value>
+                <fullName>12VDC,3.3VDC,5VDC</fullName>
+                <default>false</default>
+                <label>12VDC,3.3VDC,5VDC</label>
+            </value>
+            <value>
+                <fullName>12VDC,48VDC</fullName>
+                <default>false</default>
+                <label>12VDC,48VDC</label>
+            </value>
+            <value>
+                <fullName>13 ~ 130VDC</fullName>
+                <default>false</default>
+                <label>13 ~ 130VDC</label>
+            </value>
+            <value>
+                <fullName>13 ~ 26VDC</fullName>
+                <default>false</default>
+                <label>13 ~ 26VDC</label>
+            </value>
+            <value>
+                <fullName>13.5VDC</fullName>
+                <default>false</default>
+                <label>13.5VDC</label>
+            </value>
+            <value>
+                <fullName>13-26VDC</fullName>
+                <default>false</default>
+                <label>13-26VDC</label>
+            </value>
+            <value>
+                <fullName>13VDC,14VDC</fullName>
+                <default>false</default>
+                <label>13VDC,14VDC</label>
+            </value>
+            <value>
+                <fullName>13VDC,14VDC,5VDC</fullName>
+                <default>false</default>
+                <label>13VDC,14VDC,5VDC</label>
+            </value>
+            <value>
+                <fullName>14.4VDC</fullName>
+                <default>false</default>
+                <label>14.4VDC</label>
+            </value>
+            <value>
+                <fullName>143 ~ 286VDC</fullName>
+                <default>false</default>
+                <label>143 ~ 286VDC</label>
+            </value>
+            <value>
+                <fullName>143VDC</fullName>
+                <default>false</default>
+                <label>143VDC</label>
+            </value>
+            <value>
+                <fullName>144VDC</fullName>
+                <default>false</default>
+                <label>144VDC</label>
+            </value>
+            <value>
+                <fullName>146VDC</fullName>
+                <default>false</default>
+                <label>146VDC</label>
+            </value>
+            <value>
+                <fullName>148VDC</fullName>
+                <default>false</default>
+                <label>148VDC</label>
+            </value>
+            <value>
+                <fullName>149VDC</fullName>
+                <default>false</default>
+                <label>149VDC</label>
+            </value>
+            <value>
+                <fullName>14VDC</fullName>
+                <default>false</default>
+                <label>14VDC</label>
+            </value>
+            <value>
+                <fullName>14VDC,230VDC</fullName>
+                <default>false</default>
+                <label>14VDC,230VDC</label>
+            </value>
+            <value>
+                <fullName>15 ~ 142VDC</fullName>
+                <default>false</default>
+                <label>15 ~ 142VDC</label>
+            </value>
+            <value>
+                <fullName>15 ~ 35VDC</fullName>
+                <default>false</default>
+                <label>15 ~ 35VDC</label>
+            </value>
+            <value>
+                <fullName>15 ~ 50VDC</fullName>
+                <default>false</default>
+                <label>15 ~ 50VDC</label>
+            </value>
+            <value>
+                <fullName>150 ~ 380VDC</fullName>
+                <default>false</default>
+                <label>150 ~ 380VDC</label>
+            </value>
+            <value>
+                <fullName>151VDC</fullName>
+                <default>false</default>
+                <label>151VDC</label>
+            </value>
+            <value>
+                <fullName>152.4 ~ 304.8VDC</fullName>
+                <default>false</default>
+                <label>152.4 ~ 304.8VDC</label>
+            </value>
+            <value>
+                <fullName>15VDC</fullName>
+                <default>false</default>
+                <label>15VDC</label>
+            </value>
+            <value>
+                <fullName>15VDC,5VDC</fullName>
+                <default>false</default>
+                <label>15VDC,5VDC</label>
+            </value>
+            <value>
+                <fullName>15VDC,24VDC</fullName>
+                <default>false</default>
+                <label>15VDC,24VDC</label>
+            </value>
+            <value>
+                <fullName>15VDC,24VDC,5VDC</fullName>
+                <default>false</default>
+                <label>15VDC,24VDC,5VDC</label>
+            </value>
+            <value>
+                <fullName>15VDC,3VDC,5VDC</fullName>
+                <default>false</default>
+                <label>15VDC,3VDC,5VDC</label>
+            </value>
+            <value>
+                <fullName>16 ~ 24VDC</fullName>
+                <default>false</default>
+                <label>16 ~ 24VDC</label>
+            </value>
+            <value>
+                <fullName>160VDC</fullName>
+                <default>false</default>
+                <label>160VDC</label>
+            </value>
+            <value>
+                <fullName>16V-24VDC</fullName>
+                <default>false</default>
+                <label>16V-24VDC</label>
+            </value>
+            <value>
+                <fullName>16VDC</fullName>
+                <default>false</default>
+                <label>16VDC</label>
+            </value>
+            <value>
+                <fullName>179VDC</fullName>
+                <default>false</default>
+                <label>179VDC</label>
+            </value>
+            <value>
+                <fullName>17VDC</fullName>
+                <default>false</default>
+                <label>17VDC</label>
+            </value>
+            <value>
+                <fullName>18 ~ 186VDC</fullName>
+                <default>false</default>
+                <label>18 ~ 186VDC</label>
+            </value>
+            <value>
+                <fullName>18 ~ 35VDC</fullName>
+                <default>false</default>
+                <label>18 ~ 35VDC</label>
+            </value>
+            <value>
+                <fullName>18 ~ 36VDC</fullName>
+                <default>false</default>
+                <label>18 ~ 36VDC</label>
+            </value>
+            <value>
+                <fullName>180 ~ 264VAC</fullName>
+                <default>false</default>
+                <label>180 ~ 264VAC</label>
+            </value>
+            <value>
+                <fullName>18VDC</fullName>
+                <default>false</default>
+                <label>18VDC</label>
+            </value>
+            <value>
+                <fullName>19 ~ 38VDC</fullName>
+                <default>false</default>
+                <label>19 ~ 38VDC</label>
+            </value>
+            <value>
+                <fullName>19VDC</fullName>
+                <default>false</default>
+                <label>19VDC</label>
+            </value>
+            <value>
+                <fullName>2 ~ 100VDC</fullName>
+                <default>false</default>
+                <label>2 ~ 100VDC</label>
+            </value>
+            <value>
+                <fullName>2 ~ 12VDC</fullName>
+                <default>false</default>
+                <label>2 ~ 12VDC</label>
+            </value>
+            <value>
+                <fullName>2 ~ 17VDC</fullName>
+                <default>false</default>
+                <label>2 ~ 17VDC</label>
+            </value>
+            <value>
+                <fullName>2 ~ 18VDC</fullName>
+                <default>false</default>
+                <label>2 ~ 18VDC</label>
+            </value>
+            <value>
+                <fullName>2 ~ 24VDC</fullName>
+                <default>false</default>
+                <label>2 ~ 24VDC</label>
+            </value>
+            <value>
+                <fullName>2 ~ 27VDC</fullName>
+                <default>false</default>
+                <label>2 ~ 27VDC</label>
+            </value>
+            <value>
+                <fullName>2 ~ 28VDC</fullName>
+                <default>false</default>
+                <label>2 ~ 28VDC</label>
+            </value>
+            <value>
+                <fullName>2 ~ 29VDC</fullName>
+                <default>false</default>
+                <label>2 ~ 29VDC</label>
+            </value>
+            <value>
+                <fullName>2 ~ 34VDC</fullName>
+                <default>false</default>
+                <label>2 ~ 34VDC</label>
+            </value>
+            <value>
+                <fullName>2 ~ 38VDC</fullName>
+                <default>false</default>
+                <label>2 ~ 38VDC</label>
+            </value>
+            <value>
+                <fullName>2 ~ 42VDC,2 ~ 57VDC,2 ~ 67VDC,2 ~ 86VDC,2 ~ 90VDC</fullName>
+                <default>false</default>
+                <label>2 ~ 42VDC,2 ~ 57VDC,2 ~ 67VDC,2 ~ 86VDC,2 ~ 90VDC</label>
+            </value>
+            <value>
+                <fullName>2 ~ 57VDC</fullName>
+                <default>false</default>
+                <label>2 ~ 57VDC</label>
+            </value>
+            <value>
+                <fullName>2 ~ 6VDC</fullName>
+                <default>false</default>
+                <label>2 ~ 6VDC</label>
+            </value>
+            <value>
+                <fullName>2 ~ 8VDC</fullName>
+                <default>false</default>
+                <label>2 ~ 8VDC</label>
+            </value>
+            <value>
+                <fullName>2.5VDC</fullName>
+                <default>false</default>
+                <label>2.5VDC</label>
+            </value>
+            <value>
+                <fullName>20 ~ 52VDC</fullName>
+                <default>false</default>
+                <label>20 ~ 52VDC</label>
+            </value>
+            <value>
+                <fullName>200VDC</fullName>
+                <default>false</default>
+                <label>200VDC</label>
+            </value>
+            <value>
+                <fullName>20VDC</fullName>
+                <default>false</default>
+                <label>20VDC</label>
+            </value>
+            <value>
+                <fullName>21 ~ 42VDC</fullName>
+                <default>false</default>
+                <label>21 ~ 42VDC</label>
+            </value>
+            <value>
+                <fullName>214 ~ 428VDC</fullName>
+                <default>false</default>
+                <label>214 ~ 428VDC</label>
+            </value>
+            <value>
+                <fullName>215VDC</fullName>
+                <default>false</default>
+                <label>215VDC</label>
+            </value>
+            <value>
+                <fullName>22-29VDC</fullName>
+                <default>false</default>
+                <label>22-29VDC</label>
+            </value>
+            <value>
+                <fullName>225VDC</fullName>
+                <default>false</default>
+                <label>225VDC</label>
+            </value>
+            <value>
+                <fullName>22VDC</fullName>
+                <default>false</default>
+                <label>22VDC</label>
+            </value>
+            <value>
+                <fullName>230VAC</fullName>
+                <default>false</default>
+                <label>230VAC</label>
+            </value>
+            <value>
+                <fullName>230VDC</fullName>
+                <default>false</default>
+                <label>230VDC</label>
+            </value>
+            <value>
+                <fullName>230VDC,57VDC</fullName>
+                <default>false</default>
+                <label>230VDC,57VDC</label>
+            </value>
+            <value>
+                <fullName>238VDC</fullName>
+                <default>false</default>
+                <label>238VDC</label>
+            </value>
+            <value>
+                <fullName>23VDC</fullName>
+                <default>false</default>
+                <label>23VDC</label>
+            </value>
+            <value>
+                <fullName>24 ~ 36VDC</fullName>
+                <default>false</default>
+                <label>24 ~ 36VDC</label>
+            </value>
+            <value>
+                <fullName>24 ~ 58VDC</fullName>
+                <default>false</default>
+                <label>24 ~ 58VDC</label>
+            </value>
+            <value>
+                <fullName>240VAC</fullName>
+                <default>false</default>
+                <label>240VAC</label>
+            </value>
+            <value>
+                <fullName>24VDC</fullName>
+                <default>false</default>
+                <label>24VDC</label>
+            </value>
+            <value>
+                <fullName>24VDC,5VDC</fullName>
+                <default>false</default>
+                <label>24VDC,5VDC</label>
+            </value>
+            <value>
+                <fullName>24V-36VDC</fullName>
+                <default>false</default>
+                <label>24V-36VDC</label>
+            </value>
+            <value>
+                <fullName>24VDC,48VDC</fullName>
+                <default>false</default>
+                <label>24VDC,48VDC</label>
+            </value>
+            <value>
+                <fullName>25 ~ 50VDC</fullName>
+                <default>false</default>
+                <label>25 ~ 50VDC</label>
+            </value>
+            <value>
+                <fullName>25 ~ 70VDC</fullName>
+                <default>false</default>
+                <label>25 ~ 70VDC</label>
+            </value>
+            <value>
+                <fullName>250VDC</fullName>
+                <default>false</default>
+                <label>250VDC</label>
+            </value>
+            <value>
+                <fullName>25VDC</fullName>
+                <default>false</default>
+                <label>25VDC</label>
+            </value>
+            <value>
+                <fullName>26 ~ 43VDC</fullName>
+                <default>false</default>
+                <label>26 ~ 43VDC</label>
+            </value>
+            <value>
+                <fullName>26 ~ 52VDC</fullName>
+                <default>false</default>
+                <label>26 ~ 52VDC</label>
+            </value>
+            <value>
+                <fullName>26VDC</fullName>
+                <default>false</default>
+                <label>26VDC</label>
+            </value>
+            <value>
+                <fullName>27 ~ 56VDC</fullName>
+                <default>false</default>
+                <label>27 ~ 56VDC</label>
+            </value>
+            <value>
+                <fullName>277VAC</fullName>
+                <default>false</default>
+                <label>277VAC</label>
+            </value>
+            <value>
+                <fullName>27VDC</fullName>
+                <default>false</default>
+                <label>27VDC</label>
+            </value>
+            <value>
+                <fullName>27VDC,28VDC</fullName>
+                <default>false</default>
+                <label>27VDC,28VDC</label>
+            </value>
+            <value>
+                <fullName>27VDC,28VDC,5VDC</fullName>
+                <default>false</default>
+                <label>27VDC,28VDC,5VDC</label>
+            </value>
+            <value>
+                <fullName>28 ~ 100VDC</fullName>
+                <default>false</default>
+                <label>28 ~ 100VDC</label>
+            </value>
+            <value>
+                <fullName>28 ~ 56VDC</fullName>
+                <default>false</default>
+                <label>28 ~ 56VDC</label>
+            </value>
+            <value>
+                <fullName>28.8VDC</fullName>
+                <default>false</default>
+                <label>28.8VDC</label>
+            </value>
+            <value>
+                <fullName>28VDC</fullName>
+                <default>false</default>
+                <label>28VDC</label>
+            </value>
+            <value>
+                <fullName>29 ~ 285VDC</fullName>
+                <default>false</default>
+                <label>29 ~ 285VDC</label>
+            </value>
+            <value>
+                <fullName>29VDC</fullName>
+                <default>false</default>
+                <label>29VDC</label>
+            </value>
+            <value>
+                <fullName>3 ~ 12VDC</fullName>
+                <default>false</default>
+                <label>3 ~ 12VDC</label>
+            </value>
+            <value>
+                <fullName>3 ~ 21VDC</fullName>
+                <default>false</default>
+                <label>3 ~ 21VDC</label>
+            </value>
+            <value>
+                <fullName>3 ~ 36VDC</fullName>
+                <default>false</default>
+                <label>3 ~ 36VDC</label>
+            </value>
+            <value>
+                <fullName>3.3VDC</fullName>
+                <default>false</default>
+                <label>3.3VDC</label>
+            </value>
+            <value>
+                <fullName>300VDC</fullName>
+                <default>false</default>
+                <label>300VDC</label>
+            </value>
+            <value>
+                <fullName>30VDC</fullName>
+                <default>false</default>
+                <label>30VDC</label>
+            </value>
+            <value>
+                <fullName>315VDC</fullName>
+                <default>false</default>
+                <label>315VDC</label>
+            </value>
+            <value>
+                <fullName>320VAC</fullName>
+                <default>false</default>
+                <label>320VAC</label>
+            </value>
+            <value>
+                <fullName>320VDC</fullName>
+                <default>false</default>
+                <label>320VDC</label>
+            </value>
+            <value>
+                <fullName>32VDC</fullName>
+                <default>false</default>
+                <label>32VDC</label>
+            </value>
+            <value>
+                <fullName>34VDC</fullName>
+                <default>false</default>
+                <label>34VDC</label>
+            </value>
+            <value>
+                <fullName>35 ~ 57VDC</fullName>
+                <default>false</default>
+                <label>35 ~ 57VDC</label>
+            </value>
+            <value>
+                <fullName>35 ~ 72VDC</fullName>
+                <default>false</default>
+                <label>35 ~ 72VDC</label>
+            </value>
+            <value>
+                <fullName>357VDC</fullName>
+                <default>false</default>
+                <label>357VDC</label>
+            </value>
+            <value>
+                <fullName>36 ~ 72VDC</fullName>
+                <default>false</default>
+                <label>36 ~ 72VDC</label>
+            </value>
+            <value>
+                <fullName>36VDC</fullName>
+                <default>false</default>
+                <label>36VDC</label>
+            </value>
+            <value>
+                <fullName>36VDC,5VDC</fullName>
+                <default>false</default>
+                <label>36VDC,5VDC</label>
+            </value>
+            <value>
+                <fullName>380VDC</fullName>
+                <default>false</default>
+                <label>380VDC</label>
+            </value>
+            <value>
+                <fullName>38VDC</fullName>
+                <default>false</default>
+                <label>38VDC</label>
+            </value>
+            <value>
+                <fullName>3VDC</fullName>
+                <default>false</default>
+                <label>3VDC</label>
+            </value>
+            <value>
+                <fullName>4.2VDC</fullName>
+                <default>false</default>
+                <label>4.2VDC</label>
+            </value>
+            <value>
+                <fullName>4.5VDC</fullName>
+                <default>false</default>
+                <label>4.5VDC</label>
+            </value>
+            <value>
+                <fullName>40 ~ 80VDC</fullName>
+                <default>false</default>
+                <label>40 ~ 80VDC</label>
+            </value>
+            <value>
+                <fullName>400VDC</fullName>
+                <default>false</default>
+                <label>400VDC</label>
+            </value>
+            <value>
+                <fullName>40V-58VDC</fullName>
+                <default>false</default>
+                <label>40V-58VDC</label>
+            </value>
+            <value>
+                <fullName>42VDC</fullName>
+                <default>false</default>
+                <label>42VDC</label>
+            </value>
+            <value>
+                <fullName>430VDC</fullName>
+                <default>false</default>
+                <label>430VDC</label>
+            </value>
+            <value>
+                <fullName>43VDC</fullName>
+                <default>false</default>
+                <label>43VDC</label>
+            </value>
+            <value>
+                <fullName>45.7 ~ 91.4VDC</fullName>
+                <default>false</default>
+                <label>45.7 ~ 91.4VDC</label>
+            </value>
+            <value>
+                <fullName>46.4 ~ 116VDC</fullName>
+                <default>false</default>
+                <label>46.4 ~ 116VDC</label>
+            </value>
+            <value>
+                <fullName>48 ~ 95VDC</fullName>
+                <default>false</default>
+                <label>48 ~ 95VDC</label>
+            </value>
+            <value>
+                <fullName>48VDC</fullName>
+                <default>false</default>
+                <label>48VDC</label>
+            </value>
+            <value>
+                <fullName>48VDC,5VDC</fullName>
+                <default>false</default>
+                <label>48VDC,5VDC</label>
+            </value>
+            <value>
+                <fullName>4VDC</fullName>
+                <default>false</default>
+                <label>4VDC</label>
+            </value>
+            <value>
+                <fullName>5 ~ 24VDC</fullName>
+                <default>false</default>
+                <label>5 ~ 24VDC</label>
+            </value>
+            <value>
+                <fullName>5 ~ 24VDC,6 ~ 24VDC</fullName>
+                <default>false</default>
+                <label>5 ~ 24VDC,6 ~ 24VDC</label>
+            </value>
+            <value>
+                <fullName>50VDC</fullName>
+                <default>false</default>
+                <label>50VDC</label>
+            </value>
+            <value>
+                <fullName>52VDC</fullName>
+                <default>false</default>
+                <label>52VDC</label>
+            </value>
+            <value>
+                <fullName>53 ~ 107VDC</fullName>
+                <default>false</default>
+                <label>53 ~ 107VDC</label>
+            </value>
+            <value>
+                <fullName>54VDC</fullName>
+                <default>false</default>
+                <label>54VDC</label>
+            </value>
+            <value>
+                <fullName>54VDC,5VDC</fullName>
+                <default>false</default>
+                <label>54VDC,5VDC</label>
+            </value>
+            <value>
+                <fullName>55VDC</fullName>
+                <default>false</default>
+                <label>55VDC</label>
+            </value>
+            <value>
+                <fullName>56VDC</fullName>
+                <default>false</default>
+                <label>56VDC</label>
+            </value>
+            <value>
+                <fullName>57 ~ 114.3VDC</fullName>
+                <default>false</default>
+                <label>57 ~ 114.3VDC</label>
+            </value>
+            <value>
+                <fullName>57.6VDC</fullName>
+                <default>false</default>
+                <label>57.6VDC</label>
+            </value>
+            <value>
+                <fullName>57VDC</fullName>
+                <default>false</default>
+                <label>57VDC</label>
+            </value>
+            <value>
+                <fullName>58VDC</fullName>
+                <default>false</default>
+                <label>58VDC</label>
+            </value>
+            <value>
+                <fullName>5VDC</fullName>
+                <default>false</default>
+                <label>5VDC</label>
+            </value>
+            <value>
+                <fullName>5VDC,±15VDC</fullName>
+                <default>false</default>
+                <label>5VDC,±15VDC</label>
+            </value>
+            <value>
+                <fullName>5VDC,15VDC</fullName>
+                <default>false</default>
+                <label>5VDC,15VDC</label>
+            </value>
+            <value>
+                <fullName>5VDC,24VDC</fullName>
+                <default>false</default>
+                <label>5VDC,24VDC</label>
+            </value>
+            <value>
+                <fullName>5VDC,24VDC,15VDC</fullName>
+                <default>false</default>
+                <label>5VDC,24VDC,15VDC</label>
+            </value>
+            <value>
+                <fullName>5VDC,3VDC,15VDC</fullName>
+                <default>false</default>
+                <label>5VDC,3VDC,15VDC</label>
+            </value>
+            <value>
+                <fullName>5VDC,8VDC</fullName>
+                <default>false</default>
+                <label>5VDC,8VDC</label>
+            </value>
+            <value>
+                <fullName>5VDC-24VDC</fullName>
+                <default>false</default>
+                <label>5VDC-24VDC</label>
+            </value>
+            <value>
+                <fullName>6 ~ 24VDC</fullName>
+                <default>false</default>
+                <label>6 ~ 24VDC</label>
+            </value>
+            <value>
+                <fullName>6 ~ 54VDC</fullName>
+                <default>false</default>
+                <label>6 ~ 54VDC</label>
+            </value>
+            <value>
+                <fullName>6 ~ 62VDC</fullName>
+                <default>false</default>
+                <label>6 ~ 62VDC</label>
+            </value>
+            <value>
+                <fullName>60VDC</fullName>
+                <default>false</default>
+                <label>60VDC</label>
+            </value>
+            <value>
+                <fullName>62 ~ 155VDC</fullName>
+                <default>false</default>
+                <label>62 ~ 155VDC</label>
+            </value>
+            <value>
+                <fullName>6VDC</fullName>
+                <default>false</default>
+                <label>6VDC</label>
+            </value>
+            <value>
+                <fullName>7.5VDC</fullName>
+                <default>false</default>
+                <label>7.5VDC</label>
+            </value>
+            <value>
+                <fullName>70 ~ 180VAC</fullName>
+                <default>false</default>
+                <label>70 ~ 180VAC</label>
+            </value>
+            <value>
+                <fullName>71 ~ 143VDC</fullName>
+                <default>false</default>
+                <label>71 ~ 143VDC</label>
+            </value>
+            <value>
+                <fullName>75VDC</fullName>
+                <default>false</default>
+                <label>75VDC</label>
+            </value>
+            <value>
+                <fullName>76.2 ~ 152.4VDC</fullName>
+                <default>false</default>
+                <label>76.2 ~ 152.4VDC</label>
+            </value>
+            <value>
+                <fullName>7VDC</fullName>
+                <default>false</default>
+                <label>7VDC</label>
+            </value>
+            <value>
+                <fullName>80VDC</fullName>
+                <default>false</default>
+                <label>80VDC</label>
+            </value>
+            <value>
+                <fullName>8VDC</fullName>
+                <default>false</default>
+                <label>8VDC</label>
+            </value>
+            <value>
+                <fullName>9 ~ 18VDC</fullName>
+                <default>false</default>
+                <label>9 ~ 18VDC</label>
+            </value>
+            <value>
+                <fullName>9 ~ 24VDC</fullName>
+                <default>false</default>
+                <label>9 ~ 24VDC</label>
+            </value>
+            <value>
+                <fullName>9 ~ 36VDC</fullName>
+                <default>false</default>
+                <label>9 ~ 36VDC</label>
+            </value>
+            <value>
+                <fullName>9 ~ 48VDC</fullName>
+                <default>false</default>
+                <label>9 ~ 48VDC</label>
+            </value>
+            <value>
+                <fullName>9 ~ 93VDC</fullName>
+                <default>false</default>
+                <label>9 ~ 93VDC</label>
+            </value>
+            <value>
+                <fullName>91.4 ~ 182.8VDC</fullName>
+                <default>false</default>
+                <label>91.4 ~ 182.8VDC</label>
+            </value>
+            <value>
+                <fullName>92.8 ~ 232VDC</fullName>
+                <default>false</default>
+                <label>92.8 ~ 232VDC</label>
+            </value>
+            <value>
+                <fullName>94VDC</fullName>
+                <default>false</default>
+                <label>94VDC</label>
+            </value>
+            <value>
+                <fullName>95 ~ 240VDC</fullName>
+                <default>false</default>
+                <label>95 ~ 240VDC</label>
+            </value>
+            <value>
+                <fullName>96VDC</fullName>
+                <default>false</default>
+                <label>96VDC</label>
+            </value>
+            <value>
+                <fullName>9VDC</fullName>
+                <default>false</default>
+                <label>9VDC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

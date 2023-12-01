@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Commodity_General__c</fullName>
+    <externalId>false</externalId>
+    <label>Commodity General</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fire &amp; Security</fullName>
+                <default>false</default>
+                <label>Fire &amp; Security</label>
+            </value>
+            <value>
+                <fullName>Cable Management</fullName>
+                <default>false</default>
+                <label>Cable Management</label>
+            </value>
+            <value>
+                <fullName>Cables &amp; Accessories</fullName>
+                <default>false</default>
+                <label>Cables &amp; Accessories</label>
+            </value>
+            <value>
+                <fullName>Lighting</fullName>
+                <default>false</default>
+                <label>Lighting</label>
+            </value>
+            <value>
+                <fullName>Wiring Accessories</fullName>
+                <default>false</default>
+                <label>Wiring Accessories</label>
+            </value>
+            <value>
+                <fullName>HVAC Equipment</fullName>
+                <default>false</default>
+                <label>HVAC Equipment</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous</fullName>
+                <default>false</default>
+                <label>Miscellaneous</label>
+            </value>
+            <value>
+                <fullName>Pipe Systems</fullName>
+                <default>false</default>
+                <label>Pipe Systems</label>
+            </value>
+            <value>
+                <fullName>Plumbing &amp; Drainage</fullName>
+                <default>false</default>
+                <label>Plumbing &amp; Drainage</label>
+            </value>
+            <value>
+                <fullName>Tools &amp; Consumables</fullName>
+                <default>false</default>
+                <label>Tools &amp; Consumables</label>
+            </value>
+            <value>
+                <fullName>Industrial Controls</fullName>
+                <default>false</default>
+                <label>Industrial Controls</label>
+            </value>
+            <value>
+                <fullName>Circuit Protection</fullName>
+                <default>false</default>
+                <label>Circuit Protection</label>
+            </value>
+            <value>
+                <fullName>HVAC Controls</fullName>
+                <default>false</default>
+                <label>HVAC Controls</label>
+            </value>
+            <value>
+                <fullName>Fixings &amp; Supports</fullName>
+                <default>false</default>
+                <label>Fixings &amp; Supports</label>
+            </value>
+            <value>
+                <fullName>Sanitary &amp; Bathroom</fullName>
+                <default>false</default>
+                <label>Sanitary &amp; Bathroom</label>
+            </value>
+            <value>
+                <fullName>Business Services</fullName>
+                <default>false</default>
+                <label>Business Services</label>
+            </value>
+            <value>
+                <fullName>Renewables</fullName>
+                <default>false</default>
+                <label>Renewables</label>
+            </value>
+            <value>
+                <fullName>Data Accessories</fullName>
+                <default>false</default>
+                <label>Data Accessories</label>
+            </value>
+            <value>
+                <fullName>Contract Service Products</fullName>
+                <default>false</default>
+                <label>Contract Service Products</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

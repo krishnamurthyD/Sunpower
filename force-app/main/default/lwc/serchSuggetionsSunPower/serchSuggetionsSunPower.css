@@ -1,0 +1,9 @@
+.search-bar {
+    position: relative;
+  }
+  
+.search-flyout {
+    display: none;
+    /* Additional styles for flyout appearance */
+  }
+  

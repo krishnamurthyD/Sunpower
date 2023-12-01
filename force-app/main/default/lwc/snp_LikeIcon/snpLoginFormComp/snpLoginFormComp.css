@@ -1,0 +1,188 @@
+@font-face {
+
+    font-family: 'Sunpower Font';
+
+    src: url('/resource/ASSETS/Futura-CondensedLight.otf') format('opentype');
+
+}
+body {
+    background-size: cover;    
+    background-image: url("/resource/loginBackground"); /*choose image from static resource*/
+}
+
+.center {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-button {
+
+    background-color: #6DE0F6;   
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding: 0.5rem;
+    font-size: 16px;
+    font-family: Arial;
+}
+
+.main-heading {
+
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.sub-heading {
+
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+
+.input-element {
+    width: 100%;
+    padding: 0.5rem 0rem 0.5rem 2rem;
+    font-size: 16px;
+    letter-spacing: 0.1rem;
+    border: none;
+}
+
+.input-element::placeholder {
+    letter-spacing: 0.1rem;
+}
+
+.input-element:hover {
+    box-shadow: 1px 0px 2px 3px rgb(223 211 81 / 47%) !important;
+    outline-color: #1e1e13;
+    outline-width: 6px;
+    border: none !important;
+}
+
+.input-element:focus-within {
+    border: none !important;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.forgot-password-text {
+
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.register-text {
+
+    color: black;
+    font-size: 14px;
+    float: center;
+}
+
+.error {
+    font-weight: 500;
+    text-align: center;
+    word-break: break-word;
+    max-width: 20rem;
+    color: #f60606;
+}
+h1:hover{
+    color: #fdc300;
+}
+.input-wrapper{
+    margin-top: 116px;
+    font-family:Sunpower Font ;
+    letter-spacing:  0.1rem;
+}
+.form-wrapper, .sign-up-wrapper{
+    max-width: 443px !important;
+    position: relative !important;
+    margin: 0 auto !important;
+}
+.testButton{
+    width: 326px ;
+    border: 2px solid balck;
+}
+
+.login-form-button {
+    padding: 10px;
+    background: #eaece7;
+    border-radius: 8px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    border: none;
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+.login-form-button:hover{
+
+    background-color: #fdc300;
+}
+
+.login-form-separtor-wrapper{
+}
+
+.login-form-separator{
+    background: #000000;
+    height: calc(2 / 16 * 1rem);
+    width: 93%;
+    margin: 2rem auto 3rem auto;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+.signup-form-button{
+    padding: 10px;
+    background: #eaece7;
+    border-radius: 8px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    border: none;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 180px;
+    border: 1px solid black;
+}
+
+.no-account-title {
+    margin: 34px 0 23px 0;
+    text-align: center;
+    font-weight: 500;
+}
+.forgot-password:hover{
+    color: #fdc300;
+    text-decoration: underline;
+
+}
+.signup-form-button:hover{
+    background-color: #fdc300;
+}
+
+.eye-sign {
+    position: absolute;
+    right: 14px;
+    top: 14px;
+    font-size: 19px
+}
+input:focus::placeholder {
+    color: transparent;
+  }
+  .email-error{
+    margin-left: 14px;
+    color: red;
+  }
+
+@media only screen and (max-width: 768px) {
+    .input-wrapper{
+        padding: 0rem 1rem;
+    }
+    .login-form-separator{ 
+        margin: 2rem auto 1rem auto;
+    }
+}

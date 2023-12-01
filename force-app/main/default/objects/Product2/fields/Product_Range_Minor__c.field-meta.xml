@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Range_Minor__c</fullName>
+    <externalId>false</externalId>
+    <label>Product Range Minor</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>5M Flexible LED Tape</fullName>
+                <default>false</default>
+                <label>5M Flexible LED Tape</label>
+            </value>
+            <value>
+                <fullName>AC LIGHTSTICK</fullName>
+                <default>false</default>
+                <label>AC LIGHTSTICK</label>
+            </value>
+            <value>
+                <fullName>AC LIGHTSTICK Accessories</fullName>
+                <default>false</default>
+                <label>AC LIGHTSTICK Accessories</label>
+            </value>
+            <value>
+                <fullName>Aluminium Extrusions</fullName>
+                <default>false</default>
+                <label>Aluminium Extrusions</label>
+            </value>
+            <value>
+                <fullName>BERM</fullName>
+                <default>false</default>
+                <label>BERM</label>
+            </value>
+            <value>
+                <fullName>Blade2 Floodlights</fullName>
+                <default>false</default>
+                <label>Blade2 Floodlights</label>
+            </value>
+            <value>
+                <fullName>CONNECT Accessories</fullName>
+                <default>false</default>
+                <label>CONNECT Accessories</label>
+            </value>
+            <value>
+                <fullName>Connect Drivers</fullName>
+                <default>false</default>
+                <label>Connect Drivers</label>
+            </value>
+            <value>
+                <fullName>Connect Light Bars</fullName>
+                <default>false</default>
+                <label>Connect Light Bars</label>
+            </value>
+            <value>
+                <fullName>Constant Current IP67</fullName>
+                <default>false</default>
+                <label>Constant Current IP67</label>
+            </value>
+            <value>
+                <fullName>Constant Voltage</fullName>
+                <default>false</default>
+                <label>Constant Voltage</label>
+            </value>
+            <value>
+                <fullName>Constant Voltage Dimming Controller</fullName>
+                <default>false</default>
+                <label>Constant Voltage Dimming Controller</label>
+            </value>
+            <value>
+                <fullName>Constant Voltage IP64</fullName>
+                <default>false</default>
+                <label>Constant Voltage IP64</label>
+            </value>
+            <value>
+                <fullName>Constant Voltage IP67</fullName>
+                <default>false</default>
+                <label>Constant Voltage IP67</label>
+            </value>
+            <value>
+                <fullName>Constant Voltage Triac Dimming</fullName>
+                <default>false</default>
+                <label>Constant Voltage Triac Dimming</label>
+            </value>
+            <value>
+                <fullName>CV &amp; CC Dimming IP67</fullName>
+                <default>false</default>
+                <label>CV &amp; CC Dimming IP67</label>
+            </value>
+            <value>
+                <fullName>Dimmer Switch</fullName>
+                <default>false</default>
+                <label>Dimmer Switch</label>
+            </value>
+            <value>
+                <fullName>DIN Rail Power Supplies</fullName>
+                <default>false</default>
+                <label>DIN Rail Power Supplies</label>
+            </value>
+            <value>
+                <fullName>Emergency Lighting</fullName>
+                <default>false</default>
+                <label>Emergency Lighting</label>
+            </value>
+            <value>
+                <fullName>Flex Floodlights</fullName>
+                <default>false</default>
+                <label>Flex Floodlights</label>
+            </value>
+            <value>
+                <fullName>FLEX-PIR Floodlights</fullName>
+                <default>false</default>
+                <label>FLEX-PIR Floodlights</label>
+            </value>
+            <value>
+                <fullName>GEN2 Highbays</fullName>
+                <default>false</default>
+                <label>GEN2 Highbays</label>
+            </value>
+            <value>
+                <fullName>Highbay LED Lighting</fullName>
+                <default>false</default>
+                <label>Highbay LED Lighting</label>
+            </value>
+            <value>
+                <fullName>Indoor LED Lighting</fullName>
+                <default>false</default>
+                <label>Indoor LED Lighting</label>
+            </value>
+            <value>
+                <fullName>LED Flexible Strip Joining Connectors</fullName>
+                <default>false</default>
+                <label>LED Flexible Strip Joining Connectors</label>
+            </value>
+            <value>
+                <fullName>LED Flexible Strip Solderless Joining Connectors</fullName>
+                <default>false</default>
+                <label>LED Flexible Strip Solderless Joining Connectors</label>
+            </value>
+            <value>
+                <fullName>LED Flexible Strip Splice Joining Connectors</fullName>
+                <default>false</default>
+                <label>LED Flexible Strip Splice Joining Connectors</label>
+            </value>
+            <value>
+                <fullName>LED Flexi Strips</fullName>
+                <default>false</default>
+                <label>LED Flexi Strips</label>
+            </value>
+            <value>
+                <fullName>LED Hat</fullName>
+                <default>false</default>
+                <label>LED Hat</label>
+            </value>
+            <value>
+                <fullName>LED Lighting Accessories</fullName>
+                <default>false</default>
+                <label>LED Lighting Accessories</label>
+            </value>
+            <value>
+                <fullName>LED Power &amp; Control</fullName>
+                <default>false</default>
+                <label>LED Power &amp; Control</label>
+            </value>
+            <value>
+                <fullName>Light Bar Accessories</fullName>
+                <default>false</default>
+                <label>Light Bar Accessories</label>
+            </value>
+            <value>
+                <fullName>Linear Highbays</fullName>
+                <default>false</default>
+                <label>Linear Highbays</label>
+            </value>
+            <value>
+                <fullName>LOWBAY</fullName>
+                <default>false</default>
+                <label>LOWBAY</label>
+            </value>
+            <value>
+                <fullName>LOWBAY+IP54</fullName>
+                <default>false</default>
+                <label>LOWBAY+IP54</label>
+            </value>
+            <value>
+                <fullName>Marine Grade LED Floodlights</fullName>
+                <default>false</default>
+                <label>Marine Grade LED Floodlights</label>
+            </value>
+            <value>
+                <fullName>MINIZ LED Downlights</fullName>
+                <default>false</default>
+                <label>MINIZ LED Downlights</label>
+            </value>
+            <value>
+                <fullName>ORRA-B LED Batten Lights</fullName>
+                <default>false</default>
+                <label>ORRA-B LED Batten Lights</label>
+            </value>
+            <value>
+                <fullName>PIR Sensor</fullName>
+                <default>false</default>
+                <label>PIR Sensor</label>
+            </value>
+            <value>
+                <fullName>Power Repeater</fullName>
+                <default>false</default>
+                <label>Power Repeater</label>
+            </value>
+            <value>
+                <fullName>Remote Control</fullName>
+                <default>false</default>
+                <label>Remote Control</label>
+            </value>
+            <value>
+                <fullName>REVO LED Batten Light</fullName>
+                <default>false</default>
+                <label>REVO LED Batten Light</label>
+            </value>
+            <value>
+                <fullName>RF Constant Voltage Receiver</fullName>
+                <default>false</default>
+                <label>RF Constant Voltage Receiver</label>
+            </value>
+            <value>
+                <fullName>SENA</fullName>
+                <default>false</default>
+                <label>SENA</label>
+            </value>
+            <value>
+                <fullName>Switchmode Power Supplies</fullName>
+                <default>false</default>
+                <label>Switchmode Power Supplies</label>
+            </value>
+            <value>
+                <fullName>TRIO LED Lighting</fullName>
+                <default>false</default>
+                <label>TRIO LED Lighting</label>
+            </value>
+            <value>
+                <fullName>TYRO LED Batten Light</fullName>
+                <default>false</default>
+                <label>TYRO LED Batten Light</label>
+            </value>
+            <value>
+                <fullName>UVC Mains dimmable drivers</fullName>
+                <default>false</default>
+                <label>UVC Mains dimmable drivers</label>
+            </value>
+            <value>
+                <fullName>VHB Tape</fullName>
+                <default>false</default>
+                <label>VHB Tape</label>
+            </value>
+            <value>
+                <fullName>Waterproof Connectors</fullName>
+                <default>false</default>
+                <label>Waterproof Connectors</label>
+            </value>
+            <value>
+                <fullName>Waterproof Junction Box</fullName>
+                <default>false</default>
+                <label>Waterproof Junction Box</label>
+            </value>
+            <value>
+                <fullName>Wireless LED Power &amp; Control</fullName>
+                <default>false</default>
+                <label>Wireless LED Power &amp; Control</label>
+            </value>
+            <value>
+                <fullName>Wireless Smartphone RGB LED Controller Kit</fullName>
+                <default>false</default>
+                <label>Wireless Smartphone RGB LED Controller Kit</label>
+            </value>
+            <value>
+                <fullName>ZEN4 LED Downlights</fullName>
+                <default>false</default>
+                <label>ZEN4 LED Downlights</label>
+            </value>
+            <value>
+                <fullName>ZEN5 LED Downlights</fullName>
+                <default>false</default>
+                <label>ZEN5 LED Downlights</label>
+            </value>
+            <value>
+                <fullName>ZEN7 LED Downlights</fullName>
+                <default>false</default>
+                <label>ZEN7 LED Downlights</label>
+            </value>
+            <value>
+                <fullName>ZEN8 LED Downlights</fullName>
+                <default>false</default>
+                <label>ZEN8 LED Downlights</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

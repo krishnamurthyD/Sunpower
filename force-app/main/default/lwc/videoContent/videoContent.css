@@ -1,0 +1,29 @@
+.video-playing{
+
+    border: 1px black solid;
+}
+.actual-video{
+    width: 100%;
+    height: 975px;
+}
+.ytp-chrome-top{
+    display: none;
+}
+.ytp-shorts-title-channel{
+    display: none;
+}
+.ytp-unmute{
+    display: none;
+}
+.ytp-spinner{
+    display: none;
+}
+.ytp-storyboard-framepreview {
+    display: none;
+}
+.ytp-bezel-text-hide {
+    display: none;
+}
+.ytp-doubletap-ui-legacy {
+    display: none;
+}

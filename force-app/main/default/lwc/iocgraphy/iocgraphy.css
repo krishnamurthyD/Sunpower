@@ -1,0 +1,30 @@
+.collapse-wrapper {
+    width: 2%;
+}
+.text-plusMark-wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border: none;
+    padding: 0.625rem;
+}
+
+.Specification-contant-wrapper {
+    display: flex;
+}
+
+.innere-content-wrapper {
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.icon-wrapper {
+    font-size: 0.75rem;
+}
+.content{
+    width: 89%;
+}

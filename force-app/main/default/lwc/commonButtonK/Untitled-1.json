@@ -1,0 +1,39 @@
+{
+    "Method": "PutOrder",
+    "Params": {
+        "to_address": {
+            "name": "John Doe",
+            "company": "ShippyPro",
+            "street1": "Calleva Park Orion House",
+            "street2": "",
+            "city": "Aldermaston",
+            "state": "",
+            "zip": "RG7 8SN",
+            "country": "GB",
+            "phone": "5551231234",
+            "email": "johndoe@gmail.com"
+        },
+        "parcels": [
+            {
+                "length": 5,
+                "width": 5,
+                "height": 5,
+                "weight": 10
+            }
+        ],
+        "TransactionID": "ORDER2365",
+        "Date": 1693977858,
+        "Currency": "EUR",
+        "ItemsCount": 1,
+        "ContentDescription": "Nike Shoes",
+        "Total": 23.5,
+        "Status": "Paid",
+        "APIOrdersID": 30,
+        "ShipmentAmountPaid": 23.5,
+        "Incoterm": "DAP",
+        "BillAccountNumber": "",
+        "PaymentMethod": "PayPal",
+        "ShippingService": "Expedited",
+        "Note": "Ship by 06/09/2023"
+    }
+}

@@ -1,0 +1,225 @@
+<template>
+    <!-- Navigation bar -->
+    <!-- <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#showcase">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#food">Category</a></li>
+                <li><a href="#food-menu">Menu</a></li>
+                <li><a href="#testimonials">Testimonial</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <h1 class="logo">FW</h1>
+        </div>
+    </nav> -->
+
+    <!-- Home Area text and button -->
+    <section class="showcase-area" id="showcase">
+        <div class="showcase-container"> 
+            <h1 class="main-title">Eat Right Food</h1>
+              <p>Eat healthy food,it is good food for health.</p>
+            <a href="#food-menu" class="btn btn-primary">Menu</a>
+        </div>
+    </section>
+
+    <!-- About Area text and image -->
+    <section class="about">
+     <div class="about-wrapper container">
+        <div class="about-text">
+            <p class="small">About Us</p>
+            <h2>We'have been making healthhy food from last ten years</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod quibusdam odit ea! Aut a sequi deleniti. Minima est voluptate qui quasi illo atque a quas maiores sint repellat, quia asperiores at cupiditate voluptas dolorum iste error recusandae officiis nobis odit!</p>
+        </div>
+        <div class="about-img">
+            <img src={aboutImage} alt="About Us">
+        </div>
+     </div>
+    </section>
+
+    <!-- Food area  -->
+    <section class="food">
+        <h2>Type of Food</h2>
+        <div class="food-container container">
+            <div class="food-type fruit">
+                <div class="img-container">
+                    <img src={food1Image} alt="">
+                    <div class="img-content">
+                        <h3>Fruit</h3>
+                        <a href="https://en.wikipedia.org/wiki/Fruit" class="btn btn-primary" target="_blank">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="food-type vegetable">
+                <div class="img-container">
+                    <img src={food2Image} alt="">
+                    <div class="img-content">
+                        <h3>Vegetable</h3>
+                        <a href="https://en.wikipedia.org/wiki/Vegetable" class="btn btn-primary" target="_blank">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="food-type grain">
+                <div class="img-container">
+                    <img src={food3Image} alt="">
+                    <div class="img-content">
+                        <h3>Grain</h3>
+                        <a href="https://en.wikipedia.org/wiki/Grain" class="btn btn-primary" target="_blank">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Food menu -->
+    <section class="food-menu" id="food-menu">
+        <h2 class="food-menu-heading">
+            <span class="different-color-1">F</span>
+            <span class="different-color-2">o</span>
+            <span class="different-color-3">o</span>
+            <span class="different-color-4">d </span>
+            <span class="different-color-5"> </span>
+            <span class="different-color-6">M</span>
+            <span class="different-color-7">e</span>
+            <span class="different-color-8">n</span>
+            <span class="different-color-9">u</span>
+        </h2>
+        <div class="food-menu-container container">
+            <div class="food-menu-item">
+                <div class="food-image">
+                    <img src={menu1Image} alt="">
+                </div>
+                <div class="food-description">
+                    <h2 class="food-title">Food Menu Item 1</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere dignissimos optio ducimus?</p>
+                    <p class="food-price">Price: &#8377; 240</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-image">
+                    <img src={menu2Image} alt="">
+                </div>
+                <div class="food-description">
+                    <h2 class="food-title">Food Menu Item 2</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere dignissimos optio ducimus?</p>
+                    <p class="food-price">Price: &#8377; 240</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-image">
+                    <img src={menu3Image} alt="">
+                </div>
+                <div class="food-description">
+                    <h2 class="food-title">Food Menu Item 3</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere dignissimos optio ducimus?</p>
+                    <p class="food-price">Price: &#8377; 240</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-image">
+                    <img src={menu4Image} alt="">
+                </div>
+                <div class="food-description">
+                    <h2 class="food-title">Food Menu Item 4</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere dignissimos optio ducimus?</p>
+                    <p class="food-price">Price: &#8377; 240</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-image">
+                    <img src={menu5Image} alt="">
+                </div>
+                <div class="food-description">
+                    <h2 class="food-title">Food Menu Item 5</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere dignissimos optio ducimus?</p>
+                    <p class="food-price">Price: &#8377; 240</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-image">
+                    <img src={menu6Image} alt="">
+                </div>
+                <div class="food-description">
+                    <h2 class="food-title">Food Menu Item 6</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere dignissimos optio ducimus?</p>
+                    <p class="food-price">Price: &#8377; 240</p>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+
+    <!-- Testimonal Section -->
+    <section class="testimonials">
+        <h2 class="testimonial-title">What Our Custumer Say</h2>
+        <div class="testimonial-container container">
+            <div class="testimonial-box">
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="testimonial-text">Lorem ullam molliti similique neque eum. Exercitationem consectetur doloremque tempore neque, ab non recusandae beatae fugit repellat et sed natus.</p>
+                <div class="customer-detail">
+                    <div class="customer-photo"><img src={male1Image} alt=""></div>
+                    <p class="customer-name">Manoj</p>
+                </div>
+            </div>
+            <div class="testimonial-box">
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="testimonial-text">Kalias ipsa eius totam dignissimos similique neque eum. Exercitationem consectetur doloremque tempore neque, ab non recusandae beatae fugit repellat et sed natus.</p>
+                <div class="customer-detail">
+                    <div class="customer-photo"><img src={male2Image} alt=""></div>
+                    <p class="customer-name">Sakate</p>
+                </div>
+            </div>
+            <div class="testimonial-box">
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="testimonial-text">Lorem ullam mollitia dignissimos similique neque eum. Exercitationem consectetur doloremque tempore neque, ab non recusandae beatae fugit repellat et sed natus.</p>
+                <div class="customer-detail">
+                    <div class="customer-photo"><img src={male3Image} alt=""></div>
+                    <p class="customer-name">Jay</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Information  -->
+    <!-- <section id="contact">
+        <div class="contact-container container">
+            <div class="contact-image">
+                <img src="./img/restraunt-image.jpg" alt="">
+            </div>
+            <div class="form-container">
+                <h2>Cotact us</h2>
+                <input type="text" name="" id="one" placeholder="Name">
+                <input type="email" name="" id="two" placeholder="E-mail">
+                <textarea name="" id="three" cols="30" rows="10" placeholder="Type Your Message Here"></textarea>
+                <a href="" class="btn btn-primary">Submit</a>
+            </div>
+        </div>
+    </section>
+     Footer 
+    <footer id="footer">
+        <h2>Restraunt Website &copy; all rights Reserved.</h2>
+    </footer> -->    
+</template>

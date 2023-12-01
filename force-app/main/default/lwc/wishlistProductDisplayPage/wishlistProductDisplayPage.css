@@ -1,0 +1,28 @@
+.container {
+    border: 1px;
+}
+.container .card img{
+    max-height: 300px;
+    object-fit: contain;
+}
+.container .card button {
+    width: unset;
+    color: rgb(37, 116, 169);
+    background-color: #fff;
+    border: 1px solid #999;
+}
+.container .card button:focus {
+    background-color: rgb(37, 116, 169);
+    color: #fff;
+}
+.text-center {
+    border: 1px solid !important;
+}
+.color-btn {
+    background-color: black !important;
+    color: white !important;
+}
+.card-wrapper {
+    width: 33% !important;
+
+}

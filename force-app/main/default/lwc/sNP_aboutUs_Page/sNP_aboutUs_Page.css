@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Sunpower Font';
+    src: url('/s/sfsites/c/resource/CENTURYGOTHIC/GOTHICB.ttf') format('TrueType');
+}
+    *{
+        font-family:'Sunpower Font';
+    }

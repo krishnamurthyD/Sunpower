@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Sunpower';
+    src: url('/s/sfsites/c/resource/SUNPOWERFONTS/Futura-Medium.ttf') format('TrueType');
+
+}
+
+.parent-nav {
+    background-color: #ffffff !important;
+    position: relative;
+}
+
+.nav-list {
+    background-color: #000000;
+    list-style-type: none;
+    margin: 0 0 0 0;
+    padding: 0;
+    position: relative;
+    z-index: 12;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Sunpower' !important;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 10px 0px 10px;
+    margin-left: 31px;
+    font-family: 'Sunpower' !important;
+}
+
+.nav-item:first-child {
+    margin-left: 15px;
+}
+
+.nav-item::after {
+    content: "";
+    display: block;
+    background-color: transparent;
+    height: 2px;
+    width: 0;
+    transition: all .2s ease-in;
+}
+
+.nav-item:hover::after {
+    background-color: #EDC300;
+    width: 100%;
+}
+
+.nav-link {
+    text-decoration: none !important;
+    color: #f8f2f2e1 !important;
+    font-family: 'Sunpower' !important;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.navigation-menu-container {
+    display: block;
+    background-color: #A5A49B;
+    color: #ffffff;
+    position: absolute;
+    width: 100%;
+    z-index: 11;
+    top: 98%;
+}
+
+.navigation-menu-height-controller {
+    max-height: 500px;
+    overflow: auto;
+}
+
+.navigation-menu-wrapper {
+    padding: 0px !important;
+}
+
+.navigation-menu-main-category {
+    border-right: 2px solid #ffffff;
+}
+
+.navigation-menu {
+    padding: 0px !important;
+    margin: 0px !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.navigation-menu-list {
+    padding: 10px !important;
+    display: inline-block;
+    flex-grow: 1;
+    width: 200px;
+}
+
+.navigation-menu-link {
+    padding: 0px !important;
+    width: 95%;
+}
+
+.navigation-menu-list:hover {
+    background-color: #FDC300;
+}
+
+@media screen and (max-width:991px) {
+    .nav-item {
+        margin-right: 0;
+    }
+}
+
+.category-images {
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.modal-backgrounds {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background: #000000bf;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 10;
+    display: none;
+    overflow: hidden;
+}
+
+.modal-backgrounds-show {
+    display: block;
+}

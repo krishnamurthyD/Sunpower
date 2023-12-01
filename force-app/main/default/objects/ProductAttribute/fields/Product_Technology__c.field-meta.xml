@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Technology__c</fullName>
+    <externalId>false</externalId>
+    <label>Product Technology</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1xMOPP,2xMOPP</fullName>
+                <default>false</default>
+                <label>1xMOPP,2xMOPP</label>
+            </value>
+            <value>
+                <fullName>2xMOPP</fullName>
+                <default>false</default>
+                <label>2xMOPP</label>
+            </value>
+            <value>
+                <fullName>2xMOPP,BF,Level VI</fullName>
+                <default>false</default>
+                <label>2xMOPP,BF,Level VI</label>
+            </value>
+            <value>
+                <fullName>2xMOPP,BP,Level VI</fullName>
+                <default>false</default>
+                <label>2xMOPP,BP,Level VI</label>
+            </value>
+            <value>
+                <fullName>Active PFC</fullName>
+                <default>false</default>
+                <label>Active PFC</label>
+            </value>
+            <value>
+                <fullName>Active PFC,DALI-2</fullName>
+                <default>false</default>
+                <label>Active PFC,DALI-2</label>
+            </value>
+            <value>
+                <fullName>Active PFC,Level VI</fullName>
+                <default>false</default>
+                <label>Active PFC,Level VI</label>
+            </value>
+            <value>
+                <fullName>Active PFC,Microprocessor Controlled</fullName>
+                <default>false</default>
+                <label>Active PFC,Microprocessor Controlled</label>
+            </value>
+            <value>
+                <fullName>Active PFC,Water Cooled</fullName>
+                <default>false</default>
+                <label>Active PFC,Water Cooled</label>
+            </value>
+            <value>
+                <fullName>ATX</fullName>
+                <default>false</default>
+                <label>ATX</label>
+            </value>
+            <value>
+                <fullName>BLE</fullName>
+                <default>false</default>
+                <label>BLE</label>
+            </value>
+            <value>
+                <fullName>BLE,Casambi</fullName>
+                <default>false</default>
+                <label>BLE,Casambi</label>
+            </value>
+            <value>
+                <fullName>Buck-boost mode</fullName>
+                <default>false</default>
+                <label>Buck-boost mode</label>
+            </value>
+            <value>
+                <fullName>DALI</fullName>
+                <default>false</default>
+                <label>DALI</label>
+            </value>
+            <value>
+                <fullName>DALI Control Technology</fullName>
+                <default>false</default>
+                <label>DALI Control Technology</label>
+            </value>
+            <value>
+                <fullName>DALI Control Technology,Push-Dim</fullName>
+                <default>false</default>
+                <label>DALI Control Technology,Push-Dim</label>
+            </value>
+            <value>
+                <fullName>DALI,PWM,Push-Dim</fullName>
+                <default>false</default>
+                <label>DALI,PWM,Push-Dim</label>
+            </value>
+            <value>
+                <fullName>DALI-2</fullName>
+                <default>false</default>
+                <label>DALI-2</label>
+            </value>
+            <value>
+                <fullName>Digital</fullName>
+                <default>false</default>
+                <label>Digital</label>
+            </value>
+            <value>
+                <fullName>DMX</fullName>
+                <default>false</default>
+                <label>DMX</label>
+            </value>
+            <value>
+                <fullName>ECO,Industrial</fullName>
+                <default>false</default>
+                <label>ECO,Industrial</label>
+            </value>
+            <value>
+                <fullName>EnOcean</fullName>
+                <default>false</default>
+                <label>EnOcean</label>
+            </value>
+            <value>
+                <fullName>Flicker Free</fullName>
+                <default>false</default>
+                <label>Flicker Free</label>
+            </value>
+            <value>
+                <fullName>High CRI</fullName>
+                <default>false</default>
+                <label>High CRI</label>
+            </value>
+            <value>
+                <fullName>KNX</fullName>
+                <default>false</default>
+                <label>KNX</label>
+            </value>
+            <value>
+                <fullName>Level V</fullName>
+                <default>false</default>
+                <label>Level V</label>
+            </value>
+            <value>
+                <fullName>Level VI</fullName>
+                <default>false</default>
+                <label>Level VI</label>
+            </value>
+            <value>
+                <fullName>Linear</fullName>
+                <default>false</default>
+                <label>Linear</label>
+            </value>
+            <value>
+                <fullName>LPS</fullName>
+                <default>false</default>
+                <label>LPS</label>
+            </value>
+            <value>
+                <fullName>Non PFC</fullName>
+                <default>false</default>
+                <label>Non PFC</label>
+            </value>
+            <value>
+                <fullName>Non-LPS</fullName>
+                <default>false</default>
+                <label>Non-LPS</label>
+            </value>
+            <value>
+                <fullName>Passive PFC</fullName>
+                <default>false</default>
+                <label>Passive PFC</label>
+            </value>
+            <value>
+                <fullName>PFC</fullName>
+                <default>false</default>
+                <label>PFC</label>
+            </value>
+            <value>
+                <fullName>Programmable</fullName>
+                <default>false</default>
+                <label>Programmable</label>
+            </value>
+            <value>
+                <fullName>Programmable,Water Cooled</fullName>
+                <default>false</default>
+                <label>Programmable,Water Cooled</label>
+            </value>
+            <value>
+                <fullName>Regulated</fullName>
+                <default>false</default>
+                <label>Regulated</label>
+            </value>
+            <value>
+                <fullName>Regulated,Unregulated</fullName>
+                <default>false</default>
+                <label>Regulated,Unregulated</label>
+            </value>
+            <value>
+                <fullName>Remote Controlled</fullName>
+                <default>false</default>
+                <label>Remote Controlled</label>
+            </value>
+            <value>
+                <fullName>RF Control</fullName>
+                <default>false</default>
+                <label>RF Control</label>
+            </value>
+            <value>
+                <fullName>Splashproof</fullName>
+                <default>false</default>
+                <label>Splashproof</label>
+            </value>
+            <value>
+                <fullName>Step-down mode</fullName>
+                <default>false</default>
+                <label>Step-down mode</label>
+            </value>
+            <value>
+                <fullName>Step-up mode</fullName>
+                <default>false</default>
+                <label>Step-up mode</label>
+            </value>
+            <value>
+                <fullName>Switchmode</fullName>
+                <default>false</default>
+                <label>Switchmode</label>
+            </value>
+            <value>
+                <fullName>Unregulated</fullName>
+                <default>false</default>
+                <label>Unregulated</label>
+            </value>
+            <value>
+                <fullName>Unregulated,Linear</fullName>
+                <default>false</default>
+                <label>Unregulated,Linear</label>
+            </value>
+            <value>
+                <fullName>Vapourproof</fullName>
+                <default>false</default>
+                <label>Vapourproof</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

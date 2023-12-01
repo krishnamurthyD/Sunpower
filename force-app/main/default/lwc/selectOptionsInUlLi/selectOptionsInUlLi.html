@@ -1,0 +1,12 @@
+<template>
+    <div>
+        <div class="selected-option-field">{selectedOption}</div>
+        <div class="arrow" onclick={toggleOptions}></div>
+        <ul class={showOptions}>
+        <li class="options" onclick={handleOptionClick}>Option 1</li>
+        <li class="options" onclick={handleOptionClick}>Option 2</li>
+        <li class="options" onclick={handleOptionClick}>Option 3</li>
+        </ul>
+    </div>
+      
+</template>

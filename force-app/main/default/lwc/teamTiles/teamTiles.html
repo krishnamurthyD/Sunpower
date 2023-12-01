@@ -1,0 +1,79 @@
+<template>
+    
+   
+    <lightning-card>
+        <div class="container slds-grid slds-gutters">
+            <div class="slds-col slds-size_2-of-5">
+        <div  class="tile-wrapper">
+            <div style={backgroundStyle1} class="tile slds-text-align_center"></div>
+            <template if:true={team1}>
+            <div class="lower-third">
+                
+                <h1 class="slds-truncate slds-text-heading_medium slds-text-align_center">{team1.fields.Name.value} </h1>
+                <h2 class="slds-truncate slds-text-heading_small slds-text-align_center">{team1.fields.Owner__c.value}</h2>
+               
+              
+            </div>
+        </template>
+        </div>
+</div>
+<div class="slds-col slds-size_1-of-5">
+    <h1 class="slds-text-align_center pading" ><b>VS</b></h1>
+    </div>
+<div class="slds-col slds-size_2-of-5">
+        <div class="tile-wrapper">
+            <div style={backgroundStyle2} class="tile"></div>
+            <template if:true={team2}>
+            <div class="lower-third">
+                
+                <h1 class="slds-truncate slds-text-heading_medium slds-text-align_center">{team2.fields.Name.value}</h1>
+                <h2 class="slds-truncate slds-text-heading_small slds-text-align_center">{team2.fields.Owner__c.value}</h2>
+                
+               
+            </div>
+        </template>
+        </div>
+        </div>
+</div>
+  
+    </lightning-card>
+    <!-- <lightning-card>
+    <lightning-layout horizontal-align="center" multiple-rows="false">
+        <lightning-layout-item size="12" small-device-size="3" medium-device-size="3" large-device-size="3" padding="around-small">
+            <div class="tile-wrapper">
+                <div style={backgroundStyle1} class="tile"></div>
+                <template if:true={team1}>
+                <div class="lower-third">
+                    
+                    <h1 class="slds-truncate slds-text-heading_small">{team1.fields.Name.value} </h1>
+                    <h2 class="slds-truncate slds-text-heading_small">{team1.fields.Owner__c.value}</h2>
+                   
+                  
+                </div>
+            </template>
+            </div>
+        </lightning-layout-item>
+        <lightning-layout>
+            <lightning-layout-item padding="around-small" size="12" small-device-size="3" medium-device-size="3" large-device-size="3">
+                <div>
+                    <h1 class="slds-align_absolute-center">VS</h1>
+                </div>
+            </lightning-layout-item>
+        </lightning-layout>
+        <lightning-layout-item size="12" small-device-size="3" medium-device-size="3" large-device-size="3" padding="around-small">
+            <div  class="tile-wrapper">
+                <div style={backgroundStyle2} class="tile"></div>
+                <template if:true={team2}>
+                <div class="lower-third">
+                    
+                    <h1 class="slds-truncate slds-text-heading_small">{team2.fields.Name.value} </h1>
+                    <h2 class="slds-truncate slds-text-heading_small">{team2.fields.Owner__c.value}</h2>
+                   
+                  
+                </div>
+            </template>
+            </div>
+        </lightning-layout-item>
+    </lightning-layout>
+</lightning-card> -->
+</template>

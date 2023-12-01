@@ -1,0 +1,15 @@
+<template>
+    <div class="Specification-wrapper" >
+        <div class="Specification-contant-wrapper">
+                <template if:true={SpecificationDataList}>
+                    <template for:each={SpecificationDataList} for:item="point">
+                        <div class="innere-content-wrapper" key={point.field}>
+                             <div class="content">
+                                <!-- <img src={point.field} alt=""> -->
+                                {point.field} : {point.value}</div> 
+                        </div>
+                    </template>
+                </template>
+        </div>
+    </div>
+</template>

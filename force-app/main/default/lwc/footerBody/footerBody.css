@@ -1,0 +1,168 @@
+.b2c_lite_commerce-commerceFooter_commerceFooter{
+padding:0px !important;
+}
+.footer-top{
+    padding: 20px;
+    background-color: black;
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #282828;
+}
+
+.form-head-title {
+	text-transform: none;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+
+  
+
+.form-title {
+margin: 16px 0;
+    color: #ffffff;
+}
+
+.subscribe-form-wrapper {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    transform: translateX(10%);
+    padding-bottom: 30px;
+}
+
+.subscribe-email {
+    background-color: #fff;
+    color: #666;
+    font-size: .875em;
+    font-family: inherit;
+    padding: 7px;
+    vertical-align: middle;
+    width: 60%;
+}
+
+.join-now-btn {
+    border: none;
+    line-height: 30px;
+    min-width: 50px;
+    color: #fff;
+    cursor: pointer;
+    font-size: .875em;
+    text-transform: uppercase;
+    margin: 11px 12px 5px;
+}
+
+.join-now-btn:hover {
+	 background: #a70404;
+    border-color: #a70404;
+}
+ 
+.footer-bottom{
+    padding-top: 40px;
+    padding-bottom: 44px;
+}
+.company-logo{
+    width: 10.4rem;
+    margin: 8px 0 24px 0;
+    }
+
+.company-description{
+    margin: 4px 0px 16px 0px;
+    }
+/* .main-footer {
+    display: flex; 
+ } */
+ 
+ .footer-bottom {
+ display: flex;
+ justify-content: space-around;
+ }
+ 
+ .footer-left {
+         width: 22%;
+ }
+ 
+ .footer-right-top {
+         display: flex;
+ }
+ 
+ .social-links {
+ display: flex;
+ }
+ 
+ 
+ .licence-certificate-wrapper {
+ display: flex;
+ }
+ 
+ .payment-wrapper {
+ display: flex;
+ }
+ .payment {
+     width:4.4rem;
+ }
+ 
+ .payment-outer-wrapper {
+    margin-top:20px;
+ }
+
+ .payment-message {
+    margin: 20px 0px 16px;
+ }
+
+ .power-logo-link {
+ display: inline-block;
+     width: 8.8rem;
+ }
+ 
+ 
+ 
+ .certificate{
+ width:5.7rem !important;
+ align-self: center;
+ padding: 20px 20px 20px 0;
+ }
+
+ .certificate-bsi {
+    width: 18.9rem !important;
+ }
+ 
+ .footer-link-head {
+    font-size: 1rem;
+     font-weight: bolder;
+     margin-bottom: 8px;
+ }
+
+ .footer-links-wrapper:not(:last-child) {
+    padding: 0px 70px 12px 0;
+ }
+ 
+ 
+ .footer-link{
+ color: black !important;
+ }
+.social-logo {
+    width: 24px;
+   
+}
+
+.social-logo:not(:last-child) {
+    margin-right: 8px;
+}
+
+
+.company-power-logo {
+    margin-top: 32px;
+}
+
+.bottom-message-bottom , .bottom-message-top{
+    margin: 20px 0 16px 0;
+}

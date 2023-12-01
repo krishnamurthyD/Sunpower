@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plug__c</fullName>
+    <externalId>false</externalId>
+    <label>Plug</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>2.1 x 5.5 x 11mm</fullName>
+                <default>false</default>
+                <label>2.1 x 5.5 x 11mm</label>
+            </value>
+            <value>
+                <fullName>2.1 x 5.5 x 11mm tuning fork</fullName>
+                <default>false</default>
+                <label>2.1 x 5.5 x 11mm tuning fork</label>
+            </value>
+            <value>
+                <fullName>3 Pin XLR</fullName>
+                <default>false</default>
+                <label>3 Pin XLR</label>
+            </value>
+            <value>
+                <fullName>4 Pin DIN</fullName>
+                <default>false</default>
+                <label>4 Pin DIN</label>
+            </value>
+            <value>
+                <fullName>AMP</fullName>
+                <default>false</default>
+                <label>AMP</label>
+            </value>
+            <value>
+                <fullName>Anderson</fullName>
+                <default>false</default>
+                <label>Anderson</label>
+            </value>
+            <value>
+                <fullName>Anderson Connector</fullName>
+                <default>false</default>
+                <label>Anderson Connector</label>
+            </value>
+            <value>
+                <fullName>AU</fullName>
+                <default>false</default>
+                <label>AU</label>
+            </value>
+            <value>
+                <fullName>Changeable Plug</fullName>
+                <default>false</default>
+                <label>Changeable Plug</label>
+            </value>
+            <value>
+                <fullName>EURO</fullName>
+                <default>false</default>
+                <label>EURO</label>
+            </value>
+            <value>
+                <fullName>EURO 2 Pin</fullName>
+                <default>false</default>
+                <label>EURO 2 Pin</label>
+            </value>
+            <value>
+                <fullName>Interchangeable AC Plug</fullName>
+                <default>false</default>
+                <label>Interchangeable AC Plug</label>
+            </value>
+            <value>
+                <fullName>Japan</fullName>
+                <default>false</default>
+                <label>Japan</label>
+            </value>
+            <value>
+                <fullName>Shuko</fullName>
+                <default>false</default>
+                <label>Shuko</label>
+            </value>
+            <value>
+                <fullName>Terminal Block</fullName>
+                <default>false</default>
+                <label>Terminal Block</label>
+            </value>
+            <value>
+                <fullName>UK</fullName>
+                <default>false</default>
+                <label>UK</label>
+            </value>
+            <value>
+                <fullName>USA</fullName>
+                <default>false</default>
+                <label>USA</label>
+            </value>
+            <value>
+                <fullName>USA 2 Pin</fullName>
+                <default>false</default>
+                <label>USA 2 Pin</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

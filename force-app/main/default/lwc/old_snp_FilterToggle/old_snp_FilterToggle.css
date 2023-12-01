@@ -1,0 +1,235 @@
+/*-----------------------Filter @author-Krishnamurthy Donat ---------------------*/
+    
+    .filter-section .category-tree-section {
+        margin-top:0 !important;
+        padding-top:0 !important;
+    }
+    .filter-section .facets-section {
+        margin-top:0 !important;
+        padding-top:0 !important;
+    }
+    .filter-section .filters-title {
+	    color: transparent !important;
+	} 
+    .filter-section lightning-primitive-icon {
+        display:none !important;
+    }
+    .filter-section .expand-button {
+        display:none !important;
+    }
+    .filter-section .slds-checkbox_faux {
+        border:1px solid var(--snp-clr-black)!important;
+    }
+ 
+    
+    .product-tiles-wrapper .slds-button_brand {
+         background-color: var(--snp-clr-geygreen)!important;
+    }
+    
+
+    .filter-section h2 {
+     	padding: 0 2.0625rem !important;
+    	font-size: 1.25rem !important;
+    }
+    .filter-section .slds-form-element__label {
+	    margin: 0;
+    padding: 2px;
+    }
+    .filter-section .lwc-64711lksfdt {
+        padding: 0 2.25rem;
+    }
+    .filter-section .slds-checkbox_faux {
+            border-radius: 0 !important;
+    }
+ 
+    
+    .filters-header .clear-all > button {
+        font-size:0;
+    }
+    .filters-header .clear-all > button:hover {
+	   text-decoration-color:var(--snp-theme-clr-yellow) !important;
+        text-decoration:underline;
+	}
+    .filters-header .clear-all > button::before{
+        content:"Clear Filters";
+    	font-size: 1rem;
+    	letter-spacing: 0.1rem;
+        color:var(--snp-clr-black);
+    }
+    
+	.filter-section span [part="indicator"]::after {
+    border-color:var(--snp-clr-black)!important;
+    }
+   	.filter-section span [part="indicator"]:hover {
+    border-color: var(--snp-theme-clr-yellow)!important;
+    }
+    .product-tiles-wrapper-off button {
+    color:var(--snp-clr-black);
+    }
+    .product-tiles-wrapper button {
+    color:var(--snp-clr-black);
+    }
+    .product-tiles-wrapper .callToActionButton {
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+    .product-tiles-wrapper img {
+    /* height:275px !important;   it is affected in tablet's products images view*/
+       object-fit: cover;
+    	max-width: 100%;
+    	aspect-ratio: 1/1;
+    }
+    .product-tiles-wrapper img:hover {
+     border:2px solid var(--snp-theme-clr-yellow)!important;   
+    }
+    .product-tiles-wrapper a {
+        text-decoration: none !important;
+    }
+    
+    .product-tiles-wrapper .cardContainerGrid .fieldsArea div:nth-child(2) div {
+            white-space: normal !important; 
+            display: -webkit-box !important;
+            -webkit-line-clamp: 3 !important;
+            -webkit-box-orient: vertical !important;
+            word-break: break-word !important;
+            word-spacing: 0.1rem !important;
+            font-size: 16px!important;
+            line-height: 1.8333rem !important;
+        	height:5.4375rem !important;
+        	margin:calc(10 / 16 * 1rem) 0 1.25rem 0 !important;
+    }
+    
+    .product-tiles-wrapper .cardContainerGrid .fieldsArea div:nth-child(1) div {
+    font-size : calc(18 / 16 * 1rem);}
+
+
+    .product-tiles-wrapper .cardContainerGrid .priceArea .negotiated-price{
+     font-size : calc(18 / 16 * 1rem);}
+
+    .product-tiles-wrapper .cardContainerGrid .priceArea .slds-align-bottom{
+    margin-bottom:calc(5 / 16 * 1rem);}
+
+    .product-tiles-wrapper-off .cardContainerGrid .fieldsArea div:nth-child(1) div {
+    font-size : calc(18 / 16 * 1rem);}
+
+
+    .product-tiles-wrapper-off .cardContainerGrid .priceArea .negotiated-price{
+     font-size : calc(18 / 16 * 1rem);}
+
+    .product-tiles-wrapper-off .cardContainerGrid .priceArea .slds-align-bottom{
+    margin-bottom:calc(5 / 16 * 1rem);}
+    
+    .product-tiles-wrapper-off .cardContainerGrid .fieldsArea div:nth-child(2) div {
+            white-space: normal !important; 
+            display: -webkit-box !important;
+            -webkit-line-clamp: 3 !important;
+            -webkit-box-orient: vertical !important;
+            word-break: break-word !important;
+            word-spacing: 0.1rem !important;
+            font-size: 16px!important;
+            line-height: 1.8333rem !important;
+        	height:5.4375rem !important;
+        	margin:calc(10 / 16 * 1rem) 0 1.25rem 0 !important;
+        
+    }
+    .product-tiles-wrapper-off .slds-button_brand {
+         background-color: var(--snp-clr-geygreen)!important;
+    }
+    .product-tiles-wrapper-off a {
+        text-decoration: none !important;
+    }
+    .product-tiles-wrapper-off img:hover {
+     border:2px solid var(--snp-theme-clr-yellow)!important;   
+    }
+    .product-tiles-wrapper-off img {
+            aspect-ratio: 1/1;
+    }
+    .product-tiles-wrapper.pageControlPart button:hover {
+    background-color:white !important;
+    border:1px solid var(--snp-theme-clr-yellow)!important;
+    }
+    .product-tiles-wrapper-off.pageControlPart button:hover {
+    background-color:white !important;
+    border:1px solid var(--snp-theme-clr-yellow)!important;
+    }
+    .product-tiles-wrapper .slds-button:hover {
+        color:var(--snp-clr-black)!important;
+        background-color: var(--snp-theme-clr-yellow)!important;
+    }
+    .product-tiles-wrapper-off .slds-button:hover {
+        color:var(--snp-clr-black)!important;
+        background-color: var(--snp-theme-clr-yellow)!important;
+    }
+    /* Override PDP carousal css @Author- Ganesh Wattamwar */
+    [data-component-id="snp_pdp_productImageCarousel-0466"] .slick-list{
+        Padding: 0 !important;
+    }
+    
+    /*--------------------  @krishnamurthy donta----filters tab mode --------------*/
+    @media screen and (max-width:1024px){
+        .filter-section .slds-button {
+            color : var(--snp-clr-black)!important;
+            padding :0 50px !important;
+            
+        }
+        .filter-section .slds-button:hover {
+            color : var(--snp-clr-black)!important;
+            background-color:var(--snp-theme-clr-yellow) !important;
+            
+        }
+    } 
+
+
+
+     /*---------------- sort by @author -Krishnamurthy Donta-----------------*/
+     .sortby-filters-wrapper button {
+        border:1px solid black !important ;
+    }
+    .sortby-filters-wrapper .slds-listbox{
+        color: black !important;
+        background-color: white !important;
+    }
+    .sortby-filters-wrapper h3 {
+        margin:0px !important;
+    }
+    .sortby-filters-wrapper [role="listbox"]>*[aria-checked="true"]{
+        background-color:#595959 !important;
+    }
+    .sortby-filters-wrapper [role="listbox"]>*:not(span):hover{
+        background-color:var(--snp-clr-geygreen)!important;
+        
+    }
+    .sortby-filters-wrapper [role="listbox"]>*[aria-checked="true"]>span:first-child {
+        visibility:hidden;
+    }
+    .sortby-filters-wrapper [role="listbox"]>*{
+        text-align:left !important;
+    }
+
+
+
+    /* old */
+    [data-component-id="searchSortMenu-b25a"] button {
+        border:1px solid black !important ;
+    }
+    [data-component-id="searchSortMenu-b25a"] .slds-listbox{
+        color: black !important;
+        background-color: white !important;
+    }
+    [data-component-id="searchSortMenu-b25a"] h3 {
+        margin:0px !important;
+    }
+    [data-component-id="searchSortMenu-b25a"] [role="listbox"]>*[aria-checked="true"]{
+        background-color:#595959 !important;
+    }
+    [data-component-id="searchSortMenu-b25a"] [role="listbox"]>*:not(span):hover{
+        background-color:var(--snp-clr-geygreen)!important;
+        
+    }
+    [data-component-id="searchSortMenu-b25a"] [role="listbox"]>*[aria-checked="true"]>span:first-child {
+        visibility:hidden;
+    }
+    [data-component-id="searchSortMenu-b25a"] [role="listbox"]>*{
+        text-align:left !important;
+    }
+    

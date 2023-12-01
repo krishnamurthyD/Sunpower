@@ -1,0 +1,10 @@
+<template>
+    <form  action="https://go.demo.pardot.com/l/555143/2023-07-17/7gmknl" method="post"  >
+            <lightning-layout-item padding="around-small"  class="layout-item">
+                <label for="field4">Email<span class="required-symbol">*</span></label>
+                <input type="email" id="field4" name="your-email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$" class="slds-input input-element" onchange={emailhandler}> 
+                <div class="error-message" if:true={showError4}>Please enter valid email</div>  
+            </lightning-layout-item>
+        <button class="submit-Button" onclick={submitForm} >Submit</button>
+     </form>  
+</template>

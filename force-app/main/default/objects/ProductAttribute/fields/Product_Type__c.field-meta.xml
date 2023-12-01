@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Product Type</label>
+    <required>false</required>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AC/AC</fullName>
+                <default>false</default>
+                <label>AC/AC</label>
+            </value>
+            <value>
+                <fullName>AC/DC</fullName>
+                <default>false</default>
+                <label>AC/DC</label>
+            </value>
+            <value>
+                <fullName>Accessory</fullName>
+                <default>false</default>
+                <label>Accessory</label>
+            </value>
+            <value>
+                <fullName>Actuator</fullName>
+                <default>false</default>
+                <label>Actuator</label>
+            </value>
+            <value>
+                <fullName>Adaptor</fullName>
+                <default>false</default>
+                <label>Adaptor</label>
+            </value>
+            <value>
+                <fullName>Area Light</fullName>
+                <default>false</default>
+                <label>Area Light</label>
+            </value>
+            <value>
+                <fullName>Batten</fullName>
+                <default>false</default>
+                <label>Batten</label>
+            </value>
+            <value>
+                <fullName>Bidirectional Power Inverter</fullName>
+                <default>false</default>
+                <label>Bidirectional Power Inverter</label>
+            </value>
+            <value>
+                <fullName>Buffer Module</fullName>
+                <default>false</default>
+                <label>Buffer Module</label>
+            </value>
+            <value>
+                <fullName>Bulk Head</fullName>
+                <default>false</default>
+                <label>Bulk Head</label>
+            </value>
+            <value>
+                <fullName>Bus Power Supply</fullName>
+                <default>false</default>
+                <label>Bus Power Supply</label>
+            </value>
+            <value>
+                <fullName>Cabinet Lights</fullName>
+                <default>false</default>
+                <label>Cabinet Lights</label>
+            </value>
+            <value>
+                <fullName>CANBus Protocol</fullName>
+                <default>false</default>
+                <label>CANBus Protocol</label>
+            </value>
+            <value>
+                <fullName>Charger</fullName>
+                <default>false</default>
+                <label>Charger</label>
+            </value>
+            <value>
+                <fullName>Configurable</fullName>
+                <default>false</default>
+                <label>Configurable</label>
+            </value>
+            <value>
+                <fullName>Constant Current</fullName>
+                <default>false</default>
+                <label>Constant Current</label>
+            </value>
+            <value>
+                <fullName>Constant Power</fullName>
+                <default>false</default>
+                <label>Constant Power</label>
+            </value>
+            <value>
+                <fullName>Constant Voltage</fullName>
+                <default>false</default>
+                <label>Constant Voltage</label>
+            </value>
+            <value>
+                <fullName>DALI Gateway</fullName>
+                <default>false</default>
+                <label>DALI Gateway</label>
+            </value>
+            <value>
+                <fullName>DC/AC</fullName>
+                <default>false</default>
+                <label>DC/AC</label>
+            </value>
+            <value>
+                <fullName>DC/DC</fullName>
+                <default>false</default>
+                <label>DC/DC</label>
+            </value>
+            <value>
+                <fullName>Desktop</fullName>
+                <default>false</default>
+                <label>Desktop</label>
+            </value>
+            <value>
+                <fullName>DIN Rail</fullName>
+                <default>false</default>
+                <label>DIN Rail</label>
+            </value>
+            <value>
+                <fullName>Downlight</fullName>
+                <default>false</default>
+                <label>Downlight</label>
+            </value>
+            <value>
+                <fullName>Emergency Kit</fullName>
+                <default>false</default>
+                <label>Emergency Kit</label>
+            </value>
+            <value>
+                <fullName>Encapsulated</fullName>
+                <default>false</default>
+                <label>Encapsulated</label>
+            </value>
+            <value>
+                <fullName>Enclosed</fullName>
+                <default>false</default>
+                <label>Enclosed</label>
+            </value>
+            <value>
+                <fullName>Floodlight</fullName>
+                <default>false</default>
+                <label>Floodlight</label>
+            </value>
+            <value>
+                <fullName>Grid Inverter</fullName>
+                <default>false</default>
+                <label>Grid Inverter</label>
+            </value>
+            <value>
+                <fullName>Harsh Environment</fullName>
+                <default>false</default>
+                <label>Harsh Environment</label>
+            </value>
+            <value>
+                <fullName>Highbay</fullName>
+                <default>false</default>
+                <label>Highbay</label>
+            </value>
+            <value>
+                <fullName>High Reliability</fullName>
+                <default>false</default>
+                <label>High Reliability</label>
+            </value>
+            <value>
+                <fullName>Hot-Swap</fullName>
+                <default>false</default>
+                <label>Hot-Swap</label>
+            </value>
+            <value>
+                <fullName>Industrial</fullName>
+                <default>false</default>
+                <label>Industrial</label>
+            </value>
+            <value>
+                <fullName>Inrush Current Limiter</fullName>
+                <default>false</default>
+                <label>Inrush Current Limiter</label>
+            </value>
+            <value>
+                <fullName>IP Router</fullName>
+                <default>false</default>
+                <label>IP Router</label>
+            </value>
+            <value>
+                <fullName>KNX</fullName>
+                <default>false</default>
+                <label>KNX</label>
+            </value>
+            <value>
+                <fullName>L-Bracket</fullName>
+                <default>false</default>
+                <label>L-Bracket</label>
+            </value>
+            <value>
+                <fullName>LED Accessory</fullName>
+                <default>false</default>
+                <label>LED Accessory</label>
+            </value>
+            <value>
+                <fullName>LED COB</fullName>
+                <default>false</default>
+                <label>LED COB</label>
+            </value>
+            <value>
+                <fullName>LED Controller</fullName>
+                <default>false</default>
+                <label>LED Controller</label>
+            </value>
+            <value>
+                <fullName>LED Driver</fullName>
+                <default>false</default>
+                <label>LED Driver</label>
+            </value>
+            <value>
+                <fullName>LED Light Bar</fullName>
+                <default>false</default>
+                <label>LED Light Bar</label>
+            </value>
+            <value>
+                <fullName>LED Tape</fullName>
+                <default>false</default>
+                <label>LED Tape</label>
+            </value>
+            <value>
+                <fullName>LED Tile</fullName>
+                <default>false</default>
+                <label>LED Tile</label>
+            </value>
+            <value>
+                <fullName>Light Pipe</fullName>
+                <default>false</default>
+                <label>Light Pipe</label>
+            </value>
+            <value>
+                <fullName>Light Tile</fullName>
+                <default>false</default>
+                <label>Light Tile</label>
+            </value>
+            <value>
+                <fullName>Linear</fullName>
+                <default>false</default>
+                <label>Linear</label>
+            </value>
+            <value>
+                <fullName>Linear Highbay</fullName>
+                <default>false</default>
+                <label>Linear Highbay</label>
+            </value>
+            <value>
+                <fullName>Line Coupler</fullName>
+                <default>false</default>
+                <label>Line Coupler</label>
+            </value>
+            <value>
+                <fullName>LINEO</fullName>
+                <default>false</default>
+                <label>LINEO</label>
+            </value>
+            <value>
+                <fullName>Lowbay</fullName>
+                <default>false</default>
+                <label>Lowbay</label>
+            </value>
+            <value>
+                <fullName>Medical Grade</fullName>
+                <default>false</default>
+                <label>Medical Grade</label>
+            </value>
+            <value>
+                <fullName>Modified Sine Wave</fullName>
+                <default>false</default>
+                <label>Modified Sine Wave</label>
+            </value>
+            <value>
+                <fullName>Modular</fullName>
+                <default>false</default>
+                <label>Modular</label>
+            </value>
+            <value>
+                <fullName>Module</fullName>
+                <default>false</default>
+                <label>Module</label>
+            </value>
+            <value>
+                <fullName>Monitor System</fullName>
+                <default>false</default>
+                <label>Monitor System</label>
+            </value>
+            <value>
+                <fullName>Moving Sign</fullName>
+                <default>false</default>
+                <label>Moving Sign</label>
+            </value>
+            <value>
+                <fullName>On Board Type</fullName>
+                <default>false</default>
+                <label>On Board Type</label>
+            </value>
+            <value>
+                <fullName>Open Frame</fullName>
+                <default>false</default>
+                <label>Open Frame</label>
+            </value>
+            <value>
+                <fullName>Parallel</fullName>
+                <default>false</default>
+                <label>Parallel</label>
+            </value>
+            <value>
+                <fullName>PCB</fullName>
+                <default>false</default>
+                <label>PCB</label>
+            </value>
+            <value>
+                <fullName>PCB Mount</fullName>
+                <default>false</default>
+                <label>PCB Mount</label>
+            </value>
+            <value>
+                <fullName>PC Power</fullName>
+                <default>false</default>
+                <label>PC Power</label>
+            </value>
+            <value>
+                <fullName>Peripheral</fullName>
+                <default>false</default>
+                <label>Peripheral</label>
+            </value>
+            <value>
+                <fullName>PIR Sensor</fullName>
+                <default>false</default>
+                <label>PIR Sensor</label>
+            </value>
+            <value>
+                <fullName>Plugtop</fullName>
+                <default>false</default>
+                <label>Plugtop</label>
+            </value>
+            <value>
+                <fullName>Portable Charger</fullName>
+                <default>false</default>
+                <label>Portable Charger</label>
+            </value>
+            <value>
+                <fullName>POS</fullName>
+                <default>false</default>
+                <label>POS</label>
+            </value>
+            <value>
+                <fullName>Power Inverter</fullName>
+                <default>false</default>
+                <label>Power Inverter</label>
+            </value>
+            <value>
+                <fullName>Power Repeater</fullName>
+                <default>false</default>
+                <label>Power Repeater</label>
+            </value>
+            <value>
+                <fullName>PV Power</fullName>
+                <default>false</default>
+                <label>PV Power</label>
+            </value>
+            <value>
+                <fullName>Rack Power</fullName>
+                <default>false</default>
+                <label>Rack Power</label>
+            </value>
+            <value>
+                <fullName>Redundant</fullName>
+                <default>false</default>
+                <label>Redundant</label>
+            </value>
+            <value>
+                <fullName>Regulated</fullName>
+                <default>false</default>
+                <label>Regulated</label>
+            </value>
+            <value>
+                <fullName>Remote Control</fullName>
+                <default>false</default>
+                <label>Remote Control</label>
+            </value>
+            <value>
+                <fullName>Security</fullName>
+                <default>false</default>
+                <label>Security</label>
+            </value>
+            <value>
+                <fullName>Solar Inverter</fullName>
+                <default>false</default>
+                <label>Solar Inverter</label>
+            </value>
+            <value>
+                <fullName>SPD</fullName>
+                <default>false</default>
+                <label>SPD</label>
+            </value>
+            <value>
+                <fullName>Specific Purpose</fullName>
+                <default>false</default>
+                <label>Specific Purpose</label>
+            </value>
+            <value>
+                <fullName>Stationary Charger</fullName>
+                <default>false</default>
+                <label>Stationary Charger</label>
+            </value>
+            <value>
+                <fullName>Street Light</fullName>
+                <default>false</default>
+                <label>Street Light</label>
+            </value>
+            <value>
+                <fullName>Surge Protector</fullName>
+                <default>false</default>
+                <label>Surge Protector</label>
+            </value>
+            <value>
+                <fullName>True Sine Wave</fullName>
+                <default>false</default>
+                <label>True Sine Wave</label>
+            </value>
+            <value>
+                <fullName>U-Bracket</fullName>
+                <default>false</default>
+                <label>U-Bracket</label>
+            </value>
+            <value>
+                <fullName>Uninterruptable</fullName>
+                <default>false</default>
+                <label>Uninterruptable</label>
+            </value>
+            <value>
+                <fullName>Unregulated</fullName>
+                <default>false</default>
+                <label>Unregulated</label>
+            </value>
+            <value>
+                <fullName>USB Interface</fullName>
+                <default>false</default>
+                <label>USB Interface</label>
+            </value>
+            <value>
+                <fullName>Variable Frequency Drive</fullName>
+                <default>false</default>
+                <label>Variable Frequency Drive</label>
+            </value>
+            <value>
+                <fullName>Wall Pack</fullName>
+                <default>false</default>
+                <label>Wall Pack</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

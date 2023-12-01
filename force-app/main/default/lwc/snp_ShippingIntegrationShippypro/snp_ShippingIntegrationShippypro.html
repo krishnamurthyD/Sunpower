@@ -1,0 +1,21 @@
+<template>
+    <h2> Shipping Testing</h2>    
+    <div class="shippingServicePrice">
+        <div class="shipping-rate-picklist-selected-container">
+            <!-- <button class="shippingPicklistShow" onclick={shippingRates}>Check Shipping Services</button>  -->
+            <button class="shippingPicklistShow" onclick={shippingRatesCheckout}>Check Shipping Services</button> 
+            <div>Selected :- {selectedShipment}</div>
+        </div>
+        
+        <template if:true={showPickList}>
+            <div class="rate-list-container">
+                <template for:each={resultFromApexClass} for:item="item" for:index="index">
+                    <ul key={item}>
+                        <li class="rateList" onclick={hidePicklist} data-id={index} value={item.service} data-service={item.service}> {item.carrier} , Service: {item.service} ,  Delivery Days: {item.delivery_days} ,  Price: {item.rate} {item.currency} </li>
+                    </ul>
+                </template>
+            </div>
+           
+        </template>
+    </div>
+</template>

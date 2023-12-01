@@ -1,0 +1,10 @@
+<template>
+    
+        <template if:true={colorChange} >
+            <button class="ColorChange Button-After"  onclick={AddToWishListButtonHandler} >&#9829; Add To Wishlist</button>
+        </template>
+        <template if:false={colorChange}>
+        <lightning-button class="Button-initial"  label="&#9829; Add To WishList" onclick={AddToWishListButtonHandler} ></lightning-button>
+    </template>
+    
+</template>

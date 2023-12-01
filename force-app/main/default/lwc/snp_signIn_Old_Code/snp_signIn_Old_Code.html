@@ -1,0 +1,149 @@
+<!--
+ * @description          Sine-In page 
+ * @Author               Krishnamurthy Donta
+ * @Createddate          22-06-2023
+ * @ControllerClass      
+ * @TestClass             
+ * @modificationSummary  krishnamurthy 12-10-2023
+ -->
+ <template>
+    <template if:true={guestUserpage}>
+        <div class="loader" if:true={showLoader}></div>
+    <div class="signUp-container" data-id="signUp">
+        <form class="signup-form" method="post" action="#">
+            <h2 class="form-title"><span class="title">Create Your Account</span></h2>
+            <div class="Name-field-wrapper section-bottom-margin common-field-wrapper">
+                <div class="fname-wrapper inner-field-wrapper">
+                    <input class="fname-field input-fields" type="text" id="fname" onfocusout={handleInputLabel} onchange={handleFirstNameChange}
+                    required>
+                    <label for="fname" class="fname-label placeholder-unselect">Enter Your First Name<span class="required-field">*</span></label>
+                    <div class="field-error" if:true={handelfnameError} >Enter a valid First Name.</div>
+                </div>
+                <div class="lname-wrapper"> 
+                    <input class="lname-field input-fields"  id="lname" type="text" onfocusout={handleInputLabelLname} onchange={handleLastNameChange}   required>
+                    <label for="lname" class="lname-label placeholder-unselect">Enter Your Last Name<span class="required-field">*</span></label>
+                    <div class="field-error" if:true={handelLnameError} >Enter a valid Last Name.</div>
+                </div>
+            </div>
+            <div class="country-number-wrapper section-bottom-margin common-field-wrapper">
+                <div class="country-selector-wrapper inner-field-wrapper">
+                    <!-- onblur={handelCountryBlur} -->
+                    <div class="inner-wrapper country-inner-wrapper"  >
+                        <button class="selected-option-field selected-country-val" onclick={toggleCountryOptions}  onblur={handleCountryOption}>{selecteCountry}</button>
+                            <div class="arrow" if:false={showcountryOption}><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+                            <div class="arrow" if:true={showcountryOption}><i class="fa fa-angle-up" aria-hidden="true"></i></div>
+                            <div class="country-option-wrapper">
+                                <ul class="country-options" >
+                                    <li class="options" for:each={countryCollection} id={Customer.CountryDialcode__c} for:item="Customer"  key={Customer}  onclick={handlecountryField} >
+                                            {Customer.Label}
+                                    </li>
+                                </ul>
+                                </div>
+                            </div>
+
+                         <!-- </div> -->
+                    <div class="field-error" if:true={handelcountryError} >Choose a Country.</div>
+                </div>
+               
+                <div class="number-field">
+                    <input class="country-mobile-code input-fields-mobilecode" type="text" value={countryDialcode} readonly>
+                    
+                    <div class="phone-wrapper">
+                        <input class="phone-field input-fields-mobile-number" type="tel" onfocusout={handleInputLabelPhone} onchange={handlePhoneNumber} id="phone"  required>
+                        <label for="phone" class="phone-label placeholder-unselect">Phone Number<span class="required-field">*</span></label>
+                        <div class="field-error" if:true={handelPhoneError} style="left: -68px;" >Enter a valid Phone Number.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="email-wrapper section-bottom-margin common-field-wrapper">
+                <div class="email-inner-wrapper inner-field-wrapper">
+                    <input class="email-field input-fields" type="text" id="email" onfocusout={handleInputLabelEmail} onchange={handleEmailChange}  required>
+                    <label for="email" class="email-label placeholder-unselect">Enter Email Id<span class="required-field">*</span></label>
+                    <div class="field-error" if:true={handelEmailError} >Enter a valid Email Id </div>
+                    <div class="field-error" if:true={handelEmailErrorexistingalredy} >Email Id already exist.</div>
+                </div>
+                <div class="cemail-inner-wrapper">
+                    <input class="confirm-email-field input-fields" type="text" onfocusout={handleInputLabelCEmail} id="cemail"  onchange={handlecEmailChange} required>
+                    <label for="cemail" class="cemail-label placeholder-unselect"  >Confirm Email Id<span class="required-field">*</span></label>
+                    <div class="field-error" if:true={handelcEmailError} >Confirm Email Id should be same as Email Id.</div>
+                </div>
+            </div>
+            <div class="password-wrapper section-bottom-margin common-field-wrapper">
+                <div class="password enter-password inner-field-wrapper">
+                    <div class="password-wrapper">
+                    <input type={passwordFieldType} class="enter-password-field input-fields passwordSpaceField" id="epssword" onfocusout={handleInputLabelPass}
+                         onchange={handlePasswordChange}
+                        pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$" required />
+                        <label for="epssword" class="epassword-label placeholder-unselect">Create Password<span class="required-field">*</span></label>
+                    </div>
+                    <div class="field-error" if:true={handelPasswordError} >Enter a valid Password (1 special,1 upper&lower,1 num & min 8 chars).</div>
+                    <div class="password-toggle" onclick={togglePasswordVisibility}>
+                        <i class={passwordToggleIcon}></i>
+                    </div>
+                    
+                </div>
+                <div class="password confirm-password">
+                    <div class="con-password-wrapper">
+                        <input type={confirmPasswordFieldType} class="confirm-password-field input-fields passwordSpaceField" id="cpssword"
+                         onchange={handleConfirmPasswordChange} onfocusout={handleInputLabelCpass}
+                        pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$" required />
+                        <label for="cpssword" class="cpassword-label placeholder-unselect">Confirm Password<span class="required-field">*</span></label>
+                        <div class="field-error" if:true={handelConformError} >Confirm Password should be same as Password.</div>
+                    </div>
+                    <div class="password-toggle" onclick={toggleConfirmPasswordVisibility}>
+                        <i class={confirmPasswordToggleIcon}></i>
+                    </div>
+                </div>
+            </div>
+            <div class="cutomer-reference-wrapper section-bottom-margin common-field-wrapper-last">
+                <div class="customer-type-dropdown inner-field-wrapper">
+                    <div class="select-field-wrapper">
+                        <div class="inner-wrapper customer-inner-wrapper" >
+                            <button class="selected-option-field-customer selected-customer-val" onclick={toggleCustomerOptions} onblur={handleCustomerOption}>{selectedOption}</button>
+                            <div class="arrow" if:false={showOptions}><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+                            <div class="arrow" if:true={showOptions}><i class="fa fa-angle-up" aria-hidden="true"></i></div>
+                        </div>
+                        <ul class="customer-type-wrapper" >
+                            <li class="options" for:each={CustomerOptions} for:item="Customer" key={Customer} onclick={handleOptionClick} >
+                                {Customer}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hear-abouUs-wrapper">
+                    <input class="hearAboutUs-field input-fields" type="text" id="hearAboutAu" onchange={handleAboutUs} onfocusout={handleInputLabelHearAboutUS} >
+                    <label for="hearAboutAu" class="hearAboutUs-label placeholder-unselect">How did you find us?</label>
+                </div>
+                
+            </div>
+            <span class="Notification">
+                <div class="notification-confirmation">
+                    <span class="check-box-notification">
+                        </span>
+                        <input class="EmailNotification input-fields" id="EmailNotificationCheck" type="checkbox" onfocusout={handleInputLabel} >
+                    <label class="Email-NotificationCheck-label placeholder-unselect" for="EmailNotificationCheck">Would you like to get notified
+                        on PowerLed products.</label>
+                </div>
+            </span>
+            <div class="sign-up-wrapper">
+                <button type="button" class="sign-up-btn" onclick={handleRegister} > Sign Up</button>
+                <div class="field-error Error-message" if:true={exceptionError}  >Your password cannot contain or equal to email id.</div>
+
+            </div>
+        </form>
+        <div class="line-separator"></div>
+        <div class="existing-user-wrapper">
+            <p class="alredy-txt-field">Already have account ?</p>
+            <button type="button" class="sign-in-btn" onclick={handelSignIn}>Sign In</button>
+        </div>
+    </div>
+    </template>
+
+
+    <template if:false={guestUserpage}>
+        <div class="loged-in-user">
+            <h1 class="login-user-text">You Are Already Loged In !!!</h1>
+        </div>
+        
+    </template>
+</template>

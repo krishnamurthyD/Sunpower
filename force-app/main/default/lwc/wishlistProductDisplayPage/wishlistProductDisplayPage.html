@@ -1,0 +1,19 @@
+<template>
+    <div class="container">
+        <div class="slds-grid slds-gutters row slds-wrap  justify-center slds-m-around_medium">
+          <template for:each={dataFromWishlist} for:item="item" >
+            <div class="col-2 col-lg-4 d-flex card-wrapper" key={item.id}>
+              <div class="card w-100 mb-4 pb-4">
+                <img class="card-image" src={item.productSummary.thumbnailImage.url} />
+                <p class="text-center">Price: $ {item.salesPrice}</p>
+                <div class="row flex-row justify-content-center">
+                  <button value={item.productSummary.productId} onclick={AddTocartHandler} class="btn btn-secondary me-3 color-btn" > Add to Cart</button>
+                  <button value={item.wishlistItemId}  onclick={DeleteHandler} class="btn btn-secondary color-btn" >Remove</button>
+                </div>
+              </div>
+            </div>
+          </template>
+        </div>
+      </div>
+    
+</template>

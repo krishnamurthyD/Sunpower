@@ -1,0 +1,10 @@
+.emailSubscription{
+    display: flex;
+    align-items: end;
+    padding-right: 5px;
+    
+}
+
+.textInput {
+    -webkit-text-fill-color: white;
+   }

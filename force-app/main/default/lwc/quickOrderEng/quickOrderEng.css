@@ -1,0 +1,18 @@
+.main {
+    display: flex ;
+}
+.Buttons {
+    display: flex;
+}
+.bulk {
+    margin-bottom: 2px;
+}
+.save{
+    margin-top: 0px;
+}
+.line {
+    margin-bottom: 0px;
+}
+.enter {
+    margin-top: 2px;
+}

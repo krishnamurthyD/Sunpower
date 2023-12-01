@@ -1,0 +1,110 @@
+<template>
+    <div class="main-footer">
+        <div class="footer-top">
+            <h2 class="form-head-title">Sign up to our Newsletter </h2>
+            <p class="form-title">Be the first to hear about our new product arrivals, offers and latest news.</p>
+            <div class="subscribe-form-wrapper">
+                <!-- <input class="subscribe-email" type="text" placeholder="Email Address"> -->
+                <lightning-input class="subscribe-email" type="text" data-id="txtEmailAddress" placeholder="Email Address"></lightning-input>
+                <lightning-button class="join-now-btn" variant="destructive" label="JOIN NOW" title="" onclick={sendEmailUsingMarketingCloud} ></lightning-button>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-left">
+                <div class="company-card-wrapper">
+                    <div class="company-logo">
+                        <a href="https://lwc10110-dev-ed.my.site.com/parkelectricalservicesdemo/"><img src={companyLogo} alt="Company Logo"></a>
+                    </div>
+                    <p class="company-description">
+                        Park Electrical Services began life in Belfast in 1973. 
+                        Northern Irelands long history of creative thinking and 
+                        engineering excellence forms the basis for how we operate 
+                        our business and interact with our customers.
+                    </p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-right-top">
+                    <ul class="footer-links-wrapper">
+                        <li class="footer-links-outer">
+                            <h5 class="footer-link-head">Company</h5>
+                        </li>
+                        <li class="footer-links-outer"><a href="" class="footer-link">About</a></li>
+                        <li class="footer-links-outer"><a href="" class="footer-link">Terms & Conditions</a></li>
+                        <li class="footer-links-outer"><a href="" class="footer-link">Privacy Policy</a></li>
+                        <li class="footer-links-outer"><a href="" class="footer-link">Cookie Policy</a></li>
+                        <li class="footer-links-outer"><a href="https://lwc10110-dev-ed.my.site.com/parkelectricalservicesdemo/store-locator" target="_blank" class="footer-link">Store Locater</a></li>
+                    </ul>
+                    <ul class="footer-links-wrapper">
+                        <li class="footer-links-outer">
+                            <h5 class="footer-link-head">Customer Service</h5>
+                        </li>
+                        <li class="footer-links-outer"><a href="https://lwc10110-dev-ed.my.site.com/parkelectricalservicesdemo/bulkorder" target="_blank" class="footer-link">Bulk order</a></li>
+                        <li class="footer-links-outer"><a href="https://lwc10110-dev-ed.my.site.com/parkelectricalservicesdemo/myprofile" target="_blank" class="footer-link">Track Your Order</a></li>
+                        <li class="footer-links-outer"><a href="https://lwc10110-dev-ed.my.site.com/parkelectricalservicesdemo/myprofile" target="_blank" class="footer-link">Manage My Account</a></li>
+                        <li class="footer-links-outer"><a href="https://lwc10110-dev-ed.my.site.com/parkelectricalservicesdemo/myprofile" target="_blank" class="footer-link">Delivery</a></li>
+                        <li class="footer-links-outer"><a href="https://lwc10110-dev-ed.my.site.com/parkelectricalservicesdemo/myprofile" target="_blank" class="footer-link">Returns</a></li>
+                    </ul>
+                    <ul class="footer-links-wrapper">
+                        <li class="footer-links-outer">
+                            <h5 class="footer-link-head">Top Products</h5>
+                        </li>
+                        <li class="footer-links-outer"><a href="https://lwc10110-dev-ed.my.site.com/parkelectricalservicesdemo/product/siemens-7ml50341ab01-hydroranger-200-dual-point-wall-mount/01t3z00000aPlatAAC" target="_blank" class="footer-link">Communications</a></li>
+                        <li class="footer-links-outer"><a href="https://lwc10110-dev-ed.my.site.com/parkelectricalservicesdemo/product/carlo-gavazzi-voltage-cable-1-terminals-100cm/01t3z00000aPldYAAS" target="_blank" class="footer-link">Enclosures</a></li>
+                        <li class="footer-links-outer"><a href="https://lwc10110-dev-ed.my.site.com/parkelectricalservicesdemo/product/hach-lange-lxv4049900551-sc-200-digital-2channel-controller/01t3z00000aPlajAAC" target="_blank" class="footer-link">Power Supplies</a></li>
+                        <li class="footer-links-outer"><a href="https://lwc10110-dev-ed.my.site.com/parkelectricalservicesdemo/product/Status%20Instruments%20DM670%2FTM%2FL%20Battery%20Powered%20Thermometer%20Side%20Entries%20-%20Wall%20Mount/01t3z00000aPldJAAS" target="_blank" class="footer-link">LED Indicators</a></li>
+                        <li class="footer-links-outer"><a href="https://lwc10110-dev-ed.my.site.com/parkelectricalservicesdemo/product/pr-electronics-isolated-repeater/01t3z00000aPld9AAC" target="_blank" class="footer-link">Tri-Rated Electrical Cable</a></li>
+                    </ul>
+                    <ul class="footer-links-wrapper">
+                        <li class="footer-links-outer">
+                            <h5 class="footer-link-head">Top Manufacturers</h5>
+                        </li>
+                        <li class="footer-links-outer"><a href="https://lwc10110-dev-ed.my.site.com/parkelectricalservicesdemo/category/manufacturers/siemens/0ZG3z0000008OnUGAU" target="_blank" class="footer-link">Siemens</a></li>
+                        <li class="footer-links-outer"><a href="https://lwc10110-dev-ed.my.site.com/parkelectricalservicesdemo/category/manufacturers/socomec/0ZG3z0000008OnjGAE" target="_blank" class="footer-link">Socomec</a></li>
+                        <li class="footer-links-outer"><a href="https://lwc10110-dev-ed.my.site.com/parkelectricalservicesdemo/category/manufacturers/hach-lange/0ZG3z0000008OnZGAU" target="_blank" class="footer-link">Hach Lange</a></li>
+                        <li class="footer-links-outer"><a href="https://lwc10110-dev-ed.my.site.com/parkelectricalservicesdemo/category/manufacturers/carlo-gavazzi/0ZG3z0000008OnPGAU" target="_blank" class="footer-link">Carlo Gavazzi</a></li>
+                        <li class="footer-links-outer"><a href="https://lwc10110-dev-ed.my.site.com/parkelectricalservicesdemo/category/manufacturers/etek/0ZG3z0000008OnoGAE" target="_blank" class="footer-link">Etek</a></li>
+                    </ul>
+                    <ul class="footer-links-wrapper ">
+                        <li class="footer-links-outer">
+                            <h5 class="footer-link-head">Follow US</h5>
+                        </li>
+                        <li class="footer-links-outer">
+                            <ul class="social-links">
+                                <li class="social-logo"><a href="https://www.facebook.com/parkelect/" target="_blank"  class="social-link"><img src={facebookImg} alt="facebookImg" class="social-img"></a></li>
+                                <li class="social-logo"><a href="https://twitter.com/parkelectrical" target="_blank" class="social-link"><img src={TwitterImg} alt="TwitterImg" class="social-img"></a></li>
+                                <li class="social-logo"><a href="https://www.instagram.com/park_electrical_services/" target="_blank" class="social-link"><img src={InstagramImg} alt="InstagramImg" class="social-img"></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="footer-right-bottom">
+                    <ul class="licence-certificate-wrapper">
+                        <li class="certificate"><img src={EuropianUnionImg} alt="EuropianUnionImg" class="certificate-img"></li>
+                        <li class="certificate"><img src={UVDBImg} alt="UVDBImg" class="certificate-img"></li>
+                        <li class="certificate certificate-bsi"><img src={BSIImg} alt="BSIImg" class="certificate-img"></li>
+                        <li class="certificate"><img src={SiemensImg} alt="SiemensImg" class="certificate-img"></li>
+                        <li class="certificate"><img src={AchillesImg} alt="AchillesImg" class="certificate-img"></li>
+                    </ul>
+                    <div class="payment-outer-wrapper">
+                        <ul class="payment-wrapper">
+                            <li class="payment"><img src={VisaImg} alt="VisaImg" class="paymentImg"></li>
+                            <li class="payment"><img src={VisaDebitImg} alt="VisaDebitImg" class="paymentImg"></li>
+                            <li class="payment"><img src={MasterCardImg} alt="MasterCardImg" class="paymentImg"></li>
+                            <li class="payment"><img src={maestroImg} alt="maestroImg" class="paymentImg"></li>
+                            <li class="payment"><img src={PaypalImg} alt="PaypalImg" class="paymentImg"></li>
+                            <li class="payment"><img src={GpayImg} alt="GpayImg" class="paymentImg"></li>
+                        </ul>
+                        <p class="payment-message">All major credit cards are accepted | Fast checkout with PayPal</p>
+                    </div>
+                    <!-- <div class="company-power-logo"><a href="" class="power-logo-link"><img src={PowerByImg} alt="powerLogo" class="power-img"></a></div> -->
+                    <div class="footer-bottom-message"><p class="bottom-message-top">Park Electrical & <a href="" class="built-link">Built For Growth Digital</a></p>
+                        <p class="bottom-message-bottom">&copy;Copyright 2023 Park Electrical. All Rights Reserved.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

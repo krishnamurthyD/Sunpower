@@ -1,0 +1,58 @@
+<template>
+    <div class="main-container">
+        <div class="wrapper one" onmouseover={handelFirstImage} >
+            <div class="wrapper-one" if:true={FirstImage}>
+                <div class="wrapper-two">
+                    <div class="Image-wrapper">
+                        <div class="Image-wrapper-one">
+                            <div class="Image-wrapper-image-img">
+                                <img src={imageOneHoverWithDiscription1} alt="" onmouseover={handelFirstImage}>
+                            </div>
+                        </div>
+                    </div>
+                <div class="product-deatail" >
+                    <h2 class="product-"></h2>
+                    <h3 class="product-heading"></h3>
+                    <p class="product-discription"></p>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper two" onmouseover={handelSecondImage}>
+            <div class="wrapper-one" if:true={SecondImage}>
+                <div class="wrapper-two">
+                    <div class="Image-wrapper">
+                        <div class="Image-wrapper-one">
+                            <div class="Image-wrapper-image-img">
+                                <img src={imageTwoHoverWithDiscription2} alt="" onmouseover={handelSecondImage}>
+                            </div>
+                        </div>
+                    </div>
+                <div class="product-deatail">
+                    <h2 class="product-"></h2>
+                    <h3 class="product-heading"></h3>
+                    <p class="product-discription"></p>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper three" onmouseover={handelThirdImage}>
+            <div class="wrapper-one" if:true={ThirdImage}>
+                <div class="wrapper-two">
+                    <div class="Image-wrapper">
+                        <div class="Image-wrapper-one">
+                            <div class="Image-wrapper-image-img">
+                                <img src={imageThreeHoverWithDiscription3} alt="" onmouseover={handelThirdImage}>
+                            </div>
+                        </div>
+                    </div>
+                <div class="product-deatail">
+                    <h2 class="product-"></h2>
+                    <h3 class="product-heading"></h3>
+                    <p class="product-discription"></p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

@@ -1,0 +1,10 @@
+.main-content {
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid rgb(168, 100, 100);
+    display: grid;
+    grid-template-columns: 64px 1fr 64px;
+}
+.child-content {
+    border: 1px solid black;
+}

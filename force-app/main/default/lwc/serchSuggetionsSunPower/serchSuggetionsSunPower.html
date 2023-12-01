@@ -1,0 +1,12 @@
+<template>
+    <div class="search-bar">
+      <input type="text" class="search-input" placeholder="Search over (number) products here"
+             onfocus={handleFocus} onblur={handleBlur} oninput={handleInput} />
+      <div class="search-flyout" if:true={showFlyout}>
+        <ul>
+          <!-- Render search suggestions dynamically -->
+        </ul>
+      </div>
+    </div>
+  </template>
+  

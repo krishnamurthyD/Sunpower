@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This channel is to learn LMS in lwc</description>
+    <isExposed>true</isExposed>
+    <lightningMessageFields>
+        <description>Holds the message to display</description>
+        <fieldName>messageText</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>Holds the message to display</description>
+        <fieldName>messageText2</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>Holds the firstname</description>
+        <fieldName>FirstName</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>Holds the LastName</description>
+        <fieldName>LastName</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>Holds the Phone number</description>
+        <fieldName>Phone</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>Holds the Email</description>
+        <fieldName>Email</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>Holds the Job titel</description>
+        <fieldName>Job</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>Boolean Value</description>
+        <fieldName>Show</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>Holds the message</description>
+        <fieldName>lmaData</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>Holds the message</description>
+        <fieldName>LwctoAuraMessage</fieldName>
+    </lightningMessageFields>
+    <masterLabel>myMessageChannel</masterLabel>
+</LightningMessageChannel>

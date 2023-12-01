@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Standards__c</fullName>
+    <externalId>false</externalId>
+    <label>Standards</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AAMI ES60601-1</fullName>
+                <default>false</default>
+                <label>AAMI ES60601-1</label>
+            </value>
+            <value>
+                <fullName>AS/NZS 60950.1</fullName>
+                <default>false</default>
+                <label>AS/NZS 60950.1</label>
+            </value>
+            <value>
+                <fullName>AS/NZS61558-1/-2-16</fullName>
+                <default>false</default>
+                <label>AS/NZS61558-1/-2-16</label>
+            </value>
+            <value>
+                <fullName>BE</fullName>
+                <default>false</default>
+                <label>BE</label>
+            </value>
+            <value>
+                <fullName>BS/EN61558</fullName>
+                <default>false</default>
+                <label>BS/EN61558</label>
+            </value>
+            <value>
+                <fullName>BSI IS13252</fullName>
+                <default>false</default>
+                <label>BSI IS13252</label>
+            </value>
+            <value>
+                <fullName>BSMI</fullName>
+                <default>false</default>
+                <label>BSMI</label>
+            </value>
+            <value>
+                <fullName>CB</fullName>
+                <default>false</default>
+                <label>CB</label>
+            </value>
+            <value>
+                <fullName>CCC GB4943</fullName>
+                <default>false</default>
+                <label>CCC GB4943</label>
+            </value>
+            <value>
+                <fullName>CE</fullName>
+                <default>false</default>
+                <label>CE</label>
+            </value>
+            <value>
+                <fullName>CNS14336-1</fullName>
+                <default>false</default>
+                <label>CNS14336-1</label>
+            </value>
+            <value>
+                <fullName>CS22.2 No8</fullName>
+                <default>false</default>
+                <label>CS22.2 No8</label>
+            </value>
+            <value>
+                <fullName>CSA C22.2 NO. 62368-1</fullName>
+                <default>false</default>
+                <label>CSA C22.2 NO. 62368-1</label>
+            </value>
+            <value>
+                <fullName>CSUUS</fullName>
+                <default>false</default>
+                <label>CSUUS</label>
+            </value>
+            <value>
+                <fullName>CTick</fullName>
+                <default>false</default>
+                <label>CTick</label>
+            </value>
+            <value>
+                <fullName>CUL</fullName>
+                <default>false</default>
+                <label>CUL</label>
+            </value>
+            <value>
+                <fullName>CURUS</fullName>
+                <default>false</default>
+                <label>CURUS</label>
+            </value>
+            <value>
+                <fullName>D</fullName>
+                <default>false</default>
+                <label>D</label>
+            </value>
+            <value>
+                <fullName>Dimming</fullName>
+                <default>false</default>
+                <label>Dimming</label>
+            </value>
+            <value>
+                <fullName>Double Insulation</fullName>
+                <default>false</default>
+                <label>Double Insulation</label>
+            </value>
+            <value>
+                <fullName>EAC</fullName>
+                <default>false</default>
+                <label>EAC</label>
+            </value>
+            <value>
+                <fullName>EAC TP TC 004</fullName>
+                <default>false</default>
+                <label>EAC TP TC 004</label>
+            </value>
+            <value>
+                <fullName>EAC TP TC 005</fullName>
+                <default>false</default>
+                <label>EAC TP TC 005</label>
+            </value>
+            <value>
+                <fullName>EAC TP TC 006</fullName>
+                <default>false</default>
+                <label>EAC TP TC 006</label>
+            </value>
+            <value>
+                <fullName>EAC TP TC 007</fullName>
+                <default>false</default>
+                <label>EAC TP TC 007</label>
+            </value>
+            <value>
+                <fullName>EAC TP TC 008</fullName>
+                <default>false</default>
+                <label>EAC TP TC 008</label>
+            </value>
+            <value>
+                <fullName>EAC TP TC 009</fullName>
+                <default>false</default>
+                <label>EAC TP TC 009</label>
+            </value>
+            <value>
+                <fullName>EAC TP TC 010</fullName>
+                <default>false</default>
+                <label>EAC TP TC 010</label>
+            </value>
+            <value>
+                <fullName>EAC TP TC 011</fullName>
+                <default>false</default>
+                <label>EAC TP TC 011</label>
+            </value>
+            <value>
+                <fullName>EN61000-3-2</fullName>
+                <default>false</default>
+                <label>EN61000-3-2</label>
+            </value>
+            <value>
+                <fullName>EN61204-3</fullName>
+                <default>false</default>
+                <label>EN61204-3</label>
+            </value>
+            <value>
+                <fullName>EN61643-11</fullName>
+                <default>false</default>
+                <label>EN61643-11</label>
+            </value>
+            <value>
+                <fullName>Energy Saving</fullName>
+                <default>false</default>
+                <label>Energy Saving</label>
+            </value>
+            <value>
+                <fullName>ES60601-1-11</fullName>
+                <default>false</default>
+                <label>ES60601-1-11</label>
+            </value>
+            <value>
+                <fullName>F</fullName>
+                <default>false</default>
+                <label>F</label>
+            </value>
+            <value>
+                <fullName>FCC</fullName>
+                <default>false</default>
+                <label>FCC</label>
+            </value>
+            <value>
+                <fullName>GL</fullName>
+                <default>false</default>
+                <label>GL</label>
+            </value>
+            <value>
+                <fullName>Independent</fullName>
+                <default>false</default>
+                <label>Independent</label>
+            </value>
+            <value>
+                <fullName>ITM - Intelligent Temperature Monitoring</fullName>
+                <default>false</default>
+                <label>ITM - Intelligent Temperature Monitoring</label>
+            </value>
+            <value>
+                <fullName>Level VI</fullName>
+                <default>false</default>
+                <label>Level VI</label>
+            </value>
+            <value>
+                <fullName>LPS - Limited Power Source</fullName>
+                <default>false</default>
+                <label>LPS - Limited Power Source</label>
+            </value>
+            <value>
+                <fullName>Radiation - Class A</fullName>
+                <default>false</default>
+                <label>Radiation - Class A</label>
+            </value>
+            <value>
+                <fullName>ROHS</fullName>
+                <default>false</default>
+                <label>ROHS</label>
+            </value>
+            <value>
+                <fullName>SELV Equiv</fullName>
+                <default>false</default>
+                <label>SELV Equiv</label>
+            </value>
+            <value>
+                <fullName>SEMI F47</fullName>
+                <default>false</default>
+                <label>SEMI F47</label>
+            </value>
+            <value>
+                <fullName>Short Circuit Proof</fullName>
+                <default>false</default>
+                <label>Short Circuit Proof</label>
+            </value>
+            <value>
+                <fullName>SIRIM MS IEC60950-1</fullName>
+                <default>false</default>
+                <label>SIRIM MS IEC60950-1</label>
+            </value>
+            <value>
+                <fullName>SIRIM MS IEC60950-1 (optional)</fullName>
+                <default>false</default>
+                <label>SIRIM MS IEC60950-1 (optional)</label>
+            </value>
+            <value>
+                <fullName>Suitable for mounting on flammable surface</fullName>
+                <default>false</default>
+                <label>Suitable for mounting on flammable surface</label>
+            </value>
+            <value>
+                <fullName>Suitable for mounting on wood</fullName>
+                <default>false</default>
+                <label>Suitable for mounting on wood</label>
+            </value>
+            <value>
+                <fullName>TRIGS</fullName>
+                <default>false</default>
+                <label>TRIGS</label>
+            </value>
+            <value>
+                <fullName>TUV</fullName>
+                <default>false</default>
+                <label>TUV</label>
+            </value>
+            <value>
+                <fullName>TUV-62368-1</fullName>
+                <default>false</default>
+                <label>TUV-62368-1</label>
+            </value>
+            <value>
+                <fullName>TUV Certified</fullName>
+                <default>false</default>
+                <label>TUV Certified</label>
+            </value>
+            <value>
+                <fullName>TUV EN-60601-1 Certified</fullName>
+                <default>false</default>
+                <label>TUV EN-60601-1 Certified</label>
+            </value>
+            <value>
+                <fullName>TUV EN62368-1</fullName>
+                <default>false</default>
+                <label>TUV EN62368-1</label>
+            </value>
+            <value>
+                <fullName>TUV TYPE</fullName>
+                <default>false</default>
+                <label>TUV TYPE</label>
+            </value>
+            <value>
+                <fullName>UKCA</fullName>
+                <default>false</default>
+                <label>UKCA</label>
+            </value>
+            <value>
+                <fullName>UL</fullName>
+                <default>false</default>
+                <label>UL</label>
+            </value>
+            <value>
+                <fullName>UL1449</fullName>
+                <default>false</default>
+                <label>UL1449</label>
+            </value>
+            <value>
+                <fullName>UL60950-1</fullName>
+                <default>false</default>
+                <label>UL60950-1</label>
+            </value>
+            <value>
+                <fullName>UL61010</fullName>
+                <default>false</default>
+                <label>UL61010</label>
+            </value>
+            <value>
+                <fullName>UL62368-1</fullName>
+                <default>false</default>
+                <label>UL62368-1</label>
+            </value>
+            <value>
+                <fullName>UL AAMI</fullName>
+                <default>false</default>
+                <label>UL AAMI</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

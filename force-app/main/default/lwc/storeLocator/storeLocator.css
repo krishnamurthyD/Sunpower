@@ -1,0 +1,12 @@
+.storeLocator-form {
+    display: flex;
+    align-items: end;
+}
+
+.map-container .slds-map_container {
+    border: 1px solid;
+}
+
+ul {
+    padding: 0;
+}

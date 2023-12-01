@@ -1,0 +1,14 @@
+<template>
+    <div class="select-field-wrapper">
+        <div class="inner-wrapper" onclick={toggleOptions}>
+            <div class="selected-option-field">{selectedOption}</div>
+            <div class="arrow" if:false={showOptions}><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+            <div class="arrow" if:true={showOptions}><i class="fa fa-angle-up" aria-hidden="true"></i></div>
+        </div>
+        <ul if:true={showOptions}>
+            <li class="options" for:each={Options} for:item="car" key={car} onclick={handleOptionClick}>
+                {car}
+            </li>
+        </ul>
+    </div>
+</template>

@@ -1,0 +1,96 @@
+[data-component-id="section-0790"] .slds-button{
+     border:none !important;
+ }
+ [data-component-id="section-0790"] .slds-button_neutral {
+     border:1px solid black !important;
+ }
+ [data-component-id="section-0790"] .main_actions_remove:hover{
+     color:var(--snp-theme-clr-yellow)!important;
+     text-decoration:underline !important;
+ }
+ [data-component-id="section-0790"] .slds-modal__container .slds-button_brand {
+     border :1px solid black !important;
+ }
+  
+ [data-component-id="section-0790"] h3:hover {
+     background-color:white !important;
+ text-decoration: underline;
+ color: var(--snp-theme-clr-yellow)!important;
+ }
+ 
+ [data-component-id="cartItems-7352"] h1 {
+     color: black !important ;
+ font-size: 22px !important;
+ }
+ [data-component-id="cartItems-7352"] h1:hover {
+     color: var(--snp-theme-clr-yellow)!important;
+ }
+ 
+ [data-component-id="checkoutButton-69d3"] .slds-button_brand {
+     border:1px solid black !important;
+ }
+ [data-component-id="cartItems-7352"] .commerce-numberInput_numberInput .slds-grid {
+     outline: 1px solid !important;
+ border: none !important;
+ }
+/*  [data-component-id="layoutSite-ffb9"] .slds-button_brand:hover {
+     background-color: var(--snp-theme-clr-yellow)!important;
+ }*/
+ [data-component-id="section-0790"] .slds-button_brand {
+     background-color: var(--snp-clr-geygreen)!important;
+ }
+  [data-component-id="b2bCartContents-ae91"] .commerce_cart-header_header-host {
+     padding:10px !important;
+ }
+
+
+    
+[data-component-id="section-0790"] .community_layout-column_column {
+    display:block !important;
+ }
+ [data-component-id="section-0790"] .slds-button{
+     border:none !important;
+ }
+ [data-component-id="section-0790"] .slds-button_neutral {
+     border:1px solid black !important;
+ }
+ [data-component-id="section-0790"] .main_actions_remove:hover{
+     color:var(--snp-theme-clr-yellow)!important;
+     text-decoration:underline !important;
+ }
+ [data-component-id="section-0790"] .slds-modal__container .slds-button_brand {
+     border :1px solid black !important;
+ }
+  
+ [data-component-id="section-0790"] h3:hover {
+     background-color:white !important;
+ text-decoration: underline;
+ color: var(--snp-theme-clr-yellow)!important;
+ }
+ 
+ [data-component-id="cartItems-7352"] h1 {
+     color: black !important ;
+ font-size: 22px !important;
+ }
+ [data-component-id="cartItems-7352"] h1:hover {
+     color: var(--snp-theme-clr-yellow)!important;
+ }
+ 
+ [data-component-id="checkoutButton-69d3"] .slds-button_brand {
+     border:1px solid black !important;
+ }
+ [data-component-id="cartItems-7352"] .commerce-numberInput_numberInput .slds-grid {
+     outline: 1px solid !important;
+ border: none !important;
+ }
+ [data-component-id="section-0790"] .slds-button_brand {
+     background-color: var(--snp-clr-geygreen)!important;
+ }
+  [data-component-id="b2bCartContents-ae91"] .commerce_cart-header_header-host {
+     padding:10px !important;
+ }
+   
+
+ .product-cart-page .slds-button__icon {
+    fill:white;
+ }

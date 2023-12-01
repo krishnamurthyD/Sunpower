@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accessory_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Accessory Type</label>
+    <required>false</required>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AC Cable</fullName>
+                <default>false</default>
+                <label>AC Cable</label>
+            </value>
+            <value>
+                <fullName>AC Plug</fullName>
+                <default>false</default>
+                <label>AC Plug</label>
+            </value>
+            <value>
+                <fullName>Battery Pack</fullName>
+                <default>false</default>
+                <label>Battery Pack</label>
+            </value>
+            <value>
+                <fullName>Cable Joiner</fullName>
+                <default>false</default>
+                <label>Cable Joiner</label>
+            </value>
+            <value>
+                <fullName>Clip</fullName>
+                <default>false</default>
+                <label>Clip</label>
+            </value>
+            <value>
+                <fullName>Connector</fullName>
+                <default>false</default>
+                <label>Connector</label>
+            </value>
+            <value>
+                <fullName>DC Cable</fullName>
+                <default>false</default>
+                <label>DC Cable</label>
+            </value>
+            <value>
+                <fullName>DC Tip</fullName>
+                <default>false</default>
+                <label>DC Tip</label>
+            </value>
+            <value>
+                <fullName>Metalwork</fullName>
+                <default>false</default>
+                <label>Metalwork</label>
+            </value>
+            <value>
+                <fullName>Monitor Unit</fullName>
+                <default>false</default>
+                <label>Monitor Unit</label>
+            </value>
+            <value>
+                <fullName>Remote Control</fullName>
+                <default>false</default>
+                <label>Remote Control</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

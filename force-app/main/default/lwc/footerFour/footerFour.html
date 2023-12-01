@@ -1,0 +1,75 @@
+<template>
+    <!-- <lightning-card class="container"> -->
+    
+        <div class="row align-items-center justify-content-space-between">
+            <div class="col-sm-5">
+                <div class="emailSubscription mb-4">
+                    <lightning-input type="text" data-id="txtEmailAddress" class="textInput m-0" placeholder="Enter email to subscribe">
+                    </lightning-input>&nbsp;
+                    <lightning-button label="Subscribe" onclick={sendEmailUsingMarketingCloud} variant="brand"></lightning-button>
+                </div>
+                <ul class="footer-links pb-3">
+                    <li><a href="https://lwc10110-dev-ed.builder.salesforce-experience.com/sfsites/picasso/core/config/commeditor.jsp">Products</a> </li>
+                    <li><a href="https://lwc10110-dev-ed.builder.salesforce-experience.com/sfsites/picasso/core/config/commeditor.jsp">Solutions</a></li>
+                    <li><a href="https://lwc10110-dev-ed.builder.salesforce-experience.com/sfsites/picasso/core/config/commeditor.jsp">Support</a></li>
+                    <li><a href="https://lwc10110-dev-ed.builder.salesforce-experience.com/sfsites/picasso/core/config/commeditor.jsp">Blogs</a></li>     
+                    <li><a href="https://lwc10110-dev-ed.builder.salesforce-experience.com/sfsites/picasso/core/config/commeditor.jsp">About</a></li>
+                </ul>
+                <ul class="footer-social d-flex">
+                    <li class="mx-2 "> <a href="https://www.linkedin.com/company/smeg-uk-ltd./?originalSubdomain=uk" class="socialLink" target="_blank">
+                        <img src={imageOfLinkdin} />
+                    </a></li>
+                    <li class="mx-2"><a href="https://twitter.com/smegservice?lang=en" class="socialLink" target="_blank">
+                        <img src={imageOfTwitter} />
+                    </a></li>
+                    <li class="mx-2"> <a href="https://www.youtube.com/@SmegUKOfficial" class="socialLink" target="_blank">
+                        <img src={imagewOfYouTube} />
+                    </a></li>
+                    <li class="mx-2"><a href="https://www.instagram.com/smeg_uk/?hl=en" class="socialLink" target="_blank">
+                        <img src={imageOfInstagram} />
+                    </a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <ul>
+                    <a href="https://lwc10110-dev-ed.my.site.com/Puma/en-GB/" target="_self">
+                        <img src={imageOfsmegLogo}>
+                    </a>
+                </ul>
+                 
+            </div>
+            <div class="col-sm-4">
+                <ul class="lpscc">
+                    <li class="px-1 mx-5 three"> <a href="https://www.salesforce.com" target="_blank">Legal</a> </li>
+                    <li class="px-1 mx-5 three"><a href="https://www.salesforce.com" target="_blank">Privacy</a></li>
+                    <li class="px-1 mx-5 three"><a href="https://www.salesforce.com" target="_blank">Supplies</a></li>
+                    <li class="px-1 mx-5 three"><a href="https://www.salesforce.com" target="_blank">Careers</a></li>
+                    <li class="px-1 mx-5 three"><a href="https://www.salesforce.com" target="_blank">Choices</a></li>
+                    <li class="px-1 mx-5 three"><a href="https://lwc10110-dev-ed.my.site.com/Puma/store-locator" target="_blank">Store Locator</a></li>
+                </ul>
+                <!-- <lightning-button variant="brand" label="Sales" class="slds-m-around_medium slds-button_outline-brand one-btn" ></lightning-button> -->
+                <!-- <lightning-button variant="brand" label="Contact" class="slds-m-around_medium slds-button_outline-brand one-btn" ></lightning-button> -->
+                <!-- <img src={imageBelowThebuttons} /> -->
+            </div>
+
+            <!-- <img src={imageBelowThebuttons} /> -->
+        </div>
+        <div class="copyright">
+            <!-- <ul class="footercopy-links">
+                <li class="px-1 mx-5">Legal</li>
+                <li class="px-1 mx-5">Privacy</li>
+                <li class="px-1 mx-5">Supplies</li>
+                <li class="px-1 mx-5">Careers</li>
+                <li class="px-1 mx-5">Choices</li>
+            </ul> -->
+            <div class="copyright-name mb-2">
+                © SMEG India Ltd, 2023. All Rights Reserved.
+                    Imprint and Legal Data.
+            </div>
+        </div>
+        <!-- Google Tag Manager (noscript) -->
+            <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MVDZ7C6"
+                        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+    <!-- </lightning-card> -->
+</template>

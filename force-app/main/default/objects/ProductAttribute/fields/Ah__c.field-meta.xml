@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ah__c</fullName>
+    <externalId>false</externalId>
+    <label>Ah</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1.2Ah to 32Ah</fullName>
+                <default>false</default>
+                <label>1.2Ah to 32Ah</label>
+            </value>
+            <value>
+                <fullName>125Ah Maximum</fullName>
+                <default>false</default>
+                <label>125Ah Maximum</label>
+            </value>
+            <value>
+                <fullName>160Ah Maximum</fullName>
+                <default>false</default>
+                <label>160Ah Maximum</label>
+            </value>
+            <value>
+                <fullName>200Ah Maximum</fullName>
+                <default>false</default>
+                <label>200Ah Maximum</label>
+            </value>
+            <value>
+                <fullName>400Ah Maximum</fullName>
+                <default>false</default>
+                <label>400Ah Maximum</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

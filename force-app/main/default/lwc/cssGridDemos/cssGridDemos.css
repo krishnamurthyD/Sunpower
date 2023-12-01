@@ -1,0 +1,138 @@
+.container {
+    max-width: 1440px;
+    border: 2px solid red;
+    margin: auto;
+    display: grid;
+    /* maximum we use grid-template-columns,grid-auto-rows,grid-auto-flow */
+    /* gtc shortcut  */
+
+    /* while using we have to use the fr fraction  */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+
+
+    /* important 3 lines of code  */
+    /* grid-template-columns: repeat(3, 1fr);
+    gap: 10px;  
+    grid-auto-rows: 100px; */
+
+
+    /* we can fix one colume by using rid-template-columns:100px repeat(2, 1fr)   */
+    /* grid-template-rows: 100px 100px ; */
+    grid-auto-rows: 100px;
+    /* Default grid-auto-flow is row  */
+    grid-auto-flow: row;  
+    /* grid-auto-columns: auto; */
+
+    /* row-gap: 30px; 
+     column-gap: 10px; */
+    gap: 10px;
+    /* implicit  browser*/
+    /* explicit myself*/
+
+    /* For variabel colume  */
+    /* Auto-fit ,Auto-fill */
+    /* grid-template-columns: repeat(auto-fill, 1fr); */
+    /* grid-template-columns: repeat(auto-fit, 1fr); */
+
+    /* we can further very the column so that accourding to the size of window it can adjust */ 
+    /* minmax(minimum size, maximum size) */
+    /* we will maximum use the auto fit */
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+
+    /* there are many empty space but and we want to fill all the sapce by using "grid-auto-flow:dense; "  we can achive the compact lay out*/
+    /* grid-auto-flow: dense; */
+    
+    /*
+        we can use justify items on to the in grid and the these are used various property in it by default " justify-items: stretch;"  
+        justify-items is working along " x-axis"
+        justify-items: stretch; 
+
+        we can use align items  on to the in grid and the these are used various property in it by default "align-items: stretch;"  
+        align-items is working along "y-axis"
+        align-items: stretch; 
+
+        short hand for using the both the propertyes is place-items: y-axis x-axis;
+        place-items: end start ;
+    */
+
+    /* 
+         we can use justify content on to the in grid and the these are used various property in it by default " justify-items: stretch;"  
+        justify-content is working along "x-axis"
+        justify-content: stretch; 
+
+        we can use align items content on to the in grid and the these are used various property in it by default "align-items: stretch;"  
+        align-content is working along "y-axis"
+        align-content: stretch;  
+
+        short hand for using the both the propertyes is place-items: y-axis x-axis;
+        place-content: end start ;
+    */
+
+    /* 
+      grid-template-areas: 
+      col-1  col-2  
+      "header header"    row-1
+       col-3  col-4 
+      "main content"   row-2
+       col-4  col-6 
+      "footer footer"   row-3;
+      specific area we can assign to each colume and row
+    */
+
+}
+/* grid-container */
+/* grid-items */
+
+.item {
+    padding: 10px;
+    background: #487eb0;
+    color: #fff;
+    border:  2px solid black;
+}
+
+.item1 {
+    
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+
+    /* short hand property */
+    /* grid-column: 1 / 3;   or */
+    /* grid-column: 1 / span 3; */
+
+    /* start where ever end after short hand rows  */
+    grid-row: span 2;
+
+    /*start where ever end after short hand rows  */
+    grid-column: span 3;
+
+    /* grid-row-start: 1;
+    grid-row-end: 4; */
+    /* grid-row: 1/4; or */
+    /* grid-row: 1/ span 4; */
+
+    /* 
+     we can use justify self on to the in grid and the these are used various property in it by default " justify-items: stretch;"  
+        justify-self is working along "x-axis"
+        justify-self: stretch; 
+
+        we can use align items self on to the in grid and the these are used various property in it by default "align-items: stretch;"  
+        align-self is working along "y-axis"
+        align-self: stretch;  
+
+        short hand for using the both the propertyes is place-items: y-axis x-axis;
+        place-self: end start ;
+    */
+}
+
+.item5 {
+    /* short hand where ever you start you will take two column space using the kayword  "span 2" */
+    /* and if we give grid-column: 1 /-1 it will take entire legth of all column  */
+    grid-column:  span 2;
+}
+
+/*  
+    @media (max-width : 680px) {
+       same properties to be written when screen is small
+    
+   } 
+*/

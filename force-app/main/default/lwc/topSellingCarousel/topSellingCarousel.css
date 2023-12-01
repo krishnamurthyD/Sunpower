@@ -1,0 +1,12 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .carousal{
+      height: 5oopx;
+      width: 500px;
+       justify-content: center
+  }

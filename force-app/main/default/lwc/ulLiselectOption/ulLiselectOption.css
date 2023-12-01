@@ -1,0 +1,80 @@
+
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  .select-field-wrapper {
+    width: 100%;
+position: relative;
+padding: 10px;
+  }
+
+  .inner-wrapper {
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15%;
+  border: 2px solid;
+padding: 5px;
+  }
+  .options {
+    text-align: center;
+    background: white;
+    width: 15%;
+    border: 1px solid black;
+    }
+    .options:hover {
+        background: #fdc300;
+    }
+
+
+    /* .hide-show {
+        display: none;
+    } */
+    /* .selected-option-field {
+      height: 36px;
+      width: 300px;
+      background-color: white;
+      border: 2px solid #4e3c3c;
+      position: relative;
+      color: black;
+      text-align: center;
+      margin: 0;
+    } */
+  
+    /* .selected-option-field::after {
+      content: "\f078";
+      font-family: FontAwesome;
+      display: inline-block;
+      position: absolute;
+      background: white;
+      right: 0;
+    } */
+  
+    /* .arrow {
+      display: inline-block;
+      height: 15px;
+      width: 15px;
+      position: absolute;
+      top: 6px;
+      right: 8px;
+      background-position: center;
+      object-fit: scale-down;
+      background-size: cover;
+    } */
+    /* .available-options {
+      width: 300px;
+      height: 104px;
+      overflow: hidden;
+      overflow-y: auto;
+      border: 1px solid black;
+    } */

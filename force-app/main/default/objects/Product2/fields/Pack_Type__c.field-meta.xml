@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pack_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Pack Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Anti Static Bag</fullName>
+                <default>false</default>
+                <label>Anti Static Bag</label>
+            </value>
+            <value>
+                <fullName>Blister Pack</fullName>
+                <default>false</default>
+                <label>Blister Pack</label>
+            </value>
+            <value>
+                <fullName>Bulk Pack</fullName>
+                <default>false</default>
+                <label>Bulk Pack</label>
+            </value>
+            <value>
+                <fullName>Foil Bag</fullName>
+                <default>false</default>
+                <label>Foil Bag</label>
+            </value>
+            <value>
+                <fullName>Individual Box</fullName>
+                <default>false</default>
+                <label>Individual Box</label>
+            </value>
+            <value>
+                <fullName>Tube</fullName>
+                <default>false</default>
+                <label>Tube</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

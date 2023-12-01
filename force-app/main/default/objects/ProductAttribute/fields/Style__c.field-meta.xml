@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Style__c</fullName>
+    <externalId>false</externalId>
+    <label>Style</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1-Phase,2-Phase</fullName>
+                <default>false</default>
+                <label>1-Phase,2-Phase</label>
+            </value>
+            <value>
+                <fullName>1-Phase,NEWSOK</fullName>
+                <default>false</default>
+                <label>1-Phase,NEWSOK</label>
+            </value>
+            <value>
+                <fullName>1-Phase,NEWSOK,Terminal Blocks</fullName>
+                <default>false</default>
+                <label>1-Phase,NEWSOK,Terminal Blocks</label>
+            </value>
+            <value>
+                <fullName>1-Phase,Terminal Blocks</fullName>
+                <default>false</default>
+                <label>1-Phase,Terminal Blocks</label>
+            </value>
+            <value>
+                <fullName>1U</fullName>
+                <default>false</default>
+                <label>1U</label>
+            </value>
+            <value>
+                <fullName>1U,ATX 12V</fullName>
+                <default>false</default>
+                <label>1U,ATX 12V</label>
+            </value>
+            <value>
+                <fullName>1U,EPS12V</fullName>
+                <default>false</default>
+                <label>1U,EPS12V</label>
+            </value>
+            <value>
+                <fullName>2U</fullName>
+                <default>false</default>
+                <label>2U</label>
+            </value>
+            <value>
+                <fullName>3-Phase</fullName>
+                <default>false</default>
+                <label>3-Phase</label>
+            </value>
+            <value>
+                <fullName>3-wire input</fullName>
+                <default>false</default>
+                <label>3-wire input</label>
+            </value>
+            <value>
+                <fullName>Angled,Recessed,Surface Mount</fullName>
+                <default>false</default>
+                <label>Angled,Recessed,Surface Mount</label>
+            </value>
+            <value>
+                <fullName>Angled,Surface Mount</fullName>
+                <default>false</default>
+                <label>Angled,Surface Mount</label>
+            </value>
+            <value>
+                <fullName>AT,Industrial</fullName>
+                <default>false</default>
+                <label>AT,Industrial</label>
+            </value>
+            <value>
+                <fullName>AT,PS2</fullName>
+                <default>false</default>
+                <label>AT,PS2</label>
+            </value>
+            <value>
+                <fullName>ATX</fullName>
+                <default>false</default>
+                <label>ATX</label>
+            </value>
+            <value>
+                <fullName>Class 2</fullName>
+                <default>false</default>
+                <label>Class 2</label>
+            </value>
+            <value>
+                <fullName>Class I</fullName>
+                <default>false</default>
+                <label>Class I</label>
+            </value>
+            <value>
+                <fullName>Class I,Class II</fullName>
+                <default>false</default>
+                <label>Class I,Class II</label>
+            </value>
+            <value>
+                <fullName>Class II</fullName>
+                <default>false</default>
+                <label>Class II</label>
+            </value>
+            <value>
+                <fullName>COB</fullName>
+                <default>false</default>
+                <label>COB</label>
+            </value>
+            <value>
+                <fullName>DIP</fullName>
+                <default>false</default>
+                <label>DIP</label>
+            </value>
+            <value>
+                <fullName>DIP16</fullName>
+                <default>false</default>
+                <label>DIP16</label>
+            </value>
+            <value>
+                <fullName>DIP21</fullName>
+                <default>false</default>
+                <label>DIP21</label>
+            </value>
+            <value>
+                <fullName>DIP22</fullName>
+                <default>false</default>
+                <label>DIP22</label>
+            </value>
+            <value>
+                <fullName>DIP24</fullName>
+                <default>false</default>
+                <label>DIP24</label>
+            </value>
+            <value>
+                <fullName>DIP7,SMD</fullName>
+                <default>false</default>
+                <label>DIP7,SMD</label>
+            </value>
+            <value>
+                <fullName>Dual</fullName>
+                <default>false</default>
+                <label>Dual</label>
+            </value>
+            <value>
+                <fullName>Dual,Industrial</fullName>
+                <default>false</default>
+                <label>Dual,Industrial</label>
+            </value>
+            <value>
+                <fullName>European</fullName>
+                <default>false</default>
+                <label>European</label>
+            </value>
+            <value>
+                <fullName>Greenmode</fullName>
+                <default>false</default>
+                <label>Greenmode</label>
+            </value>
+            <value>
+                <fullName>Industrial</fullName>
+                <default>false</default>
+                <label>Industrial</label>
+            </value>
+            <value>
+                <fullName>In-Plaster,Recessed</fullName>
+                <default>false</default>
+                <label>In-Plaster,Recessed</label>
+            </value>
+            <value>
+                <fullName>Linear</fullName>
+                <default>false</default>
+                <label>Linear</label>
+            </value>
+            <value>
+                <fullName>Pins</fullName>
+                <default>false</default>
+                <label>Pins</label>
+            </value>
+            <value>
+                <fullName>Pins,SIP8</fullName>
+                <default>false</default>
+                <label>Pins,SIP8</label>
+            </value>
+            <value>
+                <fullName>Pins,Wires</fullName>
+                <default>false</default>
+                <label>Pins,Wires</label>
+            </value>
+            <value>
+                <fullName>PWM Dimmer</fullName>
+                <default>false</default>
+                <label>PWM Dimmer</label>
+            </value>
+            <value>
+                <fullName>Recessed</fullName>
+                <default>false</default>
+                <label>Recessed</label>
+            </value>
+            <value>
+                <fullName>Single</fullName>
+                <default>false</default>
+                <label>Single</label>
+            </value>
+            <value>
+                <fullName>SIP4</fullName>
+                <default>false</default>
+                <label>SIP4</label>
+            </value>
+            <value>
+                <fullName>SIP6</fullName>
+                <default>false</default>
+                <label>SIP6</label>
+            </value>
+            <value>
+                <fullName>SIP7</fullName>
+                <default>false</default>
+                <label>SIP7</label>
+            </value>
+            <value>
+                <fullName>SIP8</fullName>
+                <default>false</default>
+                <label>SIP8</label>
+            </value>
+            <value>
+                <fullName>SMD</fullName>
+                <default>false</default>
+                <label>SMD</label>
+            </value>
+            <value>
+                <fullName>Surface Mount</fullName>
+                <default>false</default>
+                <label>Surface Mount</label>
+            </value>
+            <value>
+                <fullName>Terminal Blocks</fullName>
+                <default>false</default>
+                <label>Terminal Blocks</label>
+            </value>
+            <value>
+                <fullName>Terminal Blocks,Water Connector</fullName>
+                <default>false</default>
+                <label>Terminal Blocks,Water Connector</label>
+            </value>
+            <value>
+                <fullName>Twin</fullName>
+                <default>false</default>
+                <label>Twin</label>
+            </value>
+            <value>
+                <fullName>UK</fullName>
+                <default>false</default>
+                <label>UK</label>
+            </value>
+            <value>
+                <fullName>Universal</fullName>
+                <default>false</default>
+                <label>Universal</label>
+            </value>
+            <value>
+                <fullName>Unregulated</fullName>
+                <default>false</default>
+                <label>Unregulated</label>
+            </value>
+            <value>
+                <fullName>USA</fullName>
+                <default>false</default>
+                <label>USA</label>
+            </value>
+            <value>
+                <fullName>Water Connector</fullName>
+                <default>false</default>
+                <label>Water Connector</label>
+            </value>
+            <value>
+                <fullName>Wide Input Range</fullName>
+                <default>false</default>
+                <label>Wide Input Range</label>
+            </value>
+            <value>
+                <fullName>Wires</fullName>
+                <default>false</default>
+                <label>Wires</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,1672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Major__c</fullName>
+    <externalId>false</externalId>
+    <label>CC Major</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Commodity_General__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Abrasives</fullName>
+                <default>false</default>
+                <label>Abrasives</label>
+            </value>
+            <value>
+                <fullName>ABS Pipe Systems</fullName>
+                <default>false</default>
+                <label>ABS Pipe Systems</label>
+            </value>
+            <value>
+                <fullName>Access Control Systems</fullName>
+                <default>false</default>
+                <label>Access Control Systems</label>
+            </value>
+            <value>
+                <fullName>Access Equipment</fullName>
+                <default>false</default>
+                <label>Access Equipment</label>
+            </value>
+            <value>
+                <fullName>Active Equipment</fullName>
+                <default>false</default>
+                <label>Active Equipment</label>
+            </value>
+            <value>
+                <fullName>Adhesives Sealants &amp; Fillers</fullName>
+                <default>false</default>
+                <label>Adhesives Sealants &amp; Fillers</label>
+            </value>
+            <value>
+                <fullName>Aerials &amp; TV Equipment</fullName>
+                <default>false</default>
+                <label>Aerials &amp; TV Equipment</label>
+            </value>
+            <value>
+                <fullName>Air &amp; Dirt Separators</fullName>
+                <default>false</default>
+                <label>Air &amp; Dirt Separators</label>
+            </value>
+            <value>
+                <fullName>Air Conditioning</fullName>
+                <default>false</default>
+                <label>Air Conditioning</label>
+            </value>
+            <value>
+                <fullName>Air Curtains</fullName>
+                <default>false</default>
+                <label>Air Curtains</label>
+            </value>
+            <value>
+                <fullName>Air Line Systems</fullName>
+                <default>false</default>
+                <label>Air Line Systems</label>
+            </value>
+            <value>
+                <fullName>Aluminium Perimeter Systems</fullName>
+                <default>false</default>
+                <label>Aluminium Perimeter Systems</label>
+            </value>
+            <value>
+                <fullName>Aluminium Rainwater Systems</fullName>
+                <default>false</default>
+                <label>Aluminium Rainwater Systems</label>
+            </value>
+            <value>
+                <fullName>Anchors</fullName>
+                <default>false</default>
+                <label>Anchors</label>
+            </value>
+            <value>
+                <fullName>Automated Gates &amp; Barriers</fullName>
+                <default>false</default>
+                <label>Automated Gates &amp; Barriers</label>
+            </value>
+            <value>
+                <fullName>Batteries &amp; Torches</fullName>
+                <default>false</default>
+                <label>Batteries &amp; Torches</label>
+            </value>
+            <value>
+                <fullName>Boilers</fullName>
+                <default>false</default>
+                <label>Boilers</label>
+            </value>
+            <value>
+                <fullName>Bolts Nuts Washers</fullName>
+                <default>false</default>
+                <label>Bolts Nuts Washers</label>
+            </value>
+            <value>
+                <fullName>Brazing Fittings</fullName>
+                <default>false</default>
+                <label>Brazing Fittings</label>
+            </value>
+            <value>
+                <fullName>Busbar Trunking Systems</fullName>
+                <default>false</default>
+                <label>Busbar Trunking Systems</label>
+            </value>
+            <value>
+                <fullName>Business Services -  To be Classified</fullName>
+                <default>false</default>
+                <label>Business Services -  To be Classified</label>
+            </value>
+            <value>
+                <fullName>Business Software</fullName>
+                <default>false</default>
+                <label>Business Software</label>
+            </value>
+            <value>
+                <fullName>Cabinets Racks &amp; Frames</fullName>
+                <default>false</default>
+                <label>Cabinets Racks &amp; Frames</label>
+            </value>
+            <value>
+                <fullName>Cable &amp; Acc Specials</fullName>
+                <default>false</default>
+                <label>Cable &amp; Acc Specials</label>
+            </value>
+            <value>
+                <fullName>Cable Accessories</fullName>
+                <default>false</default>
+                <label>Cable Accessories</label>
+            </value>
+            <value>
+                <fullName>Cable Ladder</fullName>
+                <default>false</default>
+                <label>Cable Ladder</label>
+            </value>
+            <value>
+                <fullName>Cable Management Specials</fullName>
+                <default>false</default>
+                <label>Cable Management Specials</label>
+            </value>
+            <value>
+                <fullName>Cable Management -  To be Classified</fullName>
+                <default>false</default>
+                <label>Cable Management -  To be Classified</label>
+            </value>
+            <value>
+                <fullName>Cables &amp; Accessories -  To be Classified</fullName>
+                <default>false</default>
+                <label>Cables &amp; Accessories -  To be Classified</label>
+            </value>
+            <value>
+                <fullName>Cables - Electrical</fullName>
+                <default>false</default>
+                <label>Cables - Electrical</label>
+            </value>
+            <value>
+                <fullName>Cables - Voice &amp; Data</fullName>
+                <default>false</default>
+                <label>Cables - Voice &amp; Data</label>
+            </value>
+            <value>
+                <fullName>Cable Terminations &amp; Connectors</fullName>
+                <default>false</default>
+                <label>Cable Terminations &amp; Connectors</label>
+            </value>
+            <value>
+                <fullName>Cable Tray &amp; Basket</fullName>
+                <default>false</default>
+                <label>Cable Tray &amp; Basket</label>
+            </value>
+            <value>
+                <fullName>Cable Tray - GRP/Plastic</fullName>
+                <default>false</default>
+                <label>Cable Tray - GRP/Plastic</label>
+            </value>
+            <value>
+                <fullName>Cable Tray - Stainless Steel</fullName>
+                <default>false</default>
+                <label>Cable Tray - Stainless Steel</label>
+            </value>
+            <value>
+                <fullName>Call Systems</fullName>
+                <default>false</default>
+                <label>Call Systems</label>
+            </value>
+            <value>
+                <fullName>Capillary End Feed Fittings</fullName>
+                <default>false</default>
+                <label>Capillary End Feed Fittings</label>
+            </value>
+            <value>
+                <fullName>Capillary Integral Solder Fittings</fullName>
+                <default>false</default>
+                <label>Capillary Integral Solder Fittings</label>
+            </value>
+            <value>
+                <fullName>Cast Iron Below Ground</fullName>
+                <default>false</default>
+                <label>Cast Iron Below Ground</label>
+            </value>
+            <value>
+                <fullName>Cast Iron Rainwater Systems</fullName>
+                <default>false</default>
+                <label>Cast Iron Rainwater Systems</label>
+            </value>
+            <value>
+                <fullName>Cast Iron Soil Systems</fullName>
+                <default>false</default>
+                <label>Cast Iron Soil Systems</label>
+            </value>
+            <value>
+                <fullName>CCTV Systems</fullName>
+                <default>false</default>
+                <label>CCTV Systems</label>
+            </value>
+            <value>
+                <fullName>Ceiling Accessories</fullName>
+                <default>false</default>
+                <label>Ceiling Accessories</label>
+            </value>
+            <value>
+                <fullName>Channel Supports</fullName>
+                <default>false</default>
+                <label>Channel Supports</label>
+            </value>
+            <value>
+                <fullName>Chemical Waste Drainage Systems</fullName>
+                <default>false</default>
+                <label>Chemical Waste Drainage Systems</label>
+            </value>
+            <value>
+                <fullName>Circuit Breakers</fullName>
+                <default>false</default>
+                <label>Circuit Breakers</label>
+            </value>
+            <value>
+                <fullName>Circuit Protection -  To be Classified</fullName>
+                <default>false</default>
+                <label>Circuit Protection -  To be Classified</label>
+            </value>
+            <value>
+                <fullName>Clay Drainage Systems</fullName>
+                <default>false</default>
+                <label>Clay Drainage Systems</label>
+            </value>
+            <value>
+                <fullName>Cleaning &amp; Protection</fullName>
+                <default>false</default>
+                <label>Cleaning &amp; Protection</label>
+            </value>
+            <value>
+                <fullName>Command &amp; Signalling Devices</fullName>
+                <default>false</default>
+                <label>Command &amp; Signalling Devices</label>
+            </value>
+            <value>
+                <fullName>Commercial HVAC Controls</fullName>
+                <default>false</default>
+                <label>Commercial HVAC Controls</label>
+            </value>
+            <value>
+                <fullName>Compression Fittings - Brass</fullName>
+                <default>false</default>
+                <label>Compression Fittings - Brass</label>
+            </value>
+            <value>
+                <fullName>Compression Fittings - Malleable</fullName>
+                <default>false</default>
+                <label>Compression Fittings - Malleable</label>
+            </value>
+            <value>
+                <fullName>Conferencing Systems</fullName>
+                <default>false</default>
+                <label>Conferencing Systems</label>
+            </value>
+            <value>
+                <fullName>Consumables Metering</fullName>
+                <default>false</default>
+                <label>Consumables Metering</label>
+            </value>
+            <value>
+                <fullName>Contract Service Products - Specials</fullName>
+                <default>false</default>
+                <label>Contract Service Products - Specials</label>
+            </value>
+            <value>
+                <fullName>Contract Service Products -  To be Classified</fullName>
+                <default>false</default>
+                <label>Contract Service Products -  To be Classified</label>
+            </value>
+            <value>
+                <fullName>Control Panel Trunking</fullName>
+                <default>false</default>
+                <label>Control Panel Trunking</label>
+            </value>
+            <value>
+                <fullName>Copper Tube</fullName>
+                <default>false</default>
+                <label>Copper Tube</label>
+            </value>
+            <value>
+                <fullName>Data Accessories -  To be Classified</fullName>
+                <default>false</default>
+                <label>Data Accessories -  To be Classified</label>
+            </value>
+            <value>
+                <fullName>Data Cable Accessories</fullName>
+                <default>false</default>
+                <label>Data Cable Accessories</label>
+            </value>
+            <value>
+                <fullName>Data Cable Containment</fullName>
+                <default>false</default>
+                <label>Data Cable Containment</label>
+            </value>
+            <value>
+                <fullName>Delivery Charges</fullName>
+                <default>false</default>
+                <label>Delivery Charges</label>
+            </value>
+            <value>
+                <fullName>Distribution Equipment</fullName>
+                <default>false</default>
+                <label>Distribution Equipment</label>
+            </value>
+            <value>
+                <fullName>Domestic Appliances - Gas Fired</fullName>
+                <default>false</default>
+                <label>Domestic Appliances - Gas Fired</label>
+            </value>
+            <value>
+                <fullName>Domestic Bells &amp; Chimes</fullName>
+                <default>false</default>
+                <label>Domestic Bells &amp; Chimes</label>
+            </value>
+            <value>
+                <fullName>Domestic Heating Controls</fullName>
+                <default>false</default>
+                <label>Domestic Heating Controls</label>
+            </value>
+            <value>
+                <fullName>Door Furniture</fullName>
+                <default>false</default>
+                <label>Door Furniture</label>
+            </value>
+            <value>
+                <fullName>Drill Bits</fullName>
+                <default>false</default>
+                <label>Drill Bits</label>
+            </value>
+            <value>
+                <fullName>Ducting Systems</fullName>
+                <default>false</default>
+                <label>Ducting Systems</label>
+            </value>
+            <value>
+                <fullName>Earthing &amp; Lightning Protection</fullName>
+                <default>false</default>
+                <label>Earthing &amp; Lightning Protection</label>
+            </value>
+            <value>
+                <fullName>Electrical Appliances</fullName>
+                <default>false</default>
+                <label>Electrical Appliances</label>
+            </value>
+            <value>
+                <fullName>Electric Motors</fullName>
+                <default>false</default>
+                <label>Electric Motors</label>
+            </value>
+            <value>
+                <fullName>Electric Vehicle Charging</fullName>
+                <default>false</default>
+                <label>Electric Vehicle Charging</label>
+            </value>
+            <value>
+                <fullName>Emergency Lighting General</fullName>
+                <default>false</default>
+                <label>Emergency Lighting General</label>
+            </value>
+            <value>
+                <fullName>Emergency Lighting LED</fullName>
+                <default>false</default>
+                <label>Emergency Lighting LED</label>
+            </value>
+            <value>
+                <fullName>Enclosures</fullName>
+                <default>false</default>
+                <label>Enclosures</label>
+            </value>
+            <value>
+                <fullName>Energy Monitoring Systems</fullName>
+                <default>false</default>
+                <label>Energy Monitoring Systems</label>
+            </value>
+            <value>
+                <fullName>Expansion Joints &amp; Flexibles</fullName>
+                <default>false</default>
+                <label>Expansion Joints &amp; Flexibles</label>
+            </value>
+            <value>
+                <fullName>Fans &amp; Ventilation Units</fullName>
+                <default>false</default>
+                <label>Fans &amp; Ventilation Units</label>
+            </value>
+            <value>
+                <fullName>Fibre Optic Lighting</fullName>
+                <default>false</default>
+                <label>Fibre Optic Lighting</label>
+            </value>
+            <value>
+                <fullName>Fire &amp; Security -  To be Classified</fullName>
+                <default>false</default>
+                <label>Fire &amp; Security -  To be Classified</label>
+            </value>
+            <value>
+                <fullName>Fire Alarm &amp; Detection Systems</fullName>
+                <default>false</default>
+                <label>Fire Alarm &amp; Detection Systems</label>
+            </value>
+            <value>
+                <fullName>Fire Fighting Equipment</fullName>
+                <default>false</default>
+                <label>Fire Fighting Equipment</label>
+            </value>
+            <value>
+                <fullName>Fixings &amp; Supports -  To be Classified</fullName>
+                <default>false</default>
+                <label>Fixings &amp; Supports -  To be Classified</label>
+            </value>
+            <value>
+                <fullName>Fixing Screws</fullName>
+                <default>false</default>
+                <label>Fixing Screws</label>
+            </value>
+            <value>
+                <fullName>Flexible Conduit Systems</fullName>
+                <default>false</default>
+                <label>Flexible Conduit Systems</label>
+            </value>
+            <value>
+                <fullName>Flexible Gas Piping System</fullName>
+                <default>false</default>
+                <label>Flexible Gas Piping System</label>
+            </value>
+            <value>
+                <fullName>Floor Boxes &amp; Grommets</fullName>
+                <default>false</default>
+                <label>Floor Boxes &amp; Grommets</label>
+            </value>
+            <value>
+                <fullName>Flue Systems</fullName>
+                <default>false</default>
+                <label>Flue Systems</label>
+            </value>
+            <value>
+                <fullName>Fluorescent Tubes</fullName>
+                <default>false</default>
+                <label>Fluorescent Tubes</label>
+            </value>
+            <value>
+                <fullName>Gaskets &amp; Joint Rings</fullName>
+                <default>false</default>
+                <label>Gaskets &amp; Joint Rings</label>
+            </value>
+            <value>
+                <fullName>Gauges &amp; Thermometers</fullName>
+                <default>false</default>
+                <label>Gauges &amp; Thermometers</label>
+            </value>
+            <value>
+                <fullName>Glass Traps &amp; Drainage</fullName>
+                <default>false</default>
+                <label>Glass Traps &amp; Drainage</label>
+            </value>
+            <value>
+                <fullName>Grooved Fittings</fullName>
+                <default>false</default>
+                <label>Grooved Fittings</label>
+            </value>
+            <value>
+                <fullName>Hand Dryers &amp; Hygiene</fullName>
+                <default>false</default>
+                <label>Hand Dryers &amp; Hygiene</label>
+            </value>
+            <value>
+                <fullName>Hand Tools</fullName>
+                <default>false</default>
+                <label>Hand Tools</label>
+            </value>
+            <value>
+                <fullName>HDPE Drainage Systems</fullName>
+                <default>false</default>
+                <label>HDPE Drainage Systems</label>
+            </value>
+            <value>
+                <fullName>Heat Pump Systems</fullName>
+                <default>false</default>
+                <label>Heat Pump Systems</label>
+            </value>
+            <value>
+                <fullName>Hole Saws &amp; Arbors</fullName>
+                <default>false</default>
+                <label>Hole Saws &amp; Arbors</label>
+            </value>
+            <value>
+                <fullName>Hose Pipe &amp; Fittings</fullName>
+                <default>false</default>
+                <label>Hose Pipe &amp; Fittings</label>
+            </value>
+            <value>
+                <fullName>Hot Water Cylinders</fullName>
+                <default>false</default>
+                <label>Hot Water Cylinders</label>
+            </value>
+            <value>
+                <fullName>HPF Pipe Systems</fullName>
+                <default>false</default>
+                <label>HPF Pipe Systems</label>
+            </value>
+            <value>
+                <fullName>HVAC Controls -  To be Classified</fullName>
+                <default>false</default>
+                <label>HVAC Controls -  To be Classified</label>
+            </value>
+            <value>
+                <fullName>HVAC Equipment -  To be Classified</fullName>
+                <default>false</default>
+                <label>HVAC Equipment -  To be Classified</label>
+            </value>
+            <value>
+                <fullName>Induction Loop Systems</fullName>
+                <default>false</default>
+                <label>Induction Loop Systems</label>
+            </value>
+            <value>
+                <fullName>Industrial Controls -  To be Classified</fullName>
+                <default>false</default>
+                <label>Industrial Controls -  To be Classified</label>
+            </value>
+            <value>
+                <fullName>Industrial Plugs &amp; Sockets</fullName>
+                <default>false</default>
+                <label>Industrial Plugs &amp; Sockets</label>
+            </value>
+            <value>
+                <fullName>Instrumentation</fullName>
+                <default>false</default>
+                <label>Instrumentation</label>
+            </value>
+            <value>
+                <fullName>Insulation Materials</fullName>
+                <default>false</default>
+                <label>Insulation Materials</label>
+            </value>
+            <value>
+                <fullName>Intruder Alarm Systems</fullName>
+                <default>false</default>
+                <label>Intruder Alarm Systems</label>
+            </value>
+            <value>
+                <fullName>Labelling &amp; ID</fullName>
+                <default>false</default>
+                <label>Labelling &amp; ID</label>
+            </value>
+            <value>
+                <fullName>Laboratory Service Controls</fullName>
+                <default>false</default>
+                <label>Laboratory Service Controls</label>
+            </value>
+            <value>
+                <fullName>Lamps - Compact Fluorescent</fullName>
+                <default>false</default>
+                <label>Lamps - Compact Fluorescent</label>
+            </value>
+            <value>
+                <fullName>Lamps - Discharge</fullName>
+                <default>false</default>
+                <label>Lamps - Discharge</label>
+            </value>
+            <value>
+                <fullName>Lamps - Incandescent</fullName>
+                <default>false</default>
+                <label>Lamps - Incandescent</label>
+            </value>
+            <value>
+                <fullName>Lamps - LED</fullName>
+                <default>false</default>
+                <label>Lamps - LED</label>
+            </value>
+            <value>
+                <fullName>Lamps - Special Purpose</fullName>
+                <default>false</default>
+                <label>Lamps - Special Purpose</label>
+            </value>
+            <value>
+                <fullName>Lamps - Tungsten Halogen</fullName>
+                <default>false</default>
+                <label>Lamps - Tungsten Halogen</label>
+            </value>
+            <value>
+                <fullName>Lighting Control Gear</fullName>
+                <default>false</default>
+                <label>Lighting Control Gear</label>
+            </value>
+            <value>
+                <fullName>Lighting Distribution Systems</fullName>
+                <default>false</default>
+                <label>Lighting Distribution Systems</label>
+            </value>
+            <value>
+                <fullName>Lighting -  To be Classified</fullName>
+                <default>false</default>
+                <label>Lighting -  To be Classified</label>
+            </value>
+            <value>
+                <fullName>Lighting Track Systems</fullName>
+                <default>false</default>
+                <label>Lighting Track Systems</label>
+            </value>
+            <value>
+                <fullName>Lighting Trunking</fullName>
+                <default>false</default>
+                <label>Lighting Trunking</label>
+            </value>
+            <value>
+                <fullName>Locking Systems</fullName>
+                <default>false</default>
+                <label>Locking Systems</label>
+            </value>
+            <value>
+                <fullName>Lubrication</fullName>
+                <default>false</default>
+                <label>Lubrication</label>
+            </value>
+            <value>
+                <fullName>Luminaires - Batten &amp; Modular</fullName>
+                <default>false</default>
+                <label>Luminaires - Batten &amp; Modular</label>
+            </value>
+            <value>
+                <fullName>Luminaires - Indoor General</fullName>
+                <default>false</default>
+                <label>Luminaires - Indoor General</label>
+            </value>
+            <value>
+                <fullName>Luminaires - Indoor LED</fullName>
+                <default>false</default>
+                <label>Luminaires - Indoor LED</label>
+            </value>
+            <value>
+                <fullName>Luminaires - Outdoor General</fullName>
+                <default>false</default>
+                <label>Luminaires - Outdoor General</label>
+            </value>
+            <value>
+                <fullName>Luminaires - Outdoor LED</fullName>
+                <default>false</default>
+                <label>Luminaires - Outdoor LED</label>
+            </value>
+            <value>
+                <fullName>MICC Accessories</fullName>
+                <default>false</default>
+                <label>MICC Accessories</label>
+            </value>
+            <value>
+                <fullName>MICC Cables</fullName>
+                <default>false</default>
+                <label>MICC Cables</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous</fullName>
+                <default>false</default>
+                <label>Miscellaneous</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous -  To be Classified</fullName>
+                <default>false</default>
+                <label>Miscellaneous -  To be Classified</label>
+            </value>
+            <value>
+                <fullName>Modular Wiring Systems</fullName>
+                <default>false</default>
+                <label>Modular Wiring Systems</label>
+            </value>
+            <value>
+                <fullName>Motor Control Gear</fullName>
+                <default>false</default>
+                <label>Motor Control Gear</label>
+            </value>
+            <value>
+                <fullName>Multi Layer Pipe Systems</fullName>
+                <default>false</default>
+                <label>Multi Layer Pipe Systems</label>
+            </value>
+            <value>
+                <fullName>Nails</fullName>
+                <default>false</default>
+                <label>Nails</label>
+            </value>
+            <value>
+                <fullName>Natural Daylight Systems</fullName>
+                <default>false</default>
+                <label>Natural Daylight Systems</label>
+            </value>
+            <value>
+                <fullName>Oil &amp; Water Storage</fullName>
+                <default>false</default>
+                <label>Oil &amp; Water Storage</label>
+            </value>
+            <value>
+                <fullName>Other Fixings</fullName>
+                <default>false</default>
+                <label>Other Fixings</label>
+            </value>
+            <value>
+                <fullName>Outlets Modules &amp; Faceplates</fullName>
+                <default>false</default>
+                <label>Outlets Modules &amp; Faceplates</label>
+            </value>
+            <value>
+                <fullName>Paints &amp; Coatings</fullName>
+                <default>false</default>
+                <label>Paints &amp; Coatings</label>
+            </value>
+            <value>
+                <fullName>Passive Fire Protection</fullName>
+                <default>false</default>
+                <label>Passive Fire Protection</label>
+            </value>
+            <value>
+                <fullName>Patch Cords</fullName>
+                <default>false</default>
+                <label>Patch Cords</label>
+            </value>
+            <value>
+                <fullName>Patch Cords &amp; Leads</fullName>
+                <default>false</default>
+                <label>Patch Cords &amp; Leads</label>
+            </value>
+            <value>
+                <fullName>Patch Panels &amp; Boxes</fullName>
+                <default>false</default>
+                <label>Patch Panels &amp; Boxes</label>
+            </value>
+            <value>
+                <fullName>PB Pipe Systems</fullName>
+                <default>false</default>
+                <label>PB Pipe Systems</label>
+            </value>
+            <value>
+                <fullName>PE Pipe Systems</fullName>
+                <default>false</default>
+                <label>PE Pipe Systems</label>
+            </value>
+            <value>
+                <fullName>PEX Pipe Systems</fullName>
+                <default>false</default>
+                <label>PEX Pipe Systems</label>
+            </value>
+            <value>
+                <fullName>Physical Security</fullName>
+                <default>false</default>
+                <label>Physical Security</label>
+            </value>
+            <value>
+                <fullName>Pipe Clips &amp; Supports</fullName>
+                <default>false</default>
+                <label>Pipe Clips &amp; Supports</label>
+            </value>
+            <value>
+                <fullName>Pipe Systems -  To be Classified</fullName>
+                <default>false</default>
+                <label>Pipe Systems -  To be Classified</label>
+            </value>
+            <value>
+                <fullName>Plant &amp; Tool Hire</fullName>
+                <default>false</default>
+                <label>Plant &amp; Tool Hire</label>
+            </value>
+            <value>
+                <fullName>Plastic Below Ground</fullName>
+                <default>false</default>
+                <label>Plastic Below Ground</label>
+            </value>
+            <value>
+                <fullName>Plastic Conduit Systems</fullName>
+                <default>false</default>
+                <label>Plastic Conduit Systems</label>
+            </value>
+            <value>
+                <fullName>Plastic Mini Trunking</fullName>
+                <default>false</default>
+                <label>Plastic Mini Trunking</label>
+            </value>
+            <value>
+                <fullName>Plastic Overflow Systems</fullName>
+                <default>false</default>
+                <label>Plastic Overflow Systems</label>
+            </value>
+            <value>
+                <fullName>Plastic Perimeter Trunking</fullName>
+                <default>false</default>
+                <label>Plastic Perimeter Trunking</label>
+            </value>
+            <value>
+                <fullName>Plastic Rainwater Systems</fullName>
+                <default>false</default>
+                <label>Plastic Rainwater Systems</label>
+            </value>
+            <value>
+                <fullName>Plastic Soil &amp; Vent Systems</fullName>
+                <default>false</default>
+                <label>Plastic Soil &amp; Vent Systems</label>
+            </value>
+            <value>
+                <fullName>Plastic Standard Trunking</fullName>
+                <default>false</default>
+                <label>Plastic Standard Trunking</label>
+            </value>
+            <value>
+                <fullName>Plastic Waste Systems</fullName>
+                <default>false</default>
+                <label>Plastic Waste Systems</label>
+            </value>
+            <value>
+                <fullName>Plumbing &amp; Drainage -  To be Classified</fullName>
+                <default>false</default>
+                <label>Plumbing &amp; Drainage -  To be Classified</label>
+            </value>
+            <value>
+                <fullName>Power Tools</fullName>
+                <default>false</default>
+                <label>Power Tools</label>
+            </value>
+            <value>
+                <fullName>PPE &amp; Workwear</fullName>
+                <default>false</default>
+                <label>PPE &amp; Workwear</label>
+            </value>
+            <value>
+                <fullName>PP Pipe Systems</fullName>
+                <default>false</default>
+                <label>PP Pipe Systems</label>
+            </value>
+            <value>
+                <fullName>Pre-Insulated Pipe Systems</fullName>
+                <default>false</default>
+                <label>Pre-Insulated Pipe Systems</label>
+            </value>
+            <value>
+                <fullName>Press Fittings - Carbon Steel</fullName>
+                <default>false</default>
+                <label>Press Fittings - Carbon Steel</label>
+            </value>
+            <value>
+                <fullName>Press Fittings - Copper</fullName>
+                <default>false</default>
+                <label>Press Fittings - Copper</label>
+            </value>
+            <value>
+                <fullName>Press Fittings - Stainless Steel</fullName>
+                <default>false</default>
+                <label>Press Fittings - Stainless Steel</label>
+            </value>
+            <value>
+                <fullName>Public Address Equipment</fullName>
+                <default>false</default>
+                <label>Public Address Equipment</label>
+            </value>
+            <value>
+                <fullName>Publications</fullName>
+                <default>false</default>
+                <label>Publications</label>
+            </value>
+            <value>
+                <fullName>Pumps</fullName>
+                <default>false</default>
+                <label>Pumps</label>
+            </value>
+            <value>
+                <fullName>Push-fit Fittings - Carbon Steel</fullName>
+                <default>false</default>
+                <label>Push-fit Fittings - Carbon Steel</label>
+            </value>
+            <value>
+                <fullName>Push-fit Fittings - Copper</fullName>
+                <default>false</default>
+                <label>Push-fit Fittings - Copper</label>
+            </value>
+            <value>
+                <fullName>Push-fit Fittings - Stainless Steel</fullName>
+                <default>false</default>
+                <label>Push-fit Fittings - Stainless Steel</label>
+            </value>
+            <value>
+                <fullName>PVC-C Pipe Systems</fullName>
+                <default>false</default>
+                <label>PVC-C Pipe Systems</label>
+            </value>
+            <value>
+                <fullName>PVC-U Pipe Systems</fullName>
+                <default>false</default>
+                <label>PVC-U Pipe Systems</label>
+            </value>
+            <value>
+                <fullName>PVDF Pipe Systems</fullName>
+                <default>false</default>
+                <label>PVDF Pipe Systems</label>
+            </value>
+            <value>
+                <fullName>Radiators - Central Heating</fullName>
+                <default>false</default>
+                <label>Radiators - Central Heating</label>
+            </value>
+            <value>
+                <fullName>Rainwater Harvesting</fullName>
+                <default>false</default>
+                <label>Rainwater Harvesting</label>
+            </value>
+            <value>
+                <fullName>Refrigeration</fullName>
+                <default>false</default>
+                <label>Refrigeration</label>
+            </value>
+            <value>
+                <fullName>Renewables -  To be Classified</fullName>
+                <default>false</default>
+                <label>Renewables -  To be Classified</label>
+            </value>
+            <value>
+                <fullName>Rooftop Service Support Systems</fullName>
+                <default>false</default>
+                <label>Rooftop Service Support Systems</label>
+            </value>
+            <value>
+                <fullName>Safety &amp; Detection Devices</fullName>
+                <default>false</default>
+                <label>Safety &amp; Detection Devices</label>
+            </value>
+            <value>
+                <fullName>Sanitary &amp; Bathroom -  To be Classified</fullName>
+                <default>false</default>
+                <label>Sanitary &amp; Bathroom -  To be Classified</label>
+            </value>
+            <value>
+                <fullName>Sanitaryware</fullName>
+                <default>false</default>
+                <label>Sanitaryware</label>
+            </value>
+            <value>
+                <fullName>Saw Blades</fullName>
+                <default>false</default>
+                <label>Saw Blades</label>
+            </value>
+            <value>
+                <fullName>Screwdriver Bits</fullName>
+                <default>false</default>
+                <label>Screwdriver Bits</label>
+            </value>
+            <value>
+                <fullName>Screwed Fittings - Brass/Bronze</fullName>
+                <default>false</default>
+                <label>Screwed Fittings - Brass/Bronze</label>
+            </value>
+            <value>
+                <fullName>Screwed Fittings - Malleable Iron</fullName>
+                <default>false</default>
+                <label>Screwed Fittings - Malleable Iron</label>
+            </value>
+            <value>
+                <fullName>Screwed Fittings - Stainless Steel</fullName>
+                <default>false</default>
+                <label>Screwed Fittings - Stainless Steel</label>
+            </value>
+            <value>
+                <fullName>Sealed System Components</fullName>
+                <default>false</default>
+                <label>Sealed System Components</label>
+            </value>
+            <value>
+                <fullName>Secure Storage</fullName>
+                <default>false</default>
+                <label>Secure Storage</label>
+            </value>
+            <value>
+                <fullName>Service Poles &amp; Desk Units</fullName>
+                <default>false</default>
+                <label>Service Poles &amp; Desk Units</label>
+            </value>
+            <value>
+                <fullName>Sheet Metal Products</fullName>
+                <default>false</default>
+                <label>Sheet Metal Products</label>
+            </value>
+            <value>
+                <fullName>Showers</fullName>
+                <default>false</default>
+                <label>Showers</label>
+            </value>
+            <value>
+                <fullName>Site &amp; Portable Electrics</fullName>
+                <default>false</default>
+                <label>Site &amp; Portable Electrics</label>
+            </value>
+            <value>
+                <fullName>Site Layout Systems &amp; Scanners</fullName>
+                <default>false</default>
+                <label>Site Layout Systems &amp; Scanners</label>
+            </value>
+            <value>
+                <fullName>Solar Lighting</fullName>
+                <default>false</default>
+                <label>Solar Lighting</label>
+            </value>
+            <value>
+                <fullName>Solar Photovoltaic Systems</fullName>
+                <default>false</default>
+                <label>Solar Photovoltaic Systems</label>
+            </value>
+            <value>
+                <fullName>Solar Thermal Systems</fullName>
+                <default>false</default>
+                <label>Solar Thermal Systems</label>
+            </value>
+            <value>
+                <fullName>Soldering Welding &amp; Brazing</fullName>
+                <default>false</default>
+                <label>Soldering Welding &amp; Brazing</label>
+            </value>
+            <value>
+                <fullName>Sound Attenuated Drainage Systems</fullName>
+                <default>false</default>
+                <label>Sound Attenuated Drainage Systems</label>
+            </value>
+            <value>
+                <fullName>Space Heating - Electric</fullName>
+                <default>false</default>
+                <label>Space Heating - Electric</label>
+            </value>
+            <value>
+                <fullName>Space Heating - Gas Fired</fullName>
+                <default>false</default>
+                <label>Space Heating - Gas Fired</label>
+            </value>
+            <value>
+                <fullName>Space Heating - Hot Water</fullName>
+                <default>false</default>
+                <label>Space Heating - Hot Water</label>
+            </value>
+            <value>
+                <fullName>Space Heating - Oil Fired</fullName>
+                <default>false</default>
+                <label>Space Heating - Oil Fired</label>
+            </value>
+            <value>
+                <fullName>Space Heating - Solid Fuel</fullName>
+                <default>false</default>
+                <label>Space Heating - Solid Fuel</label>
+            </value>
+            <value>
+                <fullName>Stainless Steel Conduit Systems</fullName>
+                <default>false</default>
+                <label>Stainless Steel Conduit Systems</label>
+            </value>
+            <value>
+                <fullName>Stainless Steel Drainage Systems</fullName>
+                <default>false</default>
+                <label>Stainless Steel Drainage Systems</label>
+            </value>
+            <value>
+                <fullName>Stainless Steel Flanges</fullName>
+                <default>false</default>
+                <label>Stainless Steel Flanges</label>
+            </value>
+            <value>
+                <fullName>Stainless Steel Hygenic Fittings</fullName>
+                <default>false</default>
+                <label>Stainless Steel Hygenic Fittings</label>
+            </value>
+            <value>
+                <fullName>Stainless Steel Metric Fittings</fullName>
+                <default>false</default>
+                <label>Stainless Steel Metric Fittings</label>
+            </value>
+            <value>
+                <fullName>Stainless Steel Tube</fullName>
+                <default>false</default>
+                <label>Stainless Steel Tube</label>
+            </value>
+            <value>
+                <fullName>Stainless Steel Welding Fittings</fullName>
+                <default>false</default>
+                <label>Stainless Steel Welding Fittings</label>
+            </value>
+            <value>
+                <fullName>Standalone Lighting Controls</fullName>
+                <default>false</default>
+                <label>Standalone Lighting Controls</label>
+            </value>
+            <value>
+                <fullName>Stationery &amp; Office Consumables</fullName>
+                <default>false</default>
+                <label>Stationery &amp; Office Consumables</label>
+            </value>
+            <value>
+                <fullName>Steel Conduit Systems</fullName>
+                <default>false</default>
+                <label>Steel Conduit Systems</label>
+            </value>
+            <value>
+                <fullName>Steel Fittings &amp; Tubulars EN10241</fullName>
+                <default>false</default>
+                <label>Steel Fittings &amp; Tubulars EN10241</label>
+            </value>
+            <value>
+                <fullName>Steel Fittings A105N</fullName>
+                <default>false</default>
+                <label>Steel Fittings A105N</label>
+            </value>
+            <value>
+                <fullName>Steel Flanges</fullName>
+                <default>false</default>
+                <label>Steel Flanges</label>
+            </value>
+            <value>
+                <fullName>Steel Perimeter Trunking</fullName>
+                <default>false</default>
+                <label>Steel Perimeter Trunking</label>
+            </value>
+            <value>
+                <fullName>Steel Rainwater Systems</fullName>
+                <default>false</default>
+                <label>Steel Rainwater Systems</label>
+            </value>
+            <value>
+                <fullName>Steel Standard Trunking</fullName>
+                <default>false</default>
+                <label>Steel Standard Trunking</label>
+            </value>
+            <value>
+                <fullName>Steel Tube</fullName>
+                <default>false</default>
+                <label>Steel Tube</label>
+            </value>
+            <value>
+                <fullName>Steel Welding Fittings</fullName>
+                <default>false</default>
+                <label>Steel Welding Fittings</label>
+            </value>
+            <value>
+                <fullName>Structural Steel Products</fullName>
+                <default>false</default>
+                <label>Structural Steel Products</label>
+            </value>
+            <value>
+                <fullName>Suspension &amp; Hanging System</fullName>
+                <default>false</default>
+                <label>Suspension &amp; Hanging System</label>
+            </value>
+            <value>
+                <fullName>Switch &amp; Fusegear</fullName>
+                <default>false</default>
+                <label>Switch &amp; Fusegear</label>
+            </value>
+            <value>
+                <fullName>Switch &amp; Socket Boxes</fullName>
+                <default>false</default>
+                <label>Switch &amp; Socket Boxes</label>
+            </value>
+            <value>
+                <fullName>Technical Calculators</fullName>
+                <default>false</default>
+                <label>Technical Calculators</label>
+            </value>
+            <value>
+                <fullName>Telephone &amp; Voice</fullName>
+                <default>false</default>
+                <label>Telephone &amp; Voice</label>
+            </value>
+            <value>
+                <fullName>Test Instruments</fullName>
+                <default>false</default>
+                <label>Test Instruments</label>
+            </value>
+            <value>
+                <fullName>Timber Products</fullName>
+                <default>false</default>
+                <label>Timber Products</label>
+            </value>
+            <value>
+                <fullName>Time Switches</fullName>
+                <default>false</default>
+                <label>Time Switches</label>
+            </value>
+            <value>
+                <fullName>Tools &amp; Consumables -  To be Classified</fullName>
+                <default>false</default>
+                <label>Tools &amp; Consumables -  To be Classified</label>
+            </value>
+            <value>
+                <fullName>Trace Heating</fullName>
+                <default>false</default>
+                <label>Trace Heating</label>
+            </value>
+            <value>
+                <fullName>Training Services</fullName>
+                <default>false</default>
+                <label>Training Services</label>
+            </value>
+            <value>
+                <fullName>Traps &amp; Outlets</fullName>
+                <default>false</default>
+                <label>Traps &amp; Outlets</label>
+            </value>
+            <value>
+                <fullName>Underfloor Heating - Electric</fullName>
+                <default>false</default>
+                <label>Underfloor Heating - Electric</label>
+            </value>
+            <value>
+                <fullName>Underfloor Heating - Hot Water</fullName>
+                <default>false</default>
+                <label>Underfloor Heating - Hot Water</label>
+            </value>
+            <value>
+                <fullName>Underfloor Trunking</fullName>
+                <default>false</default>
+                <label>Underfloor Trunking</label>
+            </value>
+            <value>
+                <fullName>Universal Pipe Joints</fullName>
+                <default>false</default>
+                <label>Universal Pipe Joints</label>
+            </value>
+            <value>
+                <fullName>UPS &amp; Standby Power</fullName>
+                <default>false</default>
+                <label>UPS &amp; Standby Power</label>
+            </value>
+            <value>
+                <fullName>Valves - Control</fullName>
+                <default>false</default>
+                <label>Valves - Control</label>
+            </value>
+            <value>
+                <fullName>Valves - General</fullName>
+                <default>false</default>
+                <label>Valves - General</label>
+            </value>
+            <value>
+                <fullName>Valves - Radiator</fullName>
+                <default>false</default>
+                <label>Valves - Radiator</label>
+            </value>
+            <value>
+                <fullName>Ventilation Accessories</fullName>
+                <default>false</default>
+                <label>Ventilation Accessories</label>
+            </value>
+            <value>
+                <fullName>Water Heating - Electric</fullName>
+                <default>false</default>
+                <label>Water Heating - Electric</label>
+            </value>
+            <value>
+                <fullName>Water Heating - Gas Fired</fullName>
+                <default>false</default>
+                <label>Water Heating - Gas Fired</label>
+            </value>
+            <value>
+                <fullName>Water Heating - Oil Fired</fullName>
+                <default>false</default>
+                <label>Water Heating - Oil Fired</label>
+            </value>
+            <value>
+                <fullName>Water Service Controls</fullName>
+                <default>false</default>
+                <label>Water Service Controls</label>
+            </value>
+            <value>
+                <fullName>Water Treatment</fullName>
+                <default>false</default>
+                <label>Water Treatment</label>
+            </value>
+            <value>
+                <fullName>Wind Turbines &amp; Accessories</fullName>
+                <default>false</default>
+                <label>Wind Turbines &amp; Accessories</label>
+            </value>
+            <value>
+                <fullName>Wire Basket Tray</fullName>
+                <default>false</default>
+                <label>Wire Basket Tray</label>
+            </value>
+            <value>
+                <fullName>Wired Building Automation Systems</fullName>
+                <default>false</default>
+                <label>Wired Building Automation Systems</label>
+            </value>
+            <value>
+                <fullName>Wireless Building Control Systems</fullName>
+                <default>false</default>
+                <label>Wireless Building Control Systems</label>
+            </value>
+            <value>
+                <fullName>Wiring Accessories - Decorative</fullName>
+                <default>false</default>
+                <label>Wiring Accessories - Decorative</label>
+            </value>
+            <value>
+                <fullName>Wiring Accessories - Metalclad</fullName>
+                <default>false</default>
+                <label>Wiring Accessories - Metalclad</label>
+            </value>
+            <value>
+                <fullName>Wiring Accessories - Miscellaneous</fullName>
+                <default>false</default>
+                <label>Wiring Accessories - Miscellaneous</label>
+            </value>
+            <value>
+                <fullName>Wiring Accessories - Modular</fullName>
+                <default>false</default>
+                <label>Wiring Accessories - Modular</label>
+            </value>
+            <value>
+                <fullName>Wiring Accessories - Moulded</fullName>
+                <default>false</default>
+                <label>Wiring Accessories - Moulded</label>
+            </value>
+            <value>
+                <fullName>Wiring Accessories -  To be Classified</fullName>
+                <default>false</default>
+                <label>Wiring Accessories -  To be Classified</label>
+            </value>
+            <value>
+                <fullName>Wiring Accessories - Track Mounted</fullName>
+                <default>false</default>
+                <label>Wiring Accessories - Track Mounted</label>
+            </value>
+            <value>
+                <fullName>Wiring Accessories - Weatherproof</fullName>
+                <default>false</default>
+                <label>Wiring Accessories - Weatherproof</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Fire &amp; Security</controllingFieldValue>
+            <valueName>Access Control Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fire &amp; Security</controllingFieldValue>
+            <valueName>Automated Gates &amp; Barriers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fire &amp; Security</controllingFieldValue>
+            <valueName>Call Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fire &amp; Security</controllingFieldValue>
+            <valueName>CCTV Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fire &amp; Security</controllingFieldValue>
+            <valueName>Fire &amp; Security -  To be Classified</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fire &amp; Security</controllingFieldValue>
+            <valueName>Fire Alarm &amp; Detection Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fire &amp; Security</controllingFieldValue>
+            <valueName>Fire Fighting Equipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fire &amp; Security</controllingFieldValue>
+            <valueName>Induction Loop Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fire &amp; Security</controllingFieldValue>
+            <valueName>Intruder Alarm Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fire &amp; Security</controllingFieldValue>
+            <valueName>Locking Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fire &amp; Security</controllingFieldValue>
+            <valueName>Passive Fire Protection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fire &amp; Security</controllingFieldValue>
+            <valueName>Physical Security</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cable Management</controllingFieldValue>
+            <valueName>Aluminium Perimeter Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cable Management</controllingFieldValue>
+            <valueName>Busbar Trunking Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cable Management</controllingFieldValue>
+            <valueName>Cable Ladder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cable Management</controllingFieldValue>
+            <valueName>Cable Management Specials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cable Management</controllingFieldValue>
+            <valueName>Cable Management -  To be Classified</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cable Management</controllingFieldValue>
+            <valueName>Cable Tray &amp; Basket</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cable Management</controllingFieldValue>
+            <valueName>Cable Tray - GRP/Plastic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cable Management</controllingFieldValue>
+            <valueName>Cable Tray - Stainless Steel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cable Management</controllingFieldValue>
+            <valueName>Control Panel Trunking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cable Management</controllingFieldValue>
+            <valueName>Data Cable Containment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cable Management</controllingFieldValue>
+            <valueName>Flexible Conduit Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cable Management</controllingFieldValue>
+            <valueName>Floor Boxes &amp; Grommets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cable Management</controllingFieldValue>
+            <valueName>Lighting Trunking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cable Management</controllingFieldValue>
+            <valueName>Modular Wiring Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cable Management</controllingFieldValue>
+            <valueName>Plastic Conduit Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cable Management</controllingFieldValue>
+            <valueName>Plastic Mini Trunking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cable Management</controllingFieldValue>
+            <valueName>Plastic Perimeter Trunking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cable Management</controllingFieldValue>
+            <valueName>Plastic Standard Trunking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cable Management</controllingFieldValue>
+            <valueName>Service Poles &amp; Desk Units</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cable Management</controllingFieldValue>
+            <valueName>Stainless Steel Conduit Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cable Management</controllingFieldValue>
+            <valueName>Steel Conduit Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cable Management</controllingFieldValue>
+            <valueName>Steel Perimeter Trunking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cable Management</controllingFieldValue>
+            <valueName>Steel Standard Trunking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cable Management</controllingFieldValue>
+            <valueName>Underfloor Trunking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cable Management</controllingFieldValue>
+            <valueName>Wire Basket Tray</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cables &amp; Accessories</controllingFieldValue>
+            <valueName>Cable Accessories</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cables &amp; Accessories</controllingFieldValue>
+            <valueName>Cables &amp; Accessories -  To be Classified</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cables &amp; Accessories</controllingFieldValue>
+            <valueName>Cables - Electrical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cables &amp; Accessories</controllingFieldValue>
+            <valueName>Cables - Voice &amp; Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cables &amp; Accessories</controllingFieldValue>
+            <valueName>Cable Terminations &amp; Connectors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cables &amp; Accessories</controllingFieldValue>
+            <valueName>MICC Accessories</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cables &amp; Accessories</controllingFieldValue>
+            <valueName>MICC Cables</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lighting</controllingFieldValue>
+            <valueName>Emergency Lighting General</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lighting</controllingFieldValue>
+            <valueName>Emergency Lighting LED</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lighting</controllingFieldValue>
+            <valueName>Fibre Optic Lighting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lighting</controllingFieldValue>
+            <valueName>Fluorescent Tubes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lighting</controllingFieldValue>
+            <valueName>Lamps - Compact Fluorescent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lighting</controllingFieldValue>
+            <valueName>Lamps - Incandescent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lighting</controllingFieldValue>
+            <valueName>Lamps - LED</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lighting</controllingFieldValue>
+            <valueName>Lamps - Special Purpose</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lighting</controllingFieldValue>
+            <valueName>Lamps - Tungsten Halogen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lighting</controllingFieldValue>
+            <valueName>Lighting Control Gear</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lighting</controllingFieldValue>
+            <valueName>Lighting Distribution Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lighting</controllingFieldValue>
+            <valueName>Lighting -  To be Classified</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lighting</controllingFieldValue>
+            <valueName>Lighting Track Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lighting</controllingFieldValue>
+            <valueName>Luminaires - Batten &amp; Modular</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lighting</controllingFieldValue>
+            <valueName>Luminaires - Indoor General</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lighting</controllingFieldValue>
+            <valueName>Luminaires - Indoor LED</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lighting</controllingFieldValue>
+            <valueName>Luminaires - Outdoor General</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lighting</controllingFieldValue>
+            <valueName>Luminaires - Outdoor LED</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lighting</controllingFieldValue>
+            <valueName>Natural Daylight Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lighting</controllingFieldValue>
+            <valueName>Solar Lighting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lighting</controllingFieldValue>
+            <valueName>Standalone Lighting Controls</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wiring Accessories</controllingFieldValue>
+            <valueName>Ceiling Accessories</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wiring Accessories</controllingFieldValue>
+            <valueName>Domestic Bells &amp; Chimes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wiring Accessories</controllingFieldValue>
+            <valueName>Industrial Plugs &amp; Sockets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wiring Accessories</controllingFieldValue>
+            <valueName>Switch &amp; Socket Boxes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wiring Accessories</controllingFieldValue>
+            <valueName>Wired Building Automation Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wiring Accessories</controllingFieldValue>
+            <valueName>Wireless Building Control Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wiring Accessories</controllingFieldValue>
+            <valueName>Wiring Accessories - Decorative</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wiring Accessories</controllingFieldValue>
+            <valueName>Wiring Accessories - Metalclad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wiring Accessories</controllingFieldValue>
+            <valueName>Wiring Accessories - Miscellaneous</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wiring Accessories</controllingFieldValue>
+            <valueName>Wiring Accessories - Modular</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wiring Accessories</controllingFieldValue>
+            <valueName>Wiring Accessories - Moulded</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wiring Accessories</controllingFieldValue>
+            <valueName>Wiring Accessories -  To be Classified</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wiring Accessories</controllingFieldValue>
+            <valueName>Wiring Accessories - Track Mounted</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wiring Accessories</controllingFieldValue>
+            <valueName>Wiring Accessories - Weatherproof</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,10 @@
+<template>
+    <div class="checkbox-container">
+      <label for="notification-checkbox" class={checkboxLabelClass}>
+        <input type="checkbox" id="notification-checkbox" checked={isChecked} onchange={handleCheckboxChange} />
+        <span class="checkmark" onmouseover={handleCheckboxHover} onmouseout={handleCheckboxHover}>&#10003;</span>
+        Would like to get notified on PowerLed products
+      </label>
+    </div>
+  </template>
+  

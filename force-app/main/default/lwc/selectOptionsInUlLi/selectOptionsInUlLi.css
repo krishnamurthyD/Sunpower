@@ -1,0 +1,133 @@
+#cars {
+    display: none;
+  }
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .wrapper {
+    max-width: 400px;
+    position: relative;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+  }
+
+
+
+
+
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+
+
+
+
+
+  li {
+    list-style: none;
+  }
+
+
+
+
+
+  .select-field-wrapper {
+    position: relative;
+  }
+  .selected-option-field {
+    height: 36px;
+    width: 300px;
+    background-color: white;
+    border: 2px solid #4e3c3c;
+    position: relative;
+    color: black;
+    text-align: center;
+    margin: 0;
+    line-height: 32px;
+  }
+
+
+
+
+
+  /* .selected-option-field::after {
+    content: "\f078";
+    font-family: FontAwesome;
+    display: inline-block;
+    position: absolute;
+    background: white;
+    right: 0;
+  } */
+  .inner-wrapper {
+    position: relative;
+    width: 300px;
+  }
+  .arrow {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpyhW47n7wTCU3-LfCENTecAAWBrkHCDev6w&usqp=CAU);
+    background-position: center;
+    object-fit: scale-down;
+    background-size: cover;
+  }
+  .available-options {
+    width: 300px;
+    height: 104px;
+    overflow: hidden;
+    overflow-y: auto;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  .options {
+text-align: center;
+background: white;
+padding: 5px;
+font-weight: 700;
+text-transform: uppercase;
+font-family: monospace;
+letter-spacing: 0.1rem;
+display:block;
+transition: all .2s ease-in;
+  }
+  .options:hover {
+    background: #e4dfdf;
+  }
+
+
+
+
+
+  .hide-show {
+    display: none;
+  }
+
+  ::-webkit-scrollbar {
+width: 10px;
+}
+
+
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #888; 
+}
+
+
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #555; 
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Volume_2</fullName>
+    <active>false</active>
+    <errorConditionFormula>!ISBLANK(Volume_2__c) &amp;&amp; (ISBLANK(Volume_1__c) || Volume_2__c &lt;= Volume_1__c)</errorConditionFormula>
+    <errorDisplayField>Volume_2__c</errorDisplayField>
+    <errorMessage>Value must be greater than Volume 1 (and Volume 1 must be defined)!</errorMessage>
+</ValidationRule>

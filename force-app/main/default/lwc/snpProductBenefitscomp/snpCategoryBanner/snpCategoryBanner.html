@@ -1,0 +1,20 @@
+<!--
+  @description       : Template for displaying category banner image,name and description
+  @author            : Owais Amin Ahanger
+              : 
+  @last modified on  : 07-07-2023
+  -->
+
+<template>
+    <div class="image-container">
+        <img src={imageUrl} class="image-dimensions">
+        <div class="text-container">
+            <template for:each={categoryDetails} for:item="categoryDetail">
+                <h2 key={categoryDetail.id}>{categoryDetail.name}</h2>
+                <h4 key={categoryDetail.id}>{categoryDetail.description}</h4>
+            </template>
+
+        </div>
+    </div>
+
+</template>

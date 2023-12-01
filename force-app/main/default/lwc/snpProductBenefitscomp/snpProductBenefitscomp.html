@@ -1,0 +1,141 @@
+<template >
+
+    <!-- <div class="comp-wrapper1">
+             <div class="card1-style-0" > 
+                <div class="card1-style-1">
+                    <div class="card1-style-2">
+                        <div class="card1-style-3">
+                            <div data-gatsby-image-wrapper="" class="card1-style-4">
+                                <div class="card1-style-5"><img alt="" role="presentation" aria-hidden="true" src="/powerleduk/sfsites/c/cms/delivery/media/MC64HN46H35JCSRK4A5MFSRRMVTQ" class="card1-style-6" /></div>
+                            </div>
+                        </div>
+                        <div class="card1-style-12">
+                            <h2 class="card1-style-13">TACKLE ANY STICKY SITUATION:</h2>
+                            <h3 class="card1-style-14">Naturally Non-Stick</h3>
+                            <p class="card1-style-15">Super slick non-stick pans that require less oil or butter for cooking and minimal scrubbing for a spotless clean.</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="card1-collapsed-card-outer" onmouseenter={card1collapsedhandler}>
+                <div class="card1-collapsed-card-inner">
+                    <p class="card1-collapsed-card-text">
+                        vertical text
+                    </p>
+                </div>
+            </div>
+            <div class="card2-style-0" >
+                <div class="card2-style-1">
+                    <div class="card2-style-2">
+                        <div class="card2-style-3">
+                            <div data-gatsby-image-wrapper="" class="card2-style-4">
+                                <div class="card2-style-5"><img alt="" role="presentation" aria-hidden="true" src="/powerleduk/sfsites/c/cms/delivery/media/MC64HN46H35JCSRK4A5MFSRRMVTQ" class="card2-style-6" /></div>
+                                
+                            </div>
+                        </div>
+                        <div class="card2-style-12">
+                            <h2 class="card2-style-13">TACKLE ANY STICKY SITUATION:</h2>
+                            <h3 class="card2-style-14">Naturally Non-Stick</h3>
+                            <p class="card2-style-15">Super slick non-stick pans that require less oil or butter for cooking and minimal scrubbing for a spotless clean.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card2-collapsed-card-outer" onmouseenter={card2collapsedhandler} >
+                <div class="card2-collapsed-card-inner">
+                    <p class="card2-collapsed-card-text">
+                        vertical text
+                    </p>
+                </div>
+            </div>
+            <div class="card3-style-0">
+                <div class="card3-style-1">
+                    <div class="card3-style-2">
+                        <div class="card3-style-3">
+                            <div data-gatsby-image-wrapper="" class="card3-style-4">
+                                <div class="card3-style-5"><img alt="" role="presentation" aria-hidden="true" src="/powerleduk/sfsites/c/cms/delivery/media/MC64HN46H35JCSRK4A5MFSRRMVTQ" class="card3-style-6" /></div>
+                            </div>
+                        </div>
+                        <div class="card3-style-12">
+                            <h2 class="card3-style-13">TACKLE ANY STICKY SITUATION:</h2>
+                            <h3 class="card3-style-14">Naturally Non-Stick</h3>
+                            <p class="card3-style-15">Super slick non-stick pans that require less oil or butter for cooking and minimal scrubbing for a spotless clean.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card3-collapsed-card-outer"  onmouseenter={card3collapsedhandler}>
+                <div class="card3-collapsed-card-inner">
+                    <p class="card3-collapsed-card-text">
+                        vertical text
+                    </p>
+                </div>
+            </div>
+        
+    </div> -->
+   
+        <!-- <div class="container">
+            <div class="section" for:each={filteredsections} for:item="section"  key={section.id}>
+                <div class="card horizontal hidden" onclick={handleMouseOver} data-section-id={section.id}>
+                    <h3>{section.horizontalHeading}</h3>
+                    <p>{section.description}</p>
+                    <img src={section.image} alt={section.horizontalHeading} />
+                    <lightning-formatted-rich-text value={section.image} ></lightning-formatted-rich-text>
+                </div>
+                <div class="card vertical" onclick={handleMouseOver1} data-section-id={section.id}>
+                    <h3>{section.verticalHeading}</h3>
+                </div>
+            </div>
+        </div> -->
+    <template  if:true={productBenifitsDisplay}>
+        <template lwc:if={showmobview}>
+            <div class="mobile-benifit-section">
+                <div class="tabclass">
+                    <button class="tabitem"  for:each={filteredsections} for:item="section" for:index="index"  key={section.id} data-section-id={index} onclick={mobbuttonhandler}>{section.verticalHeading}</button>
+                </div>
+                <div>
+                    <div class="mob-section" for:each={filteredsections} for:item="section" for:index="index"  key={section.id} data-section-id={index}>
+                        <div class="mob-section-imagewrapper">
+                            <div style="max-width:750px;display:block">
+                                <!-- <lightning-formatted-rich-text value={section.image} ></lightning-formatted-rich-text> -->
+                                <img src={section.contentKey}/>
+                            </div>
+                            <p class="product-desc-mob">{section.description}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </template>
+        <template lwc:else>
+            <div class="product-benifit-container" >
+                <div class="product-benifit-section"  for:each={filteredsections} for:item="section" for:index="index"  key={section.id}>
+                    <div class="product-benifit-section-outer" data-section-id={index} >
+                        <div class="product-benifit-section-middle">
+                            <div class="product-benifit-expandsection-outer">
+                                <div class="image-section-level1">
+                                    <div class="image-section-level2">
+                                        <div class="image-inner-wrapper">
+                                            <!-- <lightning-formatted-rich-text value={section.image} ></lightning-formatted-rich-text> -->
+                                            <!-- <img src={imageUrl}  alt="Image Not Present"> -->
+                                        <img src={section.contentKey}/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-section-level1">
+                                    <h2 class="content-section-heading">{section.horizontalHeading}</h2>
+                                    <p class="content-section-description">{section.description}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pb-closed-section-outer"  data-section-id={index} onmouseenter={closedSectionMouseEnterHandle}>
+                        <div class="product-benifit-section-middle">
+                            <p class="pb-closed-section-heading">{section.verticalHeading}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </template>
+    </template>
+</template>

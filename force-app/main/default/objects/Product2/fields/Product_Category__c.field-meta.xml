@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Category__c</fullName>
+    <description>LUCKINS DATA</description>
+    <externalId>false</externalId>
+    <label>Product (Category)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Batten</fullName>
+                <default>false</default>
+                <label>Batten</label>
+            </value>
+            <value>
+                <fullName>Bezel</fullName>
+                <default>false</default>
+                <label>Bezel</label>
+            </value>
+            <value>
+                <fullName>Cabinet Light</fullName>
+                <default>false</default>
+                <label>Cabinet Light</label>
+            </value>
+            <value>
+                <fullName>Cable</fullName>
+                <default>false</default>
+                <label>Cable</label>
+            </value>
+            <value>
+                <fullName>Connector</fullName>
+                <default>false</default>
+                <label>Connector</label>
+            </value>
+            <value>
+                <fullName>Controller</fullName>
+                <default>false</default>
+                <label>Controller</label>
+            </value>
+            <value>
+                <fullName>D/D Module</fullName>
+                <default>false</default>
+                <label>D/D Module</label>
+            </value>
+            <value>
+                <fullName>D/D on board</fullName>
+                <default>false</default>
+                <label>D/D on board</label>
+            </value>
+            <value>
+                <fullName>Dimmer Switch</fullName>
+                <default>false</default>
+                <label>Dimmer Switch</label>
+            </value>
+            <value>
+                <fullName>Distribution Box</fullName>
+                <default>false</default>
+                <label>Distribution Box</label>
+            </value>
+            <value>
+                <fullName>Downlight</fullName>
+                <default>false</default>
+                <label>Downlight</label>
+            </value>
+            <value>
+                <fullName>Driver</fullName>
+                <default>false</default>
+                <label>Driver</label>
+            </value>
+            <value>
+                <fullName>Enclosed Power Supply</fullName>
+                <default>false</default>
+                <label>Enclosed Power Supply</label>
+            </value>
+            <value>
+                <fullName>Extrusion</fullName>
+                <default>false</default>
+                <label>Extrusion</label>
+            </value>
+            <value>
+                <fullName>Floodlight</fullName>
+                <default>false</default>
+                <label>Floodlight</label>
+            </value>
+            <value>
+                <fullName>Hat</fullName>
+                <default>false</default>
+                <label>Hat</label>
+            </value>
+            <value>
+                <fullName>High Bay</fullName>
+                <default>false</default>
+                <label>High Bay</label>
+            </value>
+            <value>
+                <fullName>Junction Box</fullName>
+                <default>false</default>
+                <label>Junction Box</label>
+            </value>
+            <value>
+                <fullName>Kit</fullName>
+                <default>false</default>
+                <label>Kit</label>
+            </value>
+            <value>
+                <fullName>LED Driver</fullName>
+                <default>false</default>
+                <label>LED Driver</label>
+            </value>
+            <value>
+                <fullName>LED Flexible Tape</fullName>
+                <default>false</default>
+                <label>LED Flexible Tape</label>
+            </value>
+            <value>
+                <fullName>LED Flexible Tape Tuneable White</fullName>
+                <default>false</default>
+                <label>LED Flexible Tape Tuneable White</label>
+            </value>
+            <value>
+                <fullName>LED High Bay</fullName>
+                <default>false</default>
+                <label>LED High Bay</label>
+            </value>
+            <value>
+                <fullName>LED Power Supply</fullName>
+                <default>false</default>
+                <label>LED Power Supply</label>
+            </value>
+            <value>
+                <fullName>LED Strip</fullName>
+                <default>false</default>
+                <label>LED Strip</label>
+            </value>
+            <value>
+                <fullName>LED Wall Pack</fullName>
+                <default>false</default>
+                <label>LED Wall Pack</label>
+            </value>
+            <value>
+                <fullName>Light Bar</fullName>
+                <default>false</default>
+                <label>Light Bar</label>
+            </value>
+            <value>
+                <fullName>Lighting Kit</fullName>
+                <default>false</default>
+                <label>Lighting Kit</label>
+            </value>
+            <value>
+                <fullName>Low Bay</fullName>
+                <default>false</default>
+                <label>Low Bay</label>
+            </value>
+            <value>
+                <fullName>PIR</fullName>
+                <default>false</default>
+                <label>PIR</label>
+            </value>
+            <value>
+                <fullName>Power Supply</fullName>
+                <default>false</default>
+                <label>Power Supply</label>
+            </value>
+            <value>
+                <fullName>Receiver</fullName>
+                <default>false</default>
+                <label>Receiver</label>
+            </value>
+            <value>
+                <fullName>Repeater</fullName>
+                <default>false</default>
+                <label>Repeater</label>
+            </value>
+            <value>
+                <fullName>Striplight</fullName>
+                <default>false</default>
+                <label>Striplight</label>
+            </value>
+            <value>
+                <fullName>Switch</fullName>
+                <default>false</default>
+                <label>Switch</label>
+            </value>
+            <value>
+                <fullName>Tape</fullName>
+                <default>false</default>
+                <label>Tape</label>
+            </value>
+            <value>
+                <fullName>Trim</fullName>
+                <default>false</default>
+                <label>Trim</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,34 @@
+<!--
+@description       : Custom template for header section using slots
+@author            : Owais Amin Ahanger
+@group             : 
+@last modified on  : 06-23-2023
+@last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+
+    <div class="header-wrapper">
+        <div class="promo-banner">
+            <slot name="PromoBanner">Promo Banner Section</slot>
+        </div>
+        <div class="header-inner-wrapper">
+            <div class="left-section">
+                <div class="mobile-hamburger-menu">
+                    <slot name="StandardNavigationComponent">Standard Multilevel Navigation </slot>
+                </div>
+                <div class="company-logo">
+                    <slot name="CompanyLogo">Standard Site Logo Section</slot>
+                </div>
+            </div>
+            <div class="right-section">
+                <div class="top">
+                    <slot name="Icons">Standard and Custom Icons Section</slot>
+                </div>
+                <div class="bottom">
+                    <slot name="Navigation">Custom Multilevel Navigation Section</slot>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</template>

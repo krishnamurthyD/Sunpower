@@ -1,0 +1,20 @@
+<!-- <template>
+    <div>
+      <select class="country-dropdown" onchange={handleCountryChange}>
+        <option value="">Select a country*</option>
+        <template for:each={countryOptions} for:item="country">
+          <option key={country.code} value={country.dial_code}>{country.name}</option>
+        </template>
+      </select>
+      <h2 class="dial-code" if:true={selectedCountry}>{selectedCountryCode}</h2>
+    </div>
+  </template>
+   -->
+   <template>
+    <lightning-combobox
+      name="country"
+      label="Country"
+      options={countryOptions}
+    ></lightning-combobox>
+  </template>
+  

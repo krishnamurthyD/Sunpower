@@ -1,0 +1,29 @@
+.container{
+    background-color: #000000;
+    padding: 0%;
+    width: 100%;
+}
+
+.imageController{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin-left: 55px;
+    height: 400px;
+}
+.slick-next{
+    left: 630px;
+    background-color: #c0b4b4;
+}
+
+
+[data-component-id="learningHtml-df3f"] .container.arrow-controller.slick-next {
+    content: "→";
+    left:630px !important;
+    background-color: #c0b4b4 !important;
+}
+.container {
+    max-width:1447px !important;
+}
+

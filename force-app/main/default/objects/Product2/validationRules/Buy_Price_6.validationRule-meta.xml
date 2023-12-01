@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Buy_Price_6</fullName>
+    <active>false</active>
+    <errorConditionFormula>((ISBLANK(Volume_6__c) || ISBLANK(Buy_Price_5__c)) &amp;&amp; !ISBLANK(Buy_Price_6__c)) || 
+(!ISBLANK(Buy_Price_6__c) &amp;&amp; Buy_Price_6__c &gt; Buy_Price_5__c)</errorConditionFormula>
+    <errorDisplayField>Buy_Price_6__c</errorDisplayField>
+    <errorMessage>Value must be less than Buy Price 5 (which must be defined, along with Volume 6 field)!</errorMessage>
+</ValidationRule>

@@ -1,0 +1,38 @@
+.shippingPicklistShow {
+    width: 50%;
+
+}
+.shippingPicklistShow:hover{
+    background-color: #fdc300;
+}
+.rateList {
+    border: 1px solid black;
+    background: gray;
+    margin: 0 !important;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    margin: 0;
+    padding: 0;
+}
+/* .shippingServicePrice {
+} */
+li:hover{
+    background-color: #fdc300;
+}
+.rate-list-container {
+    position: absolute;
+    z-index: 20;
+    width: 100%;
+    padding: 0 20px 0 20px;
+}
+.shipping-rate-picklist-selected-container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}

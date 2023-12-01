@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Input_DC_Voltage_Range__c</fullName>
+    <externalId>false</externalId>
+    <label>Input DC Voltage Range</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>9 ~ 14VDC</fullName>
+                <default>false</default>
+                <label>9 ~ 14VDC</label>
+            </value>
+            <value>
+                <fullName>19 ~ 29VDC</fullName>
+                <default>false</default>
+                <label>19 ~ 29VDC</label>
+            </value>
+            <value>
+                <fullName>23 ~ 30VDC</fullName>
+                <default>false</default>
+                <label>23 ~ 30VDC</label>
+            </value>
+            <value>
+                <fullName>36 ~ 60VDC</fullName>
+                <default>false</default>
+                <label>36 ~ 60VDC</label>
+            </value>
+            <value>
+                <fullName>88 ~ 264VAC</fullName>
+                <default>false</default>
+                <label>88 ~ 264VAC</label>
+            </value>
+            <value>
+                <fullName>90 ~ 264VAC</fullName>
+                <default>false</default>
+                <label>90 ~ 264VAC</label>
+            </value>
+            <value>
+                <fullName>113 ~ 370VDC</fullName>
+                <default>false</default>
+                <label>113 ~ 370VDC</label>
+            </value>
+            <value>
+                <fullName>113 ~ 431VDC</fullName>
+                <default>false</default>
+                <label>113 ~ 431VDC</label>
+            </value>
+            <value>
+                <fullName>120 ~ 370VDC</fullName>
+                <default>false</default>
+                <label>120 ~ 370VDC</label>
+            </value>
+            <value>
+                <fullName>120 ~ 430VDC</fullName>
+                <default>false</default>
+                <label>120 ~ 430VDC</label>
+            </value>
+            <value>
+                <fullName>124 ~ 370VDC</fullName>
+                <default>false</default>
+                <label>124 ~ 370VDC</label>
+            </value>
+            <value>
+                <fullName>127 ~ 370VDC</fullName>
+                <default>false</default>
+                <label>127 ~ 370VDC</label>
+            </value>
+            <value>
+                <fullName>180 ~ 264VAC</fullName>
+                <default>false</default>
+                <label>180 ~ 264VAC</label>
+            </value>
+            <value>
+                <fullName>248 ~ 370VDC</fullName>
+                <default>false</default>
+                <label>248 ~ 370VDC</label>
+            </value>
+            <value>
+                <fullName>254 ~ 370VDC</fullName>
+                <default>false</default>
+                <label>254 ~ 370VDC</label>
+            </value>
+            <value>
+                <fullName>254 ~ 780VDC</fullName>
+                <default>false</default>
+                <label>254 ~ 780VDC</label>
+            </value>
+            <value>
+                <fullName>480 ~ 780VDC</fullName>
+                <default>false</default>
+                <label>480 ~ 780VDC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

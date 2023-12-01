@@ -1,0 +1,17 @@
+<template>
+     <div class="storeLocator mb-5">
+        <div class="storeLocator-form mb-4">
+            <lightning-input class="m-0 pe-4 w-25" type="text" data-id="txtPostalCode" placeholder="Type Postal Code"> </lightning-input>
+            <lightning-button variant="brand" label="Find Postal Code" onclick={getMapMarkers}></lightning-button>
+        </div>
+        <template if:true={isMapVisible}>
+            <lightning-map class="map-container" map-markers={dummyMapMarkers}
+            zoom-level="9" 
+            list-view="visible"> </lightning-map>
+        </template>
+
+        <template if:false={isMapVisible}>
+            <lightning-map map-markers={newMapMarkers} zoom-level="13" list-view="visible"> </lightning-map>
+        </template>
+    </div>
+</template>

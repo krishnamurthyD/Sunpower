@@ -1,0 +1,17 @@
+<template>
+    <div class="input-form">
+        <lightning-input class="input-field" placeholder="Name" ></lightning-input>
+        <lightning-input class="input-field" placeholder="G-mail" ></lightning-input>
+        <lightning-input class="input-field" placeholder="Phone" ></lightning-input>
+        <lightning-input class="input-field" placeholder="Age" ></lightning-input>
+        <lightning-radio-group 
+        name="Gender"
+        label="Gender"
+        options={options}
+        value={value}
+        type="radio"></lightning-radio-group>
+        <lightning-button class="btn" label="Submit" onclick={handelClick} ></lightning-button>
+
+    </div>
+    
+</template>

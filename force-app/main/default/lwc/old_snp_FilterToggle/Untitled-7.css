@@ -1,0 +1,1115 @@
+
+
+:root{
+    --snp-theme-clr-yellow:#FDC300;
+    --snp-clr-white:#ffffff;
+    --snp-clr-black:#000000;
+    --snp-clr-geygreen:hsl(85, 85%, 49%);
+    --dxp-g-brand:#FDC300 !important;
+    --sun-power-font:'SunFont';
+
+}
+
+/*--------------------------------------------@Author Aditya GLOBAL CONTAINER CSS START HERE---------------------------------------------*/
+.custom-container{
+    max-width:100%;
+    width:100%;
+    margin: 0 auto;
+    padding:0 16px;
+}
+@media only screen and (min-width: 576px) {
+    .custom-container{
+        max-width:550px;
+        padding:0 8px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .custom-container{
+        max-width:730px;
+        padding:0 8px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .custom-container{
+        max-width:970px;
+        padding:0 8px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .custom-container{
+        max-width:1150px;
+        padding:0 8px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .custom-container{
+        max-width:1330px;
+        padding:0 8px;
+    }
+}
+
+
+
+/*--------------------------------------------@Author Aditya GLOBAL CONTAINER CSS ENDS HERE---------------------------------------------*/    
+
+/*-----------------------HOME PAGE @author-Aditya Lenka -----START HERE----------------*/
+    .about-us-slot-wrapper slot[name="aboutUsStandardButton"] a{
+        padding: 0.181rem 1.588rem;
+        }
+.homepage-img-txt .explore-more-para{
+    line-height:2.8rem;
+}
+/*-----------------------HOME PAGE @author-Aditya Lenka -------END HERE--------------*/
+
+
+
+
+/*Overrides Standard My Account Icon Styling*/    
+.standard-profile-menu-component-slot slot[name="StandardProfileMenuComponent"] button.menu-button {
+border: none;
+background: transparent;
+color: white;
+outline: none;
+}
+
+.standard-profile-menu-component-slot slot[name="StandardProfileMenuComponent"] button.menu-button:focus {
+box-shadow:none;
+}
+
+.standard-profile-menu-component-slot slot[name="StandardProfileMenuComponent"] button.menu-button+div.dropdown-ctn>ul {
+padding: 0;
+}
+.standard-profile-menu-component-slot slot[name="StandardProfileMenuComponent"] button.menu-button+div.dropdown-ctn>ul>li>a:hover {
+color: var(--snp-clr-balck);
+text-decoration: underline;
+    background-color: #eaece7;
+}
+
+.standard-profile-menu-component-slot slot[name="StandardProfileMenuComponent"] button.menu-button+div.dropdown-ctn>ul>li>a>span {
+color: var(--snp-clr-balck);
+}
+
+.standard-profile-menu-component-slot slot[name="StandardProfileMenuComponent"] button.menu-button svg[data-key="user"] {
+height: 20px !important;
+width: 20px !important;
+}
+/*Overrides Standard My Account Icon Styling Ends Here*/  
+
+[data-component-id="section-87ca"] .slds-button:hover {
+    color:black !important;
+    background-color: #fdc300 !important;
+}
+[data-component-id="button-b2af"] .slds-button {
+    width: 7.6rem !important;
+    height: 2.3rem !important;
+    background-color: #EAECE7 !important;
+    border-radius: 3.7px !important;
+}
+
+[data-component-id="textBlock-91ef"] .dxp_base-textBlock_textBlock {
+        line-height:34pt !important;
+}
+[data-component-id="button-b2af"] .slds-button:hover {
+    color:black !important;
+    background-color: #fdc300 !important;
+}
+/*   [data-component-id="snp_Recommendation_comp-7c4e"] .slds-button {
+    width: 7.6rem !important;
+    height: 2.3rem !important;
+    background-color: #EAECE7 !important;
+    border-radius: 3.7px !important;
+}*/
+
+
+
+.component-wrapper-spacer{
+    margin:0px !important;
+}
+[data-component-id="columns-a49d"] .component-wrapper-spacer {
+margin: 0px !important;
+padding-right: 10px !important;
+}
+[data-component-id="section-c2f1"] .background-image-overlay {
+    padding:5px 0px 5px 0px !important;
+}    
+
+[data-component-id="layoutSite-6c1e"] .webruntimedesign-componentWrapper_componentWrapper-host {
+    margin:0px !important;
+}
+[data-component-id="columns-a49d"] .component-wrapper-spacer {
+    margin:0px !important;
+}
+[data-component-id="layoutHeader-2400"] .commerce-layoutHeader_templateWithoutWishlistSlot {
+    padding:0px !important;
+}
+.comm-section-container {
+    padding:0px !important;
+}
+
+
+
+
+
+
+
+
+[data-component-id="snp_searchSuggetionOnClickOf3Letters-11db"].component-wrapper-spacer{
+    margin:0 1.25rem 0 0 !important;
+    
+}
+
+
+
+[data-component-id="snp_currencySelectorIoco-c42c"].component-wrapper-spacer{
+    margin:0 1.25rem 0 0 !important;
+    
+}
+[data-component-id="cartBadge-9451"]{
+    margin:0 1.25rem 0 0  !important;
+    
+}
+[data-component-id="textBlock-75f5"] >h2:hover{
+    color:#FDC300 !important;
+}
+
+
+
+
+
+
+/*Overrides ModelButton - @author-Ganesh*/
+.slds-theme_warning[lightning-interactiveDialogBase_interactiveDialogBase], .slds-theme--warning[lightning-interactiveDialogBase_interactiveDialogBase] {
+    background-color: #fdc300 !important;
+}
+/*.slds-button_brand{
+    background-color:#f0f0f0 !important;
+    color: black !important;
+} */
+[data-component-id="snp_footer_Component-c46b"] .slds-button {
+    padding: 1px 28px !important;
+    background: #eaece7 !important;
+}
+[data-component-id="snp_footer_Component-c46b"] .slds-button:hover {
+    color:black !important;
+    background-color: #fdc300 !important;
+}
+/*---------------- sort by @author -Krishnamurthy Donta-----------------*/
+    [data-component-id="searchSortMenu-b25a"] button {
+    border:1px solid black !important ;
+}
+[data-component-id="searchSortMenu-b25a"] .slds-listbox{
+    color: black !important;
+    background-color: white !important;
+}
+[data-component-id="searchSortMenu-b25a"] h3 {
+    margin:0px !important;
+}
+[data-component-id="searchSortMenu-b25a"] [role="listbox"]>*[aria-checked="true"]{
+    background-color:#595959 !important;
+}
+[data-component-id="searchSortMenu-b25a"] [role="listbox"]>*:not(span):hover{
+    background-color:var(--snp-clr-geygreen)!important;
+    
+}
+[data-component-id="searchSortMenu-b25a"] [role="listbox"]>*[aria-checked="true"]>span:first-child {
+    visibility:hidden;
+}
+[data-component-id="searchSortMenu-b25a"] [role="listbox"]>*{
+    text-align:left !important;
+}
+/*-----------------------Filter @author-Krishnamurthy Donat ---------------------*/
+[data-component-id="snp_filter_toggle-2c0b"] .category-tree-section {
+    margin-top:0px !important;
+    padding-top:0px !important;
+}
+[data-component-id="snp_filter_toggle-2c0b"] .facets-section {
+    margin-top:0px !important;
+    padding-top:0px !important;
+}
+[data-component-id="searchFilters-dea4"] .filters-title {
+    color: transparent !important;
+}
+[data-component-id="snp_filter_toggle-2c0b"] .filters-header {
+    /*display:none !important;*/
+}
+[data-component-id="searchFilters-c587"] .filters-title {
+    display:none !important;
+}
+[data-component-id="searchFilters-c587"] .filters-header {
+    justify-content: flex-end !important;
+}
+    [data-component-id="searchFilters-c587"] .slds-button {
+    display:none !important;
+    color: black !important;
+    font-weight: 600 !important;
+    word-spacing: 0.1rem !important;
+    padding: 10px !important;
+}
+[data-component-id="searchFilters-dea4"] lightning-primitive-icon {
+    display:none !important;
+}
+[data-component-id="searchFilters-dea4"] .expand-button {
+    display:none !important;
+}
+[data-component-id="searchFilters-dea4"] .slds-checkbox_faux {
+    border:1px solid black !important;
+}
+[data-component-id="textBlock-00c7"] .dxp_base-textBlock_textBlock{
+    margin:0 ;
+}
+
+[data-component-id="searchResults-f036"] .slds-button_brand {
+        background-color: var(--snp-clr-geygreen)!important;
+}
+
+    /*.lwc-1okeam5n5rs:hover{
+    color:var(--snp-theme-clr-yellow)!important;
+} affected to category link hover*/
+[data-component-id="searchFilters-dea4"] h2 {
+    padding: 0 33px !important;
+    font-size: 20px !important;
+}
+[data-component-id="searchFilters-dea4"] .slds-form-element__label {
+    margin: 0;
+padding: 2px;
+}
+[data-component-id="searchFilters-dea4"] .lwc-64711lksfdt {
+    padding: 0 36px;
+}
+[data-component-id="searchFilters-dea4"] .slds-checkbox_faux {
+        border-radius: 0px !important;
+}
+[data-component-id="searchFilters-dea4"] lightning-button {
+    /* display:none !important;*/
+}
+
+.filters-header .clear-all > button {
+    font-size:0px;
+}
+.filters-header .clear-all > button::before{
+    content:"Clear Filters";
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    color:var(--snp-clr-black);
+}
+
+[data-component-id="searchFilters-dea4"] span [part="indicator"]::after {
+border-color:black !important;
+}
+[data-component-id="searchFilters-dea4"] span [part="indicator"]:hover {
+border-color: var(--snp-theme-clr-yellow)!important;
+}
+[data-component-id="searchResults-3eff"] button {
+color:black;
+}
+[data-component-id="searchResults-f036"] button {
+color:black;
+}
+[data-component-id="searchResults-f036"] img {
+/* height:275px !important;   it is affected in tablet's products images view*/
+    object-fit: cover;
+    max-width: 100%;
+    aspect-ratio: 1/1;
+}
+[data-component-id="searchResults-f036"] img:hover {
+    border:2px solid var(--snp-theme-clr-yellow)!important;   
+}
+[data-component-id="searchResults-f036"] a {
+    text-decoration: none !important;
+}
+
+[data-component-id="searchResults-f036"] .cardContainerGrid .fieldsArea div:nth-child(2) div {
+        white-space: normal !important; 
+        display: -webkit-box !important;
+        -webkit-line-clamp: 3 !important;
+        -webkit-box-orient: vertical !important;
+        word-break: break-word !important;
+        word-spacing: 0.1rem !important;
+        font-size: 16px!important;
+        line-height: 29.3333px !important;
+        height:5.4375rem !important;
+        font-family : 'SunFont' !important;
+        margin:calc(10 / 16 * 1rem) 0 1.25rem 0 !important;
+}
+
+[data-component-id="searchResults-f036"] .cardContainerGrid .fieldsArea div:nth-child(1) div {
+font-size : calc(18 / 16 * 1rem);}
+
+
+[data-component-id="searchResults-f036"] .cardContainerGrid .priceArea .negotiated-price{
+    font-size : calc(18 / 16 * 1rem);}
+
+[data-component-id="searchResults-f036"] .cardContainerGrid .priceArea .slds-align-bottom{
+margin-bottom:calc(5 / 16 * 1rem);}
+
+[data-component-id="searchResults-3eff"] .cardContainerGrid .fieldsArea div:nth-child(1) div {
+font-size : calc(18 / 16 * 1rem);}
+
+
+[data-component-id="searchResults-3eff"] .cardContainerGrid .priceArea .negotiated-price{
+    font-size : calc(18 / 16 * 1rem);}
+
+[data-component-id="searchResults-3eff"] .cardContainerGrid .priceArea .slds-align-bottom{
+margin-bottom:calc(5 / 16 * 1rem);}
+
+[data-component-id="searchResults-3eff"] .cardContainerGrid .fieldsArea div:nth-child(2) div {
+        white-space: normal !important; 
+        display: -webkit-box !important;
+        -webkit-line-clamp: 3 !important;
+        -webkit-box-orient: vertical !important;
+        word-break: break-word !important;
+        word-spacing: 0.1rem !important;
+        font-size: 16px!important;
+        line-height: 29.3333px !important;
+        height:5.4375rem !important;
+        font-family : 'SunFont' !important;
+        margin:calc(10 / 16 * 1rem) 0 1.25rem 0 !important;
+    
+}
+[data-component-id="searchResults-3eff"] .slds-button_brand {
+        background-color: var(--snp-clr-geygreen)!important;
+}
+[data-component-id="searchResults-3eff"] a {
+    text-decoration: none !important;
+}
+[data-component-id="searchResults-3eff"] img:hover {
+    border:2px solid var(--snp-theme-clr-yellow)!important;   
+}
+[data-component-id="searchResults-3eff"] img {
+    height:275px !important; 
+}
+[data-component-id="searchResults-f036"].pageControlPart button:hover {
+background-color:white !important;
+border:1px solid var(--snp-theme-clr-yellow)!important;
+}
+[data-component-id="searchResults-3eff"].pageControlPart button:hover {
+background-color:white !important;
+border:1px solid var(--snp-theme-clr-yellow)!important;
+}
+[data-component-id="searchResults-f036"] .slds-button:hover {
+    color:black !important;
+    background-color: var(--snp-theme-clr-yellow)!important;
+}
+[data-component-id="searchResults-3eff"] .slds-button:hover {
+    color:black !important;
+    background-color: var(--snp-theme-clr-yellow)!important;
+}
+/* Override PDP carousal css @Author- Ganesh Wattamwar */
+[data-component-id="snp_pdp_productImageCarousel-0466"] .slick-list{
+    Padding: 0 !important;
+}
+
+    /*-----------------------Filter & search Model changing from view cart to view basket @author- Krishnamurthy Donta---------------------*/
+.slds-modal  .slds-modal__container .slds-modal__content button[aria-label='Continue Shopping'] {
+color:black;
+border-color : 1px solid black !important;
+}
+.slds-modal  .slds-modal__container .slds-modal__content button[aria-label='Continue Shopping']:hover {
+    color:black;
+    background-color : var(--snp-theme-clr-yellow) ;
+
+}
+
+.slds-modal  .slds-modal__container .slds-modal__content button[aria-label='View Cart'] {
+    font-size : 0;
+    border-color : 1px solid black !important;
+}
+.slds-modal  .slds-modal__container .slds-modal__content button[aria-label='View Cart']:hover {
+    background-color:var(--snp-theme-clr-yellow);
+    color:black ;	
+}
+
+
+.slds-modal  .slds-modal__container .slds-modal__content button[aria-label='View Cart']::before {
+    content:'View Basket' ;
+    font-size : 16px ;
+    color:black;
+}
+
+/*-----------------------Filter mobile view @author- Krishnamurthy Donta---------------------*/
+[data-component-id="searchFilters-dea4"] .slds-modal__container {
+    margin:0px !important;
+}
+[data-component-id="searchFilters-dea4"] .slds-modal__content_has-hidden-footer {
+    box-shadow:none !important;
+padding-top: 25px !important;
+padding-bottom: 25px !important;
+}
+[data-component-id="searchFilters-dea4"] .slds-scrollable {
+    width:100% !important;
+    height:77vh !important ;
+    overflow:hidden !important ;
+    overflow-y :scroll !important;
+}
+[data-component-id="searchFilters-dea4"] #modal-content-259 {
+height: 100% !important;
+}
+[data-component-id="searchFilters-dea4"] .slds-modal__container {
+padding:0px !important;
+background-color:white !important;
+}
+@media screen and (max-width:768px) {
+    [data-component-id="searchFilters-dea4"] figure {
+        margin:0!important;
+    }
+    [data-component-id="searchFilters-dea4"] h2 {
+        font-size: 16px !important;
+        margin: 0 !important;
+        padding:0 !important;
+    }
+    [data-component-id="searchFilters-dea4"] .commerce_search-inputFacet_inputFacet {
+        padding: 0 17px !important;
+    }
+    [data-component-id="searchFilters-dea4"] .facets-section {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+}
+/* Override bredcrum css @Author- Harshvardhan T */
+[data-component-id="breadcrumbs-b5dd"] nav{
+    margin-top: 10px !important;
+}
+    /*--------------- @krishnamurthy --> currency Selector------------*/
+[data-component-id="snp_currencySelectorIoco-c42c"] .slds-icon {
+    fill:white !important;
+}
+
+/* Override PDP product detail css @Author- Ganesh Wattamwar*/
+[data-component-id="textBlock-1e0d"] .dxp_base-textBlock_textBlock{
+    display:none !important;
+} 
+[data-component-id="variantSelector-5ee1"] abbr{
+    display: none !important;
+}
+
+[data-component-id="textBlock-675e"] .slds-grid{
+    display: none !important;
+}
+
+[data-component-id="productFieldsTable-9ab9"] .slds-cell-wrap{
+    padding: 0 !important;
+} 
+[data-component-id="productFieldsTable-9ab9"] .slds-table{
+    width: 295px !important;
+}
+[data-component-id="purchaseOptions-0030"] .commerce_product_details-addToCartButton_addToCartButton{
+    height: 38px !important;
+    background-color: var(--snp-clr-geygreen)!important;
+}
+
+[data-component-id="purchaseOptions-0030"] .commerce_product_details-addToCartButton_addToCartButton:disabled{
+    height: 38px !important;
+    background-color: white !important;
+}
+[data-component-id="purchaseOptions-0030"] .commerce_product_details-addToCartButton_addToCartButton:disabled:hover{
+    height: 38px !important;
+    background-color: white !important;
+}
+[data-component-id="purchaseOptions-0030"] button{
+    border: 1px black solid !important;
+    border-radius: 3px !important;
+}
+[data-component-id="purchaseOptions-0030"] input{
+    border-top: 1px black solid !important;
+    border-bottom: 1px black solid !important;
+    border-radius: 0 !important;
+}
+[data-component-id="purchaseOptions-0030"] .commerce_product_details-addToCartButton_addToCartButton:hover{
+    background-color:var(--snp-theme-clr-yellow)!important;
+}
+
+
+
+[data-component-id="variantSelector-5ee1"] select{
+    border-radius: 3.7px !important;
+}
+[data-component-id="variantSelector-5ee1"] select:hover{
+    border : 1px solid #fdc300 !important;
+    border-radius: 3.7px !important;
+}
+[data-component-id="productFieldsTable-9ab9"] .slds-border_bottom{
+    border-bottom: 0 solid white !important;
+}
+[id="modal-content-91"] button.commerce_builder-purchaseOptions_purchaseOptions:hover{
+    background-color: #fdc300 !important;
+}
+
+/* Override PDP product detail css @Author- Ganesh Wattamwar*/
+[data-component-id="snp_footer_Component-bbf6"] .slds-button:hover{
+    background-color: #fdc300  !important;
+}
+
+    /*------------------@Author Krishnamurthy, for-> ProductAdditionalInformation ---------------------*/
+[data-component-id="productAttachments-cf06"] a {
+    color:black !important;
+    font-family:SunFont !important;
+}
+[data-component-id="productAttachments-cf06"] a:hover {
+    color:var(--snp-theme-clr-yellow)!important;
+    font-family:SunFont !important;
+}
+[data-component-id="productAttachments-cf06"] li {
+    width:100% !important;
+}
+
+    /*------------------@Author Krishnamurthy, --> cart ---------------------*/
+[data-component-id="section-6b3c"] .commerce_cart-items_items-host {
+    height: 760px !important;
+    overflow: hidden !important;
+overflow-y: auto !important;
+}
+[data-component-id="section-6b3c"] .community_layout-column_column {
+    display:block !important;
+}
+[data-component-id="section-6b3c"] .slds-button{
+    border:none !important;
+}
+[data-component-id="section-6b3c"] .slds-button_neutral {
+    border:1px solid black !important;
+}
+[data-component-id="section-6b3c"] .main_actions_remove:hover{
+    color:var(--snp-theme-clr-yellow)!important;
+    text-decoration:underline !important;
+}
+[data-component-id="section-6b3c"] .slds-modal__container .slds-button_brand {
+    border :1px solid black !important;
+}
+    
+[data-component-id="section-6b3c"] h3:hover {
+    background-color:white !important;
+text-decoration: underline;
+color: var(--snp-theme-clr-yellow)!important;
+}
+[data-component-id="section-6b3c"] .slds-spinner {
+    display: none !important;
+}
+[data-component-id="cartItems-7352"] h1 {
+    color: black !important ;
+font-size: 22px !important;
+}
+[data-component-id="cartItems-7352"] h1:hover {
+    color: var(--snp-theme-clr-yellow)!important;
+}
+a.slds-button[aria-label="Continue Shopping (Opens a new window or page)"] {
+    border:1px solid black !important;
+    margin-bottom:20px !important;
+}
+[data-component-id="checkoutButton-69d3"] .slds-button_brand {
+    border:1px solid black !important;
+}
+[data-component-id="cartItems-7352"] .commerce-numberInput_numberInput .slds-grid {
+    outline: 1px solid !important;
+border: none !important;
+}
+/*  [data-component-id="layoutSite-ffb9"] .slds-button_brand:hover {
+    background-color: var(--snp-theme-clr-yellow)!important;
+}*/
+[data-component-id="section-6b3c"] .slds-button_brand {
+    background-color: var(--snp-clr-geygreen)!important;
+}
+    [data-component-id="b2bCartContents-ae91"] .commerce_cart-header_header-host {
+    padding:10px !important;
+}
+.lwc-4b2blbsh91f header {
+    padding:20px !important;
+}
+/*------------------@Author Aditya, --> Order History ---------------------*/
+div.commerce_my_account-orders_orders .commerce_my_account-order_order .three-column-layout {
+width: 25%;
+font-size: 0.9rem;
+}
+
+.order-list-wrapper button.slds-button {
+    border:1px solid black;
+    color:black;
+}
+.order-list-wrapper button.slds-button_icon[title],
+.order-list-wrapper button.slds-button[title="Reset"] ,
+.order-list-wrapper button.slds-button[aria-expanded] {
+    border:none;
+}
+.order-list-wrapper [role='grid'] [role='row'] div.slds-grid a{
+    color: var(--snp-clr-black);
+}
+.order-list-wrapper [role='grid'] [role='row'] div.slds-grid a:hover{
+    text-decoration-color:var(--snp-theme-clr-yellow);
+}
+    
+
+
+.order-list-wrapper .slds-button:focus{
+    box-shadow: none!important;
+}
+
+@media screen and (max-width:768px){
+        [data-component-id="section-6b3c"] .commerce_cart-items_items-host {
+        height: auto !important;     
+    }
+    [data-component-id="b2bCartContents-ae91"] .commerce_builder-cartContents_cartContents {
+                padding:10px !important;
+            }
+[data-component-id="b2bCartContents-ae91"] .commerce_cart-header_header-host {
+    padding:10px !important;
+}
+    
+}
+/*-------------------To Customise Modal Button Label From Cart To Basket-----------------*/
+
+.slds-modal .slds-modal__container .slds-modal__content slot div.slds-grid > div:nth-child(2) > button {
+    font-size:0px;
+}
+.slds-modal .slds-modal__container .slds-modal__content slot div.slds-grid > div:nth-child(2) > button::before {
+content: "View Basket";
+padding: 4px;
+font-size: 16px;
+line-height: 23px;
+}
+.slds-modal .slds-modal__container .slds-modal__content slot div.slds-grid > div:nth-child(1) > button {
+    background-color : #eaece7 !important;
+}
+
+/*---------------pdp @Author Aditya------------------------*/
+
+.slds-button_icon-inverse [title="Cancel and close"]:hover{
+    background:#fdc300 !important;
+}
+.productName slot div:last-child{
+    display:none;
+}
+.productSKU > .product-sku-info > slot > [slot="SKU"] table[role="presentation"] tr {
+    display: flex;
+    gap: 20px;
+}
+.productSKU > .product-sku-info > slot > [slot="SKU"] table[role="presentation"] tr:hover > td{
+    background-color:var(--snp-clr-white);
+}
+.productSKU > .product-sku-info > slot > [slot="SKU"] table[role="presentation"] tr > td:first-child {
+    max-width: 100px;
+    width: 18%;
+}
+
+    .product-discount-details .pricing-tiers::-webkit-scrollbar {
+    height: 0.5rem;
+}
+.product-discount-details .pricing-tiers::-webkit-scrollbar-track {
+    background: var(--snp-clr-geygreen);
+}
+.product-discount-details .pricing-tiers::-webkit-scrollbar-thumb {
+    background-color: var(--snp-theme-clr-yellow);
+    border-radius: 5px;
+}
+
+.pricing-tiers .adjustment-tiers-container{
+    /* flex-wrap: wrap;*/
+    overflow:unset !important;
+    gap: 10px;
+    justify-content: space-around;
+    padding-bottom:0.375rem;
+    padding-top: 0.125rem;
+}
+.pricing-tiers .adjustment-tiers-container .tier-row-title{
+    position: sticky;
+    left: -1px;
+    background: white;
+    padding: 4px;
+}
+.commerce_builder-purchaseOptions_purchaseOptions .commerce_product_details-addQuantity_addQuantity:first-child {
+    padding: 0;
+}
+.commerce_product_details-addToCartButton_addToCartButton{
+    background-color: #EAECE7 !important;
+}
+.commerce_product_details-addToCartButton_addToCartButton:hover{
+    background-color: #fdc300!important;
+}
+button.commerce_product_details-addToCartButton_addToCartButton {
+    flex-grow: 0 !important;
+}
+.commerce-productPricing_productPricing > tbody {
+        display:flex ;
+        gap:1.25rem;
+    }
+
+    .product-quantity-deatils .quantity-list-container button.slds-button_brand:is([disabled]):hover {
+        background-color: var(--snp-clr-white);
+    }
+    .product-quantity-deatils .quantity-list-container button.slds-button_brand:not([disabled]):hover {
+        background-color: var( --snp-theme-clr-yellow) !important;
+    }
+    .product-quantity-deatils .quantity-list-container .quantity-list-action .container button[aria-label="Add To Basket"].slds-button_brand:is([disabled]) {
+        background-color: var(--snp-clr-white);
+    }
+    .product-quantity-deatils .quantity-list-container .quantity-list-action .container button[aria-label="Add To Basket"].slds-button_brand:not([disabled]) {
+        background-color: var(--snp-clr-geygreen);
+    }
+.product-quantity-deatils .quantity-list-container input {
+    background-color: var(--snp-clr-white); 
+    border-top: 1px solid var(--snp-clr-black);
+    border-bottom: 1px solid var(--snp-clr-black);
+}
+.productPrice .product-price-details .price-container {
+flex-direction: row-reverse;
+min-width: 31%;
+width: 31% !important;
+/* min-width: 66%;
+width: 66% !important;*/
+justify-content:flex-end;
+    }
+.product-discount-details slot[name='tierDiscount'] .pricing-tiers .tier{
+    padding: 0 0.438rem;
+    }
+div.quantity-list-action .container{
+        padding:0;
+    }
+@media only screen and (max-width: 48em){
+    div.quantity-list-action .container{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    div.commerce_product_details-addQuantity_addQuantity {
+
+    }
+    .commerce_product_details-addToCartButton_addToCartButton-host {
+        margin:0 !important;
+    }
+
+    table.commerce-productPricing_productPricing {
+        justify-content: flex-start !important;
+    }
+    
+
+}
+/* Override PDP carousal css @Author- Ganesh Wattamwar */
+.carousel-wrapper .inner-wrapper .slick-vertical .slick-list,.draggable{
+    padding: 0 !important;
+}
+
+
+/*----------------------------@Author Krishnamurthy, --> My account-------------------*/
+    [data-component-id="navigationMenuContainer-9809"] a {
+    color:black !important;
+}
+[data-component-id="sNP_userDetails-15a2"] .slds-card__body {
+    margin-bottom: 0px !important;
+}
+[data-component-id="sNP_userDetails-15a2"] .slds-card {
+        box-shadow: none !important;
+        border: none !important;
+}
+[data-component-id="myAccountPassword-49c2"] .slds-card {
+    box-shadow: none !important;
+    border: 1px solid !important;
+}
+[data-component-id="myAccountPassword-49c2"] .slds-button {
+    border:none !important;
+}
+    [data-component-id="myAccountPassword-49c2"] .slds-button:hover {
+    text-decoration:underline !important;
+}
+[data-component-id="navigationMenuItemList-1730"] .slds-nav-vertical__section {
+    background: white !important;
+}
+[data-component-id="navigationMenuItemList-1730"] h2 {
+    display:none !important;
+    padding:0 !important;
+    margin:0 !important;
+}
+[data-component-id="navigationMenuItemList-1730"] a {   
+    -webkit-box-shadow: none !important;
+    box-shadow:none !important;
+}
+[data-component-id="navigationMenuItemList-1730"] .slds-nav-vertical__item:hover:before {
+    background-color: var(--snp-clr-geygreen)!important;
+}
+[data-component-id="sldsFlexibleLayout-aaea"] *{
+    color:black !important;
+}
+[data-component-id="navigationMenuItemList-1730"]  .slds-nav-vertical__item.slds-is-active::before {
+    background: var(--snp-theme-clr-yellow)!important;
+}
+
+
+/*---------------@Author Aditya-- All the elemnts in one place whose background color wants to chnage to theme yellow----------------------*/
+
+/*--------------------------------------------@Author Aditya ALL CMS PAGES CSS START HERE---------------------------------------------*/
+
+    /* @Author- Wasim Sheikh-------------ArchitecturalLEDLightningManufacture-----CommonComponent */
+        .cms-common-para
+        {
+            margin: 0 0 0.75rem 0;
+            line-height: 2.125rem;
+        }
+        .cms-common-para:last-child {
+                margin-bottom:0;
+        }
+        .common-para
+        {
+            margin:0;
+            line-height: 2.063rem;
+        }
+
+/* @Author- Harsha Nivas Ravilla & Shreyash Myaccount->address-START HERE----*/
+        /* -address page modal close button color-----*/
+.outer-container .slds-modal-container .slds-icon {
+        fill: #fff;
+}
+    /* ------------------------------------------------------------------*/
+    
+/*--------------------------------------------------------End OF ALL CMS PAGES CSS HERE--------------------------------------------------------*/
+/*----------------------------@Author Krishnamurthy, --> search results page-------------------*/
+
+[data-component-id="breadcrumbs-068b"] nav {
+    padding:10px 20px;
+}
+[data-component-id="searchResultsLayout-4ec0"] aside {
+    background-color: #eaece7	
+}
+
+[data-component-id="textBlock-7f3b"] h1  {
+    font-size: 26px !important;
+}
+[data-component-id="searchFilters-0eb7"] h2 {
+    font-size: 26px !important;
+}
+
+
+[data-component-id="searchFilters-0eb7"] .lwc-36vevjtd9ac {
+    margin: 0 10px;
+}
+
+[data-component-id="searchFilters-0eb7"] .clear-all {
+    align-self: center !important;
+}
+
+[data-component-id="searchFilters-0eb7"] .slds-button {
+    border: none !important;
+}
+
+[data-component-id="searchFilters-0eb7"] .slds-button:hover{
+        text-decoration: underline;
+            color: #fdc300 !important;
+
+}
+
+[data-component-id="searchFilters-0eb7"] .lwc-4u4j45agqbn {
+    margin:0 10px ;
+}
+
+
+[data-component-id="searchFilters-0eb7"] .expand-button {
+    display:none !important;
+}
+
+[data-component-id="searchFilters-0eb7"] .facet-header {
+    margin: 0 10px ;
+}
+
+[data-component-id="searchFilters-0eb7"] .facet-body {
+    margin:0 10px;
+}
+[data-component-id="searchFilters-0eb7"] .facets-section {
+    margin:0 !important;
+    padding:0 !important;
+}
+[data-component-id="searchFilters-0eb7"] .lwc-1q54g11aet8-host {
+    padding-top:5px !important;
+}
+    [data-component-id="searchResults-c114"] .slds-button_brand {
+        background-color: var(--snp-clr-geygreen)!important;
+}
+[data-component-id="searchResults-c114"] .slds-button_brand {
+        background-color: var(--snp-clr-geygreen)!important;
+}
+[data-component-id="searchResults-c114"] button {
+color:black;
+}
+[data-component-id="searchResults-c114"] img {
+    height:275px !important;   
+}
+[data-component-id="searchResults-c114"] img:hover {
+    border:2px solid var(--snp-theme-clr-yellow)!important;   
+}
+[data-component-id="searchResults-c114"] a {
+    text-decoration: none !important;
+}
+[data-component-id="searchResults-c114"] .slds-button {
+    border:1px solid black !important; 
+}
+[data-component-id="searchResults-c114"] .slds-button:hover {
+    background-color :#fdc300 !important;
+    color:black !important;
+}
+
+[data-component-id="searchResults-c114"] .cardContainerGrid .fieldsArea div:nth-child(2) div {
+        white-space: normal !important; 
+        display: -webkit-box !important;
+        -webkit-line-clamp: 3 !important;
+        -webkit-box-orient: vertical !important;
+        word-break: break-word !important;
+        word-spacing: 0.1rem !important;
+        font-size: 16px!important;
+        line-height: 29.3333px !important;
+        height:5.4375rem !important;
+        font-family : 'SunFont' !important;
+        margin:calc(10 / 16 * 1rem) 0 1.25rem 0 !important;
+}
+
+[data-component-id="searchResults-c114"] .cardContainerGrid .fieldsArea div:nth-child(1) div {
+font-size : calc(18 / 16 * 1rem);}
+
+
+[data-component-id="searchResults-c114"] .cardContainerGrid .priceArea .negotiated-price{
+    font-size : calc(18 / 16 * 1rem);}
+
+[data-component-id="searchResults-c114"] .cardContainerGrid .priceArea .slds-align-bottom{
+margin-bottom:calc(5 / 16 * 1rem);}
+
+
+
+[data-component-id="searchSortMenu-8ffd"] .slds-grid_vertical-align-center {
+    padding :0 20px ;
+}
+[data-component-id="searchSortMenu-8ffd"] button {
+    border:1px solid black !important ;
+}
+[data-component-id="searchSortMenu-8ffd"] .slds-listbox{
+    color: black !important;
+    background-color: white !important;
+}
+[data-component-id="searchSortMenu-8ffd"] h3 {
+    margin:0px !important;
+}
+[data-component-id="searchSortMenu-8ffd"] [role="listbox"]>*[aria-checked="true"]{
+    background-color:#595959 !important;
+}
+[data-component-id="searchSortMenu-8ffd"] [role="listbox"]>*:not(span):hover{
+    background-color:var(--snp-clr-geygreen)!important;
+
+}
+[data-component-id="searchSortMenu-8ffd"] [role="listbox"]>*[aria-checked="true"]>span:first-child {
+    visibility:hidden;
+}
+[data-component-id="searchSortMenu-8ffd"] [role="listbox"]>*{
+    text-align:left !important;
+}
+
+
+    /* @Author- Aditya Lenka-------------Banner Page standard button */
+    
+.about-us-slot-wrapper slot[name="aboutUsStandardButton"] a ,
+.homepage-img-txt .content-button-wrapper slot[name="redirectCmsPageBtn"] a {
+    padding: 0.156rem 1.1rem;
+    border: 1px solid var(--snp-clr-black);
+    color: var(--snp-clr-black);
+}
+.homepage-img-txt .content-button-wrapper slot[name="redirectCmsPageBtn"] a {
+    padding: 0.156rem 0.625rem;
+}
+@media only screen and (max-width: 991px) {
+        .about-us-slot-wrapper slot[name="aboutUsStandardButton"] a,
+        .homepage-img-txt .content-button-wrapper slot[name="redirectCmsPageBtn"] a {
+        font-size: 0.7rem;
+        }
+}
+@media only screen and (max-width: 576px) {
+        .about-us-slot-wrapper slot[name="aboutUsStandardButton"] a,
+        .homepage-img-txt .content-button-wrapper slot[name="redirectCmsPageBtn"] a{
+        font-size: 0.6rem;
+        padding: 0.2rem 0.8rem;
+        letter-spacing: 0.04rem;	
+        }
+}
+/* @Author- Aditya Lenka-------------Banner Page standard button */
+
+
+    /* @Author- Wasim Sheikh-------------powercmspage-----CommonComponent */
+.power-cms-top
+{
+    display:flex;
+    justify-content:space-between;
+}
+.power-cms-bottom
+{
+    display:flex;
+    justify-content:space-between;
+}
+.power-cms-wrapper
+{
+width:100%;
+}
+.power-top-left
+{
+width:44%;
+}
+.power-top-right
+{
+width:44%;
+}
+.power-bottom-left
+{
+width:44%;
+}
+.power-bottom-right
+{
+width:44%;
+}
+.common-power-para
+{
+    font-size:1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.938rem;
+    margin-top:1.94rem;
+}
+@media only screen and (max-width: 768px)
+{
+    .cms-btm-para
+    {
+        margin-bottom:1.94rem;
+    }
+}
+@media only screen and (max-width: 992px)
+{
+.heading-common-class
+{
+font-size:0.75rem
+}
+.font-common-class
+{
+font-size:0.75rem
+}
+.common-power-para
+    {
+        line-height:1.5rem;
+    }
+}
+/*---------Shipping---------------*/
+.cms-checkout-content .address-stretch{
+    display: flex;
+flex-direction: row;
+}
+.cms-checkout-content .slds-truncate{
+    white-space: normal;
+}
+.cms-checkout-content .slds-gutters_direct-x-small > .slds-col{
+    border: 1px solid black;
+margin-left: 0.5rem;
+margin-bottom: 0.5rem;
+width: 31%;
+}
+.cms-checkout-content .slds-gutters_direct-x-small > .slds-col:focus{
+        border-color:#fdc300;
+}
+.cms-checkout-content .address-stretch > div:has(input[type="radio"]:checked){
+    border:1px solid var(--snp-theme-clr-yellow);
+}
+.cms-checkout-content .slds-badge{
+    position: relative;
+    top: 0.5rem;
+    background-color: #b3b2a8;
+}
+

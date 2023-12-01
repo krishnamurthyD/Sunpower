@@ -1,0 +1,23 @@
+<template>
+    <lightning-card  title="Select the Teams">
+        <lightning-button label="Reset" onclick={handleReset} slot="actions"></lightning-button>
+        <div class="slds-m-top_medium slds-m-bottom_x-large bg">
+        <div class="slds-p-around_medium slds-p-horizontal_small lgc-bg flex">
+            <lightning-button-menu alternative-text="Show menu" class="slds-p-right_small">
+                <template for:each={teams} for:item="team">
+                    <lightning-menu-item key={team.Id} value={team.Id} label={team.Team_Code__c} data-label={team.Team_Code__c} onclick={onTeam1Change} data-name={team.Name}></lightning-menu-item>
+                </template>
+            </lightning-button-menu>
+            <p>Select Team One : <b>{teamOneName}</b></p>
+        </div>   
+        <div class="slds-p-around_medium slds-p-horizontal_small lgc-bg flex"> 
+            <lightning-button-menu alternative-text="Show menu" class="slds-p-right_small">
+                <template for:each={teams} for:item="team">
+                    <lightning-menu-item key={team.Id} value={team.Id} label={team.Team_Code__c} data-label={team.Team_Code__c} onclick={onTeam2Change} data-name={team.Name}></lightning-menu-item>
+                </template>
+            </lightning-button-menu>
+            <p>Select Team Two : <b>{teamTwoName}</b></p>
+        </div>
+    </div>
+    </lightning-card>
+</template>

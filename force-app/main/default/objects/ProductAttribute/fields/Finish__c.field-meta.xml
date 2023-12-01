@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Finish__c</fullName>
+    <externalId>false</externalId>
+    <label>Finish</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Black</fullName>
+                <default>false</default>
+                <label>Black</label>
+            </value>
+            <value>
+                <fullName>Pearl Dark Grey (RAL9023)</fullName>
+                <default>false</default>
+                <label>Pearl Dark Grey (RAL9023)</label>
+            </value>
+            <value>
+                <fullName>Satin Nickel</fullName>
+                <default>false</default>
+                <label>Satin Nickel</label>
+            </value>
+            <value>
+                <fullName>Silver</fullName>
+                <default>false</default>
+                <label>Silver</label>
+            </value>
+            <value>
+                <fullName>White</fullName>
+                <default>false</default>
+                <label>White</label>
+            </value>
+            <value>
+                <fullName>Aluminium</fullName>
+                <default>false</default>
+                <label>Aluminium</label>
+            </value>
+            <value>
+                <fullName>Grey</fullName>
+                <default>false</default>
+                <label>Grey</label>
+            </value>
+            <value>
+                <fullName>Black &amp; Transparent</fullName>
+                <default>false</default>
+                <label>Black &amp; Transparent</label>
+            </value>
+            <value>
+                <fullName>Black/Clear</fullName>
+                <default>false</default>
+                <label>Black/Clear</label>
+            </value>
+            <value>
+                <fullName>Powder Coated</fullName>
+                <default>false</default>
+                <label>Powder Coated</label>
+            </value>
+            <value>
+                <fullName>Red &amp; Black</fullName>
+                <default>false</default>
+                <label>Red &amp; Black</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
